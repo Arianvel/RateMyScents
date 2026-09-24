@@ -1,0 +1,45 @@
+{
+  "perfumes": [
+    {
+      "id": "bleu-de-chanel-edp",
+      "name": "Bleu de Chanel",
+      "brand": "Chanel",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 165,
+      "notes": [
+        "amber",
+        "cedar",
+        "musk",
+        "sandalwood"
+      ],
+      "profile": [
+        "fresh",
+        "woody",
+        "aromatic",
+        "warm"
+      ]
+    },
+    {
+      "id": "lattafa-khamrah-edp",
+      "name": "Khamrah",
+      "brand": "Lattafa",
+      "type": "arabic",
+      "concentration": "EDP",
+      "priceUsd": 40,
+      "notes": [
+        "cinnamon",
+        "dates",
+        "praline",
+        "vanilla",
+        "tonka bean"
+      ],
+      "profile": [
+        "sweet",
+        "warm",
+        "spicy",
+        "gourmand"
+      ]
+    }
+  ]
+}
