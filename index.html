@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b2239" />
+    <meta
+      name="description"
+      content="Build your fragrance collection with RateMyScents. Find your perfumes and keep them together in one place."
+    />
+    <title>Build your collection · RateMyScents</title>
+    <link rel="icon" href="data:," />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Source+Serif+4:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./js/app.mjs"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <!-- Reserved for the supplied logo image. Keep empty until it is available. -->
+      <div class="logo-space" aria-hidden="true"></div>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation" hidden><span aria-hidden="true">☰</span></button>
+      <nav id="main-navigation" aria-label="Main navigation" class="header-nav">
+
+        <a href="#how-it-works">How it works</a>
+        <a href="#my-9-scents">My 9 Scents</a>
+        <a href="#collection"
+          >My collection (<span id="collection-count">0</span>)</a
+        >
+        <div class="site-preferences">
+          <label class="visually-hidden" for="language-select">Language</label>
+          <div class="language-control">
+            <select id="language-select" aria-label="Language"><option value="en" lang="en" translate="no">EN</option><option value="es" lang="es" translate="no">ES</option></select>
+            <svg class="language-chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg>
+          </div>
+          <button id="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Dark mode">
+            <span class="theme-track" aria-hidden="true">
+              <span class="theme-thumb"></span>
+              <svg class="theme-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+              <svg class="theme-moon" viewBox="0 0 24 24"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4a8.5 8.5 0 1 0 11.5 11.5Z"/></svg>
+            </span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <div id="home-view">
+        <section class="hero" aria-labelledby="page-title">
+          <p class="eyebrow" translate="no">Rate My Scents</p>
+          <h1 id="page-title" tabindex="-1">Build your collection</h1>
+          <p class="hero-subtitle">Start with the fragrances you own</p>
+          <p class="hero-description">
+            See which profiles, occasions and seasons your fragrances share, and what each one brings.
+          </p>
+          <div class="search-area" role="search" aria-label="Fragrance catalog">
+            <label class="visually-hidden" for="fragrance-search"
+              >Search for a fragrance or brand</label
+            >
+            <div class="search-field">
+              <svg
+                class="search-icon"
+                viewBox="0 0 32 32"
+                fill="none"
+                aria-hidden="true"
+              >
+                <circle
+                  cx="13"
+                  cy="13"
+                  r="10"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="m21 21 8 8"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <input
+                id="fragrance-search"
+                type="search"
+                placeholder="Search for a fragrance or brand"
+                autocomplete="off"
+                spellcheck="false"
+                aria-controls="search-results"
+                aria-describedby="catalog-status"
+                disabled
+              />
+              <button
+                id="clear-search"
+                class="clear-search"
+                type="button"
+                aria-label="Clear search"
+                hidden
+              >
+                ×
+              </button>
+            </div>
+            <div class="catalog-feedback">
+              <p id="catalog-status" role="status">
+                Loading the fragrance catalog…
+              </p>
+              <button
+                id="retry-catalog"
+                type="button"
+                class="text-button"
+                hidden
+              >
+                Try again
+              </button>
+            </div>
+            <p
+              id="search-summary"
+              class="search-summary"
+              hidden
+            ></p>
+            <p id="search-live" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></p>
+            <ul
+              id="search-results"
+              class="search-results"
+              aria-label="Matching fragrances"
+              hidden
+            ></ul>
+          </div>
+        </section>
+
+        <section
+          id="collection"
+          class="collection-section content-width"
+          aria-labelledby="collection-heading"
+        >
+          <div class="collection-toolbar">
+            <h2 id="collection-heading" tabindex="-1">Your collection</h2>
+            <button
+              id="clear-collection"
+              type="button"
+              class="secondary-button"
+              disabled
+            >
+              Clear collection
+            </button>
+          </div>
+          <div class="collection-frame">
+            <div id="collection-empty" class="collection-empty">
+              <svg
+                class="empty-bottle"
+                viewBox="0 0 100 120"
+                fill="none"
+                aria-hidden="true"
+              >
+                <rect
+                  x="37"
+                  y="7"
+                  width="26"
+                  height="22"
+                  rx="3"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M43 29v10M57 29v10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <rect
+                  x="19"
+                  y="39"
+                  width="62"
+                  height="72"
+                  rx="12"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <rect
+                  x="30"
+                  y="60"
+                  width="40"
+                  height="30"
+                  rx="2"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                />
+                <path d="M40 75h20" stroke="currentColor" stroke-width="1.5" />
+              </svg>
+              <h3>Your collection starts here</h3>
+              <p>Search for a fragrance above and add your first scent.</p>
+            </div>
+            <ul
+              id="collection-grid"
+              class="collection-grid"
+              aria-label="Fragrances in your collection"
+              hidden
+            ></ul>
+          </div>
+          <div class="analysis-action">
+            <button
+              id="analyze-collection"
+              class="primary-button"
+              type="button"
+              aria-describedby="analysis-status"
+              disabled
+            >
+              Analyze collection <span aria-hidden="true">→</span>
+            </button>
+            <p id="analysis-status">
+              We need at least two fragrances to compare them. Add your
+              fragrances to get started.
+            </p>
+          </div>
+        </section>
+
+<section
+          class="information content-width"
+          aria-labelledby="information-heading"
+        >
+          <h2 id="information-heading">Everything you need to know</h2>
+          <div class="faq-grid">
+            <article class="faq-card">
+              <div class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32" fill="none">
+                  <rect x="5" y="10" width="10" height="17" rx="3" />
+                  <path d="M8 10V5h4v5M20 9h8m-4-4v8M20 20h8m-8 5h6" />
+                </svg>
+              </div>
+              <h3>How does it work?</h3>
+              <p>
+                Add at least two fragrances, then choose collection analysis or
+                analysis with a short preferences quiz.
+              </p>
+            </article>
+            <article class="faq-card">
+              <div class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32" fill="none">
+                  <path d="M5 5v22h23M11 21v-6m7 6V8m7 13V12" />
+                </svg>
+              </div>
+              <h3>How is my collection rated?</h3>
+              <p>
+                We consider profile range, collection size, occasions and seasons, and compare profile
+                overlap. Missing catalog data leaves the affected metric and
+                total unavailable.
+              </p>
+            </article>
+            <article class="faq-card">
+              <div class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32" fill="none">
+                  <path
+                    d="m17 4 3.5 8.5L29 16l-8.5 3.5L17 28l-3.5-8.5L5 16l8.5-3.5L17 4ZM5 4v6M2 7h6"
+                  />
+                </svg>
+              </div>
+              <h3>How do recommendations work?</h3>
+              <p>
+                Your quiz answers filter and order available fragrances.
+                Suggestions exclude your collection and respect your type and
+                budget choices.
+              </p>
+            </article>
+            <article class="faq-card">
+              <div class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32" fill="none">
+                  <circle cx="11" cy="10" r="4"/><circle cx="23" cy="11" r="3"/>
+                  <path d="M3 27v-3a8 8 0 0 1 16 0v3M21 19a6 6 0 0 1 8 6v2"/>
+                </svg>
+              </div>
+              <h3>Who's behind RateMyScents?</h3>
+              <p>Built by two people to help you understand your fragrance collection and explore what to try next.</p>
+            </article>
+          </div>
+          <a class="learn-more" href="#how-it-works"
+            >Learn more about how it works</a
+          >
+        </section>
+      </div>
+
+      <section
+        id="how-it-works"
+        class="method-page"
+        aria-labelledby="how-title"
+        hidden
+      >
+        <div class="hero">
+          <p class="eyebrow">The method behind the numbers</p>
+          <h1 id="how-title" tabindex="-1">How it works</h1>
+          <p class="hero-description">
+            Our method looks at how the fragrances in your collection relate to
+            one another, using their catalog profiles and occasions.
+          </p>
+        </div>
+        <div class="content-width method-content">
+          <ol class="method-flow" aria-label="Your journey">
+            <li><span class="step-number">01</span>Add your fragrances</li>
+            <li><span class="step-number">02</span>Explore your analysis</li>
+            <li>
+              <span class="step-number">03 · Optional</span>Find your next
+              scent<small>Take the preferences quiz</small>
+            </li>
+          </ol>
+
+          <h2 class="section-heading">
+            Three ways to understand your collection
+          </h2>
+          <div class="metric-grid">
+            <article class="metric-card">
+              <h3>Variety</h3>
+              <p>
+                Your range of scent profiles and individual fragrances.
+              </p>
+              <div
+                class="concept-graphic profile-vocabulary"
+                role="img"
+                aria-label="Profile vocabulary: fresh, sweet, woody, spicy, citrus, floral, amber, green, aquatic, gourmand, aromatic and warm. No collection is evaluated here."
+              >
+                <span>Fresh</span><span>Sweet</span><span>Woody</span
+                ><span>Spicy</span><span>Citrus</span><span>Floral</span
+                ><span>Amber</span><span>Green</span><span>Aquatic</span
+                ><span>Gourmand</span><span>Aromatic</span><span>Warm</span>
+              </div>
+            </article>
+            <article class="metric-card">
+              <h3>Versatility</h3>
+              <p>
+                The occasions and seasons your collection covers.
+              </p>
+              <div
+                class="concept-graphic occasion-vocabulary"
+                role="group"
+                aria-label="The method’s five occasion categories"
+              >
+                <span>Daily / casual</span><span>Work / school</span
+                ><span>Date nights</span><span>Parties</span
+                ><span>Formal events</span>
+              </div>
+              <div class="season-vocabulary" role="group" aria-label="Suggested seasons"><span>Spring</span><span>Summer</span><span>Autumn</span><span>Winter</span></div>
+            </article>
+            <article class="metric-card">
+              <h3>Complementarity</h3>
+              <p>
+                How much your fragrances share, and what sets their profiles apart.
+              </p>
+              <div class="concept-graphic profile-overlap" role="img" aria-label="Two overlapping profile sets: different profiles on each side and shared profiles in the middle. Illustrative, not a collection result.">
+                <span>Different</span><span>Shared</span><span>Different</span>
+              </div>
+              <div class="concept-graphic overlap-example" aria-label="Illustrative profiles, not collection results">
+                <div class="overlap-row"><span class="caption">One fragrance</span><div><span class="profile-different">Fresh</span><span class="profile-shared">Woody</span></div></div>
+                <div class="overlap-row"><span class="caption">Another fragrance</span><div><span class="profile-shared">Woody</span><span class="profile-different">Warm</span></div></div>
+                <div class="overlap-key"><span>Woody is shared.</span><span>Fresh and warm differ.</span></div>
+              </div>
+            </article>
+          </div>
+
+          <section class="method-weights" aria-labelledby="weight-heading">
+            <h2 id="weight-heading" class="section-heading">
+              Weight in the overall score
+            </h2>
+            <div class="weight-labels">
+              <span>Variety <b>40%</b></span
+              ><span>Versatility <b>30%</b></span
+              ><span>Complementarity <b>30%</b></span>
+            </div>
+            <div
+              class="weight-bar"
+              role="img"
+              aria-label="Weight in the overall score: Variety 40 percent, Versatility 30 percent, Complementarity 30 percent"
+            >
+              <span></span><span></span><span></span>
+            </div>
+            <p class="caption">
+              Each percentage is a criterion’s share of the final score, not a
+              collection result. Provisional version 1 weights.
+            </p>
+          </section>
+
+          <details class="method-details">
+            <summary>See an illustrative example</summary>
+            <section class="method-example" aria-labelledby="example-heading">
+              <p class="eyebrow">Fictional fragrances</p>
+              <h2 id="example-heading" class="section-heading">
+                An illustrative collection
+              </h2>
+              <p class="reading-copy">
+                Three made-up fragrances to show the method in action. Separate from your collection and the catalog.
+              </p>
+              <div class="example-grid">
+                <article class="example-perfume">
+                  <h3>Fragrance A</h3>
+                  <div class="profile-tags">
+                    <span>fresh</span><span>citrus</span><span>aquatic</span>
+                  </div>
+                  <p>Daily / casual<br />Work / school</p><p class="caption">Spring / Summer</p>
+                </article>
+                <article class="example-perfume">
+                  <h3>Fragrance B</h3>
+                  <div class="profile-tags">
+                    <span>fresh</span><span>woody</span><span>aromatic</span>
+                  </div>
+                  <p>Work / school<br />Date nights</p><p class="caption">Spring / Autumn</p>
+                </article>
+                <article class="example-perfume">
+                  <h3>Fragrance C</h3>
+                  <div class="profile-tags">
+                    <span>sweet</span><span>warm</span><span>gourmand</span>
+                  </div>
+                  <p>Date nights<br />Parties<br />Formal events</p><p class="caption">Autumn / Winter</p>
+                </article>
+              </div>
+              <div class="example-result">
+                <div>
+                  <span>Illustrative collection score</span>
+                  <p class="example-score">78 <small>/ 100</small></p>
+                </div>
+                <div class="example-breakdown">
+                  <p><strong>Variety: 50</strong><span>8 profiles across 3 fragrances; a 75% size factor applies.</span></p>
+                  <p><strong>Versatility: 100</strong><span>All 5 occasions and 4 seasons covered.</span></p>
+                  <p><strong>Complementarity: 93</strong><span>Little profile overlap between the fragrances.</span></p>
+                </div>
+              </div>
+            </section>
+          </details>
+          <details class="method-details">
+            <summary>View the formulas</summary>
+            <div class="formula-copy reading-copy">
+              <p><strong>Variety:</strong> 100 &times; (distinct profiles / 12) &times; min(1, fragrance count / 4).</p>
+              <p class="caption">The size factor is 50% for two fragrances, 75% for three and 100% from four. Below four, another fragrance can raise Variety even without new profile labels.</p>
+              <p><strong>Versatility:</strong> 100 &times; [0.5 &times; (occasions / 5) + 0.5 &times; (seasons / 4)].</p>
+              <p><strong>Complementarity:</strong> 100 &times; (1 &minus; average profile overlap). For each pair, overlap is shared labels divided by all distinct labels in that pair.</p>
+              <p><strong>Total:</strong> Variety &times; 0.4 + Versatility &times; 0.3 + Complementarity &times; 0.3.</p>
+              <p class="caption">We calculate at full precision and round down for display. A total needs at least two fragrances and complete profile, occasion and season data; missing data never counts as zero.</p>
+            </div>
+          </details>
+
+          <section
+            class="method-recommendations"
+            aria-labelledby="recommendations-heading"
+          >
+            <h2 id="recommendations-heading" class="section-heading">
+              Your preferences guide what comes next
+            </h2>
+            <p class="reading-copy">
+              Recommendations are an optional next step. Your quiz answers guide
+              the suggestions, without changing your collection score.
+            </p>
+            <ul class="preference-labels" aria-label="The five quiz topics">
+              <li>Occasions</li>
+              <li>Scent profiles</li>
+              <li>Fragrance type</li>
+              <li>Budget per fragrance</li>
+              <li>Your priority</li>
+            </ul>
+            <p class="reading-copy">
+              We respect your fragrance type and budget choices, and leave out
+              perfumes already in your collection. You can explore up to three
+              suggestions at a time.
+            </p>
+            <details class="method-ranking method-details">
+              <summary>What shapes your suggestions?</summary>
+              <p class="reading-copy">Your answers narrow down the options. Your priority decides which ones appear first.</p>
+              <ul class="reading-copy">
+                <li>
+                  <strong>Similar to my collection:</strong>
+                  <span>Fragrances that share more scent profiles with your collection.</span>
+                </li>
+                <li>
+                  <strong>Different from my collection:</strong>
+                  <span>Fragrances with less profile overlap, while respecting your preferences.</span>
+                </li>
+                <li>
+                  <strong>More occasions covered:</strong>
+                  <span>Fragrances tagged for a wider range of occasions.</span>
+                </li>
+                <li>
+                  <strong>No preference:</strong>
+                  <span>Fragrances with more matches to the profiles and occasions you selected.</span>
+                </li>
+              </ul>
+              <details class="method-details">
+              <summary>Calculation details</summary>
+              <p class="reading-copy">
+                Similarity uses shared profiles divided by distinct profiles for
+                each candidate–collection pair, averaged across your collection.
+                After your chosen priority, more matches come first; remaining
+                ties use brand, name and identifier alphabetically.
+              </p>
+              <p class="reading-copy">
+                Each scent group you choose counts as one match, even if several
+                of its profile labels are present. Each matching occasion also
+                counts once. If you choose either, a suggestion needs at least
+                one match. With no preferences,
+                no matches are needed. We skip fragrances missing the details
+                needed for your choices, and never loosen your filters.
+              </p>
+              </details>
+            </details>
+          </section>
+          <p class="method-note reading-copy">
+            Your score describes catalog labels, indicative occasions and estimated seasons, not
+            your personal taste or measured scent differences. Our weights and four-fragrance threshold are
+            method choices, not scientifically validated percentages; longevity,
+            and projection are not assessed.
+          </p>
+          <p class="method-availability caption">
+            Results depend on the catalog’s available data. A small catalog may
+            have no new fragrances to recommend.
+          </p>
+          <div class="method-return">
+            <a class="primary-button" href="#collection"
+              >Back to my collection <span aria-hidden="true">→</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <section
+        id="quiz-view"
+        class="flow-page content-width"
+        aria-labelledby="quiz-title"
+        hidden
+      >
+        <a class="flow-back" href="#collection">← Back to collection</a>
+        <h1 id="quiz-title" tabindex="-1">Find your next scent</h1>
+        <p class="reading-copy flow-intro">
+          Your preferences guide recommendations. Your collection score stays
+          the same.
+        </p>
+        <form id="quiz-form" class="quiz-panel" novalidate></form>
+      </section>
+      <section
+        id="results-view"
+        class="flow-page content-width"
+        aria-labelledby="results-title"
+        hidden
+      >
+        <h1 id="results-title" tabindex="-1">Your collection analysis</h1>
+        <div id="analysis-results"></div>
+        <section
+          id="recommendation-results"
+          class="result-section"
+          aria-label="Recommendations"
+          hidden
+        ></section>
+        <div class="results-method">
+          <a class="learn-more" href="#how-it-works">How is this score calculated?</a>
+          <p class="method-note reading-copy">This score describes your collection using our method. Profiles, occasions, estimated seasons, weights and the four-fragrance threshold are editorial choices, not a scientifically validated measure of quality or personal taste.</p>
+        </div>
+      </section>
+      <noscript
+        ><p class="noscript-message">
+          Please enable JavaScript to search the catalog and build your
+          collection.
+        </p></noscript
+      >
+
+      <section id="my-nine-view" hidden aria-labelledby="nine-title">
+        <div class="hero"><p class="eyebrow">Your personal top nine</p><h1 id="nine-title" tabindex="-1">My 9 Scents</h1>
+          <p class="hero-description">Nine fragrances you'd pick again and again. Choose your favourites, arrange your top nine, and save an image to share.</p></div>
+        <div class="nine-content content-width">
+          <fieldset class="nine-customization">
+            <legend class="visually-hidden">Image options</legend>
+            <div class="nine-name-field"><label for="nine-owner">Your name (optional)</label>
+            <input id="nine-owner" type="text" maxlength="40" autocomplete="off">
+            </div>
+            <fieldset class="nine-colors"><legend>Image colour</legend>
+              <label><input type="radio" name="nine-palette" value="gold" checked><span class="colour-dot colour-gold" aria-hidden="true"></span><span>Gold</span></label>
+              <label><input type="radio" name="nine-palette" value="pink"><span class="colour-dot colour-pink" aria-hidden="true"></span><span>Pink</span></label>
+              <label><input type="radio" name="nine-palette" value="purple"><span class="colour-dot colour-purple" aria-hidden="true"></span><span>Purple</span></label>
+              <label><input type="radio" name="nine-palette" value="blue"><span class="colour-dot colour-blue" aria-hidden="true"></span><span>Blue</span></label>
+            </fieldset>
+          </fieldset>
+          <div id="nine-preview" data-palette="gold">
+            <p id="nine-preview-title" class="nine-preview-title">MY 9 FAVOURITE FRAGRANCES</p>
+            <p id="nine-preview-name" translate="no" hidden></p>
+            <p id="nine-help" class="caption">Choose a spot to add a fragrance.</p>
+            <div id="nine-grid" class="nine-grid" aria-describedby="nine-help"></div>
+          </div>
+          <div class="nine-toolbar">
+            <button id="nine-clear" type="button" class="secondary-button" disabled>
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 6h16M9 6V3h6v3M6 6l1 15h10l1-15M10 10v7M14 10v7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Clear all</span>
+            </button>
+            <button id="nine-undo" type="button" class="secondary-button" disabled><span aria-hidden="true">↶</span> <span>Undo last change</span></button>
+          </div>
+          <div class="nine-export-action">
+            <div class="nine-share-actions"><button id="nine-export" type="button" class="primary-button" disabled>Download image</button><button id="nine-copy" type="button" class="secondary-button" disabled>Copy list</button></div>
+            <p id="nine-status" class="caption" role="status" aria-atomic="true"></p>
+            <div id="nine-copy-fallback" hidden><label for="nine-copy-text">Your list, ready to copy</label><textarea id="nine-copy-text" rows="10" readonly translate="no"></textarea></div>
+          </div>
+        </div>
+        <dialog id="nine-picker" aria-labelledby="nine-picker-title">
+          <div class="nine-picker-header"><h2 id="nine-picker-title" class="section-heading">Choose a fragrance</h2><button id="nine-close" type="button" class="text-button">Close</button></div>
+          <label for="nine-search" class="caption">Search by fragrance or brand</label>
+          <input id="nine-search" type="search" autocomplete="off" placeholder="Search fragrances" disabled>
+          <p id="nine-search-status" class="caption"></p><p id="nine-search-live" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></p><button id="nine-retry" type="button" class="text-button" hidden>Try again</button>
+          <div id="nine-matches"></div>
+        </dialog>
+      </section>
+    </main>
+
+    <dialog id="analysis-choice" aria-labelledby="choice-title">
+      <button
+        id="close-analysis-choice"
+        class="dialog-close"
+        type="button"
+        aria-label="Close and return to collection"
+      >
+        ×
+      </button>
+      <h2 id="choice-title" class="section-heading">
+        What would you like to do?
+      </h2>
+      <div class="choice-grid">
+        <button id="choose-rating" class="choice-card" type="button">
+          <span class="choice-title">Rate my collection</span
+          ><span class="choice-description"
+            >Get your score and explore your collection’s variety, versatility
+            and profile overlap.</span
+          ><span class="choice-arrow" aria-hidden="true">→</span>
+        </button>
+        <button id="choose-recommendations" class="choice-card" type="button">
+          <span class="choice-title">Rate it and get recommendations</span
+          ><span class="choice-description"
+            >Get your collection score plus fragrance suggestions tailored to
+            your preferences.</span
+          ><span class="choice-arrow" aria-hidden="true">→</span>
+        </button>
+      </div>
+    </dialog>
+
+    <footer class="site-footer">
+      <!-- Reserved for the supplied footer logo image. -->
+      <div class="logo-space footer-logo" aria-hidden="true"></div>
+      <div class="footer-row">
+        <p>2026 RateMyScents</p>
+        <nav aria-label="Footer navigation">
+
+          <a href="#how-it-works">How it works</a>
+          <a href="#my-9-scents">My 9 Scents</a>
+          <a href="#collection">My collection</a>
+        </nav>
+      </div>
+      <p class="disclaimer">
+        Independent fragrance project. Not affiliated with or endorsed by any
+        fragrance brands.
+      </p>
+    </footer>
+    <p
+      id="app-announcement"
+      class="visually-hidden"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+    ></p>
+
+    <template id="search-result-template">
+      <li class="search-result">
+        <div class="result-copy">
+          <span class="result-brand" data-field="brand"></span
+          ><span class="result-name" data-field="name"></span
+          ><span class="result-concentration" data-field="concentration"></span>
+        </div>
+        <button class="add-button" type="button" data-action="add">
+          Add <span aria-hidden="true">+</span>
+        </button>
+      </li>
+    </template>
+    <template id="collection-card-template">
+      <li class="fragrance-card">
+        <div class="card-top">
+          <p class="card-brand" data-field="brand"></p>
+          <button class="remove-button" type="button" data-action="remove">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="bottle-area">
+          <svg
+            class="bottle-icon"
+            viewBox="0 0 100 120"
+            fill="none"
+            aria-hidden="true"
+          >
+            <rect
+              x="37"
+              y="7"
+              width="26"
+              height="22"
+              rx="3"
+              fill="currentColor"
+            />
+            <path
+              d="M43 29v10M57 29v10"
+              stroke="currentColor"
+              stroke-width="3"
+            />
+            <rect
+              x="19"
+              y="39"
+              width="62"
+              height="72"
+              rx="12"
+              stroke="currentColor"
+              stroke-width="3"
+            />
+            <rect
+              x="30"
+              y="60"
+              width="40"
+              height="30"
+              rx="2"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <path d="M40 75h20" stroke="currentColor" stroke-width="2" />
+          </svg>
+        </div>
+        <div class="card-caption">
+          <h3 data-field="name"></h3>
+          <p data-field="concentration"></p>
+        </div>
+      </li>
+    </template>
+  </body>
+</html>

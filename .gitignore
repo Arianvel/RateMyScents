@@ -1,0 +1,15 @@
+# Public repository allowlist. Everything else stays local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/index.html
+!/styles.css
+!/scents.json
+!/js/
+
+# Only browser modules are allowed inside js.
+/js/**
+!/js/*.mjs
+!/js/locales/
+!/js/locales/*.mjs
