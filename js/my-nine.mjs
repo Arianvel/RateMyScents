@@ -4,12 +4,12 @@ import {exportNine} from './nine-export.mjs';
 import {NINE_PALETTES,nineCaption,nineList} from './nine-personalization.mjs';
 import {connectSearchKeyboard,searchAnnouncement} from './search-keyboard.mjs';
 
-export function initializeMyNine(document) {
+export function initializeMyNine(document,toast=null) {
   const el=id=>document.getElementById(id), grid=el('nine-grid'), dialog=el('nine-picker');
   const slots=Array(9).fill(null);
   let catalog=null, active=0, restore=true;
   let previous=null, exporting=false, copying=false;
-  const remember=()=>{previous=[...slots];el('nine-copy-fallback').hidden=true;};
+  const remember=()=>{previous=[...slots];el('nine-copy-fallback').hidden=true;toast?.clear('nine');};
   const options=()=>({name:el('nine-owner').value,palette:document.querySelector('input[name="nine-palette"]:checked').value});
   const node=(tag,text,cls)=>{const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n;};
   const focusSlot=i=>grid.children[i].querySelector('.nine-select').focus();
@@ -67,7 +67,7 @@ export function initializeMyNine(document) {
   grid.addEventListener('click',event=>{
     const button=event.target.closest('button');if(!button)return;
     const i=Number(button.dataset.slot);
-    if(button.dataset.action==='remove') {remember();slots[i]=null;render();focusSlot(i);status(`Position ${i+1} cleared.`);}
+    if(button.dataset.action==='remove') {remember();slots[i]=null;render();focusSlot(i);status(`Position ${i+1} cleared.`);toast?.show('nine','Fragrance removed from My 9 Scents.',undo);}
     else if(['left','right'].includes(button.dataset.action)) {
       const destination=i+(button.dataset.action==='left' ? -1 : 1);
       if(destination<0||destination>8)return;
@@ -85,12 +85,15 @@ export function initializeMyNine(document) {
   el('nine-clear').addEventListener('click',()=>{
     if(!slots.some(Boolean))return;
     remember();slots.fill(null);render();el('nine-undo').focus();status('Your nine is empty. Undo brings your picks back.');
+    toast?.show('nine','Your nine is empty. Undo brings your picks back.',undo);
   });
-  el('nine-undo').addEventListener('click',()=>{
+  function undo(){
     if(!previous)return;
     slots.splice(0,9,...previous);previous=null;render();focusSlot(active);status('Last change undone.');
+    toast?.clear('nine');
     el('nine-copy-fallback').hidden=true;
-  });
+  }
+  el('nine-undo').addEventListener('click',undo);
   function personalize() {
     const {name,palette}=options(),caption=nineCaption(name),preview=el('nine-preview');
     preview.dataset.palette=palette;

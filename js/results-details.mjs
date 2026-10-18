@@ -6,6 +6,31 @@ const occasionLabels = OCCASIONS;
 
 const fragranceName = p => `${p.brand} ${p.name} (${concentrationLabel(p.concentration)})`;
 
+export function renderCollectionStyle(el, analysis, collection) {
+  const section=el('section',null,'result-section collection-summary');
+  section.append(el('h2','Your profile, according to your collection','section-heading'));
+  const copy=el('div',null,'coverage-observations');
+  const profiles=analysis.profiles;
+  const list=values=>new Intl.ListFormat('en',{style:'long',type:'conjunction'}).format(values);
+  if(profiles.complete && profiles.entries.length) {
+    const sorted=[...profiles.entries].sort((a,b)=>b.count-a.count||a.label.localeCompare(b.label,'en'));
+    const top=sorted.filter(x=>x.count===sorted[0].count);
+    if(top.length===sorted.length && top.length>1) copy.append(el('p','There is no single leading profile here. Your collection gives its different sides equal room, so describing it with just one word would leave part of the picture out.','reading-copy'));
+    else {
+      const names=list(top.map(x=>x.label));
+      copy.append(el('p',`Looking at the perfumes you have chosen, you seem to lean toward ${names} scents. They keep coming up in your collection, so they feel like a good place to start when describing your style.`,'reading-copy'));
+      const next=sorted.find(x=>x.count<sorted[0].count);
+      if(next) copy.append(el('p',`You have not stuck to just that, though. Your ${list(sorted.filter(x=>x.count===next.count).map(x=>x.label))} choices show another side of your collection. They are less frequent, but still part of what makes this selection yours.`,'reading-copy'));
+    }
+    if(analysis.occasions.complete) {
+      const contexts=OCCASIONS.map(occasion=>({occasion,count:collection.filter(p=>p.occasions.includes(occasion)&&top.every(x=>p.profile.includes(x.label))).length}));
+      const max=Math.max(...contexts.map(x=>x.count));
+      if(max>=2) copy.append(el('p',`And there is a little connection with occasions: that ${list(top.map(x=>x.label))} mix also appears among your options for ${list(contexts.filter(x=>x.count===max).map(x=>x.occasion.toLowerCase()))}. So it is not just a recurring scent style; you also have it represented among the perfumes suggested for those moments.`,'reading-copy'));
+    }
+  } else copy.append(el('p','There are still a few blanks in the catalog for this collection. Rather than guess what ties your perfumes together, we will leave its scent portrait open until those profiles are complete. You can still explore the recorded occasions and seasons below.','reading-copy'));
+  section.append(copy);return section;
+}
+
 function coverageRows(el, collection, field, vocabulary, season=false) {
   const grid=el('div',null,season?'season-grid':'occasion-rows');
   const records=collection.map(perfume=>({perfume,labels:readLabels(perfume[field],vocabulary,{allowEmpty:true})}));
@@ -39,7 +64,7 @@ function coverageRows(el, collection, field, vocabulary, season=false) {
 
 export function renderSeasons(el,collection) {
   const section=el('section',null,'result-section collection-seasons');
-  section.append(el('h2','Suggested seasons','section-heading'),el('p','These seasons are our suggestions, not rules about when to wear a fragrance.','caption'),coverageRows(el,collection,'seasons',SEASONS,true));
+  section.append(el('h2','Suggested seasons','section-heading'),coverageRows(el,collection,'seasons',SEASONS,true),el('p','These seasons are our suggestions, not rules about when to wear a fragrance.','caption'));
   return section;
 }
 

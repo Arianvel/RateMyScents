@@ -13,6 +13,10 @@ export function recommendFragrances(catalog, collection, answers, {limit=3} = {}
   const items = [];
   for (const perfume of catalog) {
     if (owned.has(perfume.id)) { counts.alreadyOwned++; continue; }
+    if (answers.gender && answers.gender !== 'any') {
+      if (!['men','women','unisex'].includes(perfume.gender)) { counts.incomplete++; continue; }
+      if (perfume.gender !== answers.gender && perfume.gender !== 'unisex') { counts.filtered++; continue; }
+    }
     if (answers.type !== 'any') {
       if (!['designer','arabic','niche'].includes(perfume.type)) { counts.incomplete++; continue; }
       if (perfume.type !== answers.type) { counts.filtered++; continue; }

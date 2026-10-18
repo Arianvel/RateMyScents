@@ -28,6 +28,7 @@
       <nav id="main-navigation" aria-label="Main navigation" class="header-nav">
 
         <a href="#how-it-works">How it works</a>
+        <a href="#compare-scents">Compare Scents</a>
         <a href="#my-9-scents">My 9 Scents</a>
         <a href="#collection"
           >My collection (<span id="collection-count">0</span>)</a
@@ -216,7 +217,12 @@
           </div>
         </section>
 
-<section
+        <div class="first-fragrance-prompt content-width">
+          <p>Starting your collection? We can help you choose your first fragrance.</p>
+          <button id="first-fragrance" class="secondary-button" type="button" disabled>Find my first fragrance</button>
+        </div>
+
+        <section
           class="information content-width"
           aria-labelledby="information-heading"
         >
@@ -447,15 +453,17 @@
               Recommendations are an optional next step. Your quiz answers guide
               the suggestions, without changing your collection score.
             </p>
-            <ul class="preference-labels" aria-label="The five quiz topics">
+            <p class="reading-copy">Choosing your first fragrance? You can take the quiz without a collection. We will suggest perfumes without giving you a collection score.</p>
+            <ul class="preference-labels" aria-label="The six quiz topics">
               <li>Occasions</li>
               <li>Scent profiles</li>
               <li>Fragrance type</li>
               <li>Budget per fragrance</li>
+              <li>Fragrance gender</li>
               <li>Your priority</li>
             </ul>
             <p class="reading-copy">
-              We respect your fragrance type and budget choices, and leave out
+              We respect your fragrance type, gender and budget choices, and leave out
               perfumes already in your collection. You can explore up to three
               suggestions at a time.
             </p>
@@ -500,10 +508,9 @@
             </details>
           </section>
           <p class="method-note reading-copy">
-            Your score describes catalog labels, indicative occasions and estimated seasons, not
-            your personal taste or measured scent differences. Our weights and four-fragrance threshold are
-            method choices, not scientifically validated percentages; longevity,
-            and projection are not assessed.
+            We use the scent profiles, suggested occasions and seasons in our catalog to look at your collection.
+            The score follows rules we chose; it is a guide, not a scientific verdict on your taste.
+            It cannot tell you exactly how similar two perfumes smell, how long they last or how far their scent carries.
           </p>
           <p class="method-availability caption">
             Results depend on the catalog’s available data. A small catalog may
@@ -515,6 +522,14 @@
             >
           </div>
         </div>
+      </section>
+      <section id="compare-view" class="flow-page content-width" aria-labelledby="compare-title" hidden>
+        <h1 id="compare-title" tabindex="-1">Compare Scents</h1>
+        <p class="reading-copy flow-intro">Two fragrances, side by side. See what they share and where they differ.</p>
+        <div id="compare-pickers" class="compare-pickers"></div>
+        <p id="compare-status" class="caption" role="status"></p>
+        <button id="compare-retry" type="button" class="secondary-button" hidden>Try again</button>
+        <div id="compare-content"></div>
       </section>
       <section
         id="quiz-view"
@@ -546,7 +561,7 @@
         ></section>
         <div class="results-method">
           <a class="learn-more" href="#how-it-works">How is this score calculated?</a>
-          <p class="method-note reading-copy">This score describes your collection using our method. Profiles, occasions, estimated seasons, weights and the four-fragrance threshold are editorial choices, not a scientifically validated measure of quality or personal taste.</p>
+          <p class="method-note reading-copy">Think of this score as another way to look at your collection. It reflects the categories and rules we chose, not how good your perfumes are or how much you should enjoy them. Your taste is yours.</p>
         </div>
       </section>
       <noscript
@@ -639,6 +654,7 @@
         <nav aria-label="Footer navigation">
 
           <a href="#how-it-works">How it works</a>
+          <a href="#compare-scents">Compare Scents</a>
           <a href="#my-9-scents">My 9 Scents</a>
           <a href="#collection">My collection</a>
         </nav>

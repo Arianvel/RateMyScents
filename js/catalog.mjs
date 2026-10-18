@@ -16,10 +16,16 @@ export async function loadCatalog(url, fetchImpl = globalThis.fetch) {
   return data.perfumes.filter(perfume => perfume.isJoke !== true && perfume.type !== 'joke');
 }
 
+const normalizeSearch = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/['’‘.]/g,'').replace(/\s+/g,' ').trim();
+const brandAliases = Object.freeze({jpg:'jean paul gaultier',ysl:'yves saint laurent',tf:'tom ford',ch:'carolina herrera',dg:'dolce & gabbana'});
 export function searchCatalog(perfumes, query) {
-  const term = query.trim().toLowerCase();
+  const term = normalizeSearch(query);
   if (!term) return [];
-  return perfumes.filter(({ name, brand }) =>
-    name.toLowerCase().includes(term) || brand.toLowerCase().includes(term),
-  );
+  const tokens=term.split(' ');
+  const alias=brandAliases[tokens[0]];
+  return perfumes.filter(({name,brand})=>{
+    const normalizedBrand=normalizeSearch(brand), normalizedName=normalizeSearch(name);
+    if(alias) return normalizedBrand===alias && tokens.slice(1).every(token=>normalizedName.includes(token));
+    return normalizedName.includes(term)||normalizedBrand.includes(term);
+  });
 }

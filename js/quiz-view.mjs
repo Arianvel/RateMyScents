@@ -3,12 +3,12 @@ import { SCENT_GROUPS } from './scent-groups.mjs';
 
 const questions = [
   'What occasions would you like to cover?', 'What kind of scents would you like?',
-  'What type of fragrances are you interested in?', 'What is your budget per fragrance?', 'What should we prioritize?',
+  'What type of fragrances are you interested in?', 'What is your budget per fragrance?', 'Which fragrances would you like to discover?', 'What should we prioritize?',
 ];
 const types = [['designer','Designer'],['arabic','Middle Eastern / Arabic'],['niche','Niche'],['any','Any type']];
 const priorities = [['familiar','Similar to my collection'],['different','Different from my collection'],['versatile','More occasions covered'],['none','No preference']];
 
-export function renderQuiz(container, {answers,step}, error = '') {
+export function renderQuiz(container, {answers,step}, error = '', {firstFragrance=false}={}) {
   const document = container.ownerDocument;
   const node = (tag,text,className) => {
     const el = document.createElement(tag);
@@ -17,8 +17,8 @@ export function renderQuiz(container, {answers,step}, error = '') {
     return el;
   };
   container.replaceChildren();
-  const progressText = node('p',`Question ${step+1} of 5`,'eyebrow');
-  const progress = node('progress'); progress.max=5; progress.value=step+1; progress.setAttribute('aria-label',`Question ${step+1} of 5`);
+  const progressText = node('p',`Question ${step+1} of 6`,'eyebrow');
+  const progress = node('progress'); progress.max=6; progress.value=step+1; progress.setAttribute('aria-label',`Question ${step+1} of 6`);
   const fieldset = node('fieldset');
   const legend = node('legend',questions[step],'section-heading'); legend.id='quiz-question'; legend.tabIndex=-1;
   fieldset.append(legend);
@@ -26,12 +26,13 @@ export function renderQuiz(container, {answers,step}, error = '') {
     : step===1 ? 'Choose up to 3, or select No preference.' : step===3 ? 'How much would you spend on one fragrance? Prices are in USD.' : 'Choose one option.','caption');
   help.id='quiz-help'; fieldset.append(help);
   const options = node('div',null,`quiz-options${step===1 ? ' profile-options' : ''}`);
+  let optionIndex=0;
   function option(group,value,label,checked,multiple=false,description='') {
     const wrapper = node('label',null,'quiz-option');
     const input = node('input'); input.type=multiple ? 'checkbox' : 'radio'; input.name=group; input.value=value; input.checked=checked;
     input.setAttribute('aria-describedby','quiz-help quiz-error');
     const copy=node('span',null,'quiz-option-copy');
-    const title=node('span',label);title.id=`quiz-option-${group}-${options.childElementCount}`;
+    const title=node('span',label);title.id=`quiz-option-${group}-${optionIndex++}`;
     input.setAttribute('aria-labelledby',title.id);
     copy.append(title);
     if(description) {
@@ -45,9 +46,11 @@ export function renderQuiz(container, {answers,step}, error = '') {
     if(step===0) for(const value of OCCASIONS) option(group,value,value,answers[group]?.includes(value)??false,true);
     else for(const item of SCENT_GROUPS) option(group,item.id,item.label,answers.profiles?.includes(item.id)??false,true,item.description);
     option(group,'none','No preference',Array.isArray(answers[group]) && !answers[group].length,true);
-  } else if (step===2 || step===4) {
+  } else if (step===2 || step===5) {
     const group = step===2 ? 'type' : 'priority';
-    for (const [value,label] of step===2 ? types : priorities) option(group,value,label,answers[group]===value);
+    for (const [value,label] of step===2 ? types : priorities.filter(([value])=>!firstFragrance||!['familiar','different'].includes(value))) option(group,value,label,answers[group]===value);
+  } else if(step===4) {
+    for(const [value,label] of [['men','Masculine & unisex'],['women','Feminine & unisex'],['unisex','Unisex only'],['any','No preference']]) option('gender',value,label,answers.gender===value);
   } else {
     for(const amount of ['50','100','150']) option('budget-mode',amount,`Up to $${amount}`,answers.budget.mode==='maximum' && answers.budget.amount===amount);
     option('budget-mode','maximum','Custom amount',answers.budget.mode==='maximum' && !['50','100','150'].includes(answers.budget.amount));
@@ -66,7 +69,7 @@ export function renderQuiz(container, {answers,step}, error = '') {
   message.setAttribute('aria-atomic','true');
   const actions = node('div',null,'quiz-actions');
   const back = node('button','Back','secondary-button'); back.type='button'; back.dataset.action='back';
-  const next = node('button',step===4 ? 'See my results' : 'Continue','primary-button'); next.type='submit';
+  const next = node('button',step===5 ? 'See my results' : 'Continue','primary-button'); next.type='submit';
   actions.append(back,next);
   container.append(progressText,progress,fieldset,message,actions);
 }

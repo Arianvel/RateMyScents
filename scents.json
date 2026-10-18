@@ -10,7 +10,8 @@
       "notes": ["amber", "cedar", "musk", "sandalwood"],
       "profile": ["fresh", "woody", "aromatic", "warm"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn", "winter"]
+      "seasons": ["spring", "summer", "autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "lattafa-khamrah-edp",
@@ -22,7 +23,8 @@
       "notes": ["cinnamon", "dates", "praline", "vanilla", "tonka bean"],
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "prada-lhomme-edt",
@@ -41,7 +43,8 @@
       ],
       "profile": ["fresh", "floral", "amber", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "prada-lhomme-intense-edp",
@@ -60,7 +63,8 @@
       ],
       "profile": ["floral", "amber", "woody", "warm", "sweet"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "rabanne-1-million-black-edp",
@@ -82,7 +86,8 @@
       ],
       "profile": ["sweet", "gourmand", "warm", "woody", "spicy"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "prada-paradigme-le-parfum",
@@ -102,7 +107,8 @@
       ],
       "profile": ["woody", "amber", "warm", "sweet", "aromatic"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "lattafa-pride-art-of-universe-edp",
@@ -124,7 +130,8 @@
       ],
       "profile": ["fresh", "citrus", "aromatic", "woody", "floral"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "afnan-9-pm-edp",
@@ -147,7 +154,8 @@
       ],
       "profile": ["sweet", "gourmand", "warm", "aromatic", "amber"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "viktor-rolf-spicebomb-extreme-edp",
@@ -168,7 +176,8 @@
       ],
       "profile": ["spicy", "warm", "sweet", "aromatic", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "french-avenue-vulcan-feu-edp",
@@ -193,7 +202,8 @@
       ],
       "profile": ["fresh", "sweet", "citrus", "spicy", "woody"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "versace-eros-najim-parfum",
@@ -217,7 +227,8 @@
       ],
       "profile": ["woody", "spicy", "warm", "sweet", "amber"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "versace-eros-flame-edp",
@@ -245,7 +256,8 @@
       ],
       "profile": ["citrus", "spicy", "woody", "sweet", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "giorgio-armani-acqua-di-gio-profondo-edp",
@@ -265,7 +277,8 @@
       ],
       "profile": ["fresh", "aquatic", "aromatic", "citrus", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "armaf-club-de-nuit-untold-edp",
@@ -284,7 +297,8 @@
       ],
       "profile": ["amber", "woody", "sweet", "warm", "floral"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "unisex"
     },
     {
       "id": "jean-paul-gaultier-le-male-elixir-parfum",
@@ -304,7 +318,8 @@
       ],
       "profile": ["sweet", "gourmand", "warm", "amber", "aromatic"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "jean-paul-gaultier-le-beau-edt",
@@ -316,7 +331,8 @@
       "notes": ["bergamot", "coconut wood", "tonka bean"],
       "profile": ["fresh", "sweet", "woody", "citrus", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "jean-paul-gaultier-le-beau-paradise-garden-edp",
@@ -335,7 +351,8 @@
       ],
       "profile": ["fresh", "green", "aquatic", "woody", "sweet"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "giorgio-armani-stronger-with-you-intensely-edp",
@@ -354,7 +371,8 @@
       ],
       "profile": ["sweet", "warm", "gourmand", "amber", "spicy"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "giorgio-armani-stronger-with-you-powerfully-edp",
@@ -374,7 +392,8 @@
       ],
       "profile": ["sweet", "warm", "gourmand", "spicy", "amber"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "wd-40-multi-use-product",
@@ -388,7 +407,8 @@
       "occasions": [],
       "isJoke": true,
       "description": "A joke entry inspired by the smell of the multi-use lubricant. 'Garage accord' is fictional. Not a perfume; excluded from collection scoring and fragrance recommendations.",
-      "seasons": []
+      "seasons": [],
+      "gender": null
     },
     {
       "id": "initio-atomic-rose-edp",
@@ -407,7 +427,8 @@
       ],
       "profile": ["floral", "sweet", "warm"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "unisex"
     },
     {
       "id": "initio-oud-for-greatness-edp",
@@ -427,7 +448,8 @@
       ],
       "profile": ["woody", "spicy", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "initio-rehab-edp",
@@ -446,7 +468,8 @@
       ],
       "profile": ["aromatic", "woody", "fresh", "warm"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "autumn", "winter"]
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "initio-side-effect-edp",
@@ -458,7 +481,8 @@
       "notes": ["rum", "tobacco", "vanilla", "cinnamon", "saffron"],
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "initio-musk-therapy-edp",
@@ -476,7 +500,8 @@
       ],
       "profile": ["fresh", "floral", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "initio-paragon-edp",
@@ -496,7 +521,8 @@
       ],
       "profile": ["woody", "aromatic", "fresh", "warm"],
       "occasions": ["Daily / casual", "Formal events"],
-      "seasons": ["spring", "autumn", "winter"]
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "initio-blessed-baraka-edp",
@@ -508,7 +534,8 @@
       "notes": ["sandalwood", "amber", "vanilla", "musk"],
       "profile": ["warm", "amber", "woody", "sweet"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "initio-high-frequency-edp",
@@ -520,7 +547,8 @@
       "notes": ["almond", "heliotrope", "magnolia", "sandalwood"],
       "profile": ["sweet", "floral", "woody", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "initio-absolute-aphrodisiac-edp",
@@ -532,7 +560,8 @@
       "notes": ["vanilla", "amber", "musk", "castoreum"],
       "profile": ["sweet", "warm", "amber", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "initio-oud-for-greatness-neo-edp",
@@ -544,7 +573,8 @@
       "notes": ["bergamot", "lavender", "oud", "saffron", "patchouli", "musk"],
       "profile": ["woody", "aromatic", "spicy", "fresh"],
       "occasions": ["Formal events", "Date nights"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "unisex"
     },
     {
       "id": "louis-vuitton-imagination-edp",
@@ -564,7 +594,8 @@
       ],
       "profile": ["citrus", "fresh", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "louis-vuitton-ombre-nomade-edp",
@@ -584,7 +615,8 @@
       ],
       "profile": ["woody", "amber", "warm", "sweet"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "louis-vuitton-pacific-chill-edp",
@@ -605,7 +637,8 @@
       ],
       "profile": ["fresh", "citrus", "green", "sweet"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "louis-vuitton-afternoon-swim-edp",
@@ -617,7 +650,8 @@
       "notes": ["orange", "bergamot", "mandarin", "ginger"],
       "profile": ["citrus", "fresh", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["summer"]
+      "seasons": ["summer"],
+      "gender": "unisex"
     },
     {
       "id": "louis-vuitton-meteore-edp",
@@ -637,7 +671,8 @@
       ],
       "profile": ["citrus", "fresh", "spicy", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "louis-vuitton-limmensite-edp",
@@ -657,7 +692,8 @@
       ],
       "profile": ["citrus", "fresh", "aromatic", "amber"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "louis-vuitton-nouveau-monde-edp",
@@ -669,7 +705,8 @@
       "notes": ["cocoa", "saffron", "oud", "incense", "patchouli", "ambrette"],
       "profile": ["woody", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "louis-vuitton-attrape-reves-edp",
@@ -681,7 +718,8 @@
       "notes": ["lychee", "ginger", "peony", "cocoa", "patchouli"],
       "profile": ["floral", "sweet", "fresh"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "women"
     },
     {
       "id": "louis-vuitton-spell-on-you-edp",
@@ -693,7 +731,8 @@
       "notes": ["iris", "rose", "violet", "jasmine", "acacia", "musk"],
       "profile": ["floral", "warm"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "women"
     },
     {
       "id": "louis-vuitton-le-jour-se-leve-edp",
@@ -705,7 +744,8 @@
       "notes": ["mandarin", "blackcurrant", "jasmine", "musk"],
       "profile": ["citrus", "fresh", "floral"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "louis-vuitton-les-sables-roses-edp",
@@ -717,7 +757,8 @@
       "notes": ["rose", "oud", "ambergris", "pepper"],
       "profile": ["floral", "woody", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "louis-vuitton-fleur-du-desert-edp",
@@ -729,7 +770,8 @@
       "notes": ["jasmine", "orange blossom", "rose", "oud", "amber"],
       "profile": ["floral", "amber", "warm", "woody"],
       "occasions": ["Formal events", "Date nights"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "unisex"
     },
     {
       "id": "parfums-de-marly-layton-edp",
@@ -750,7 +792,8 @@
       ],
       "profile": ["fresh", "sweet", "aromatic", "warm", "woody"],
       "occasions": ["Work / school", "Date nights"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "parfums-de-marly-delina-edp",
@@ -770,7 +813,8 @@
       ],
       "profile": ["floral", "fresh", "sweet", "warm"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "parfums-de-marly-delina-exclusif-edp",
@@ -790,7 +834,8 @@
       ],
       "profile": ["floral", "sweet", "amber", "warm"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "parfums-de-marly-perseus-edp",
@@ -809,7 +854,8 @@
       ],
       "profile": ["citrus", "fresh", "green", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "parfums-de-marly-percival-edp",
@@ -829,7 +875,8 @@
       ],
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "parfums-de-marly-althair-edp",
@@ -848,7 +895,8 @@
       ],
       "profile": ["sweet", "warm", "gourmand", "amber", "spicy"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "parfums-de-marly-carlisle-edp",
@@ -868,7 +916,8 @@
       ],
       "profile": ["woody", "sweet", "spicy", "warm"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "parfums-de-marly-haltane-edp",
@@ -888,7 +937,8 @@
       ],
       "profile": ["woody", "spicy", "sweet", "warm"],
       "occasions": ["Formal events", "Date nights"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "parfums-de-marly-layton-exclusif-edp",
@@ -909,7 +959,8 @@
       ],
       "profile": ["woody", "warm", "sweet", "aromatic"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "parfums-de-marly-pegasus-edp",
@@ -928,7 +979,8 @@
       ],
       "profile": ["floral", "sweet", "woody", "warm"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["spring", "autumn", "winter"]
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "parfums-de-marly-pegasus-exclusif-edp",
@@ -948,7 +1000,8 @@
       ],
       "profile": ["spicy", "woody", "warm", "sweet"],
       "occasions": ["Formal events", "Date nights"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "parfums-de-marly-herod-edp",
@@ -960,7 +1013,8 @@
       "notes": ["cinnamon", "pepper", "tobacco", "incense", "vanilla", "musk"],
       "profile": ["spicy", "warm", "sweet", "woody"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "parfums-de-marly-kalan-edp",
@@ -979,7 +1033,8 @@
       ],
       "profile": ["spicy", "citrus", "warm", "woody"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "parfums-de-marly-galloway-edp",
@@ -991,7 +1046,8 @@
       "notes": ["citrus", "pepper", "iris", "orange blossom", "amber", "musk"],
       "profile": ["citrus", "fresh", "floral", "amber"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "parfums-de-marly-delina-la-rosee-edp",
@@ -1003,7 +1059,8 @@
       "notes": ["lychee", "pear", "bergamot", "rose", "peony", "white musk"],
       "profile": ["floral", "fresh", "sweet"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "parfums-de-marly-oriana-edp",
@@ -1022,7 +1079,8 @@
       ],
       "profile": ["sweet", "floral", "gourmand", "fresh"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "parfums-de-marly-safanad-edp",
@@ -1041,7 +1099,8 @@
       ],
       "profile": ["floral", "sweet", "warm", "woody"],
       "occasions": ["Formal events", "Date nights"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "women"
     },
     {
       "id": "parfums-de-marly-meliora-edp",
@@ -1060,7 +1119,8 @@
       ],
       "profile": ["floral", "fresh", "sweet"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "parfums-de-marly-valaya-edp",
@@ -1079,7 +1139,8 @@
       ],
       "profile": ["fresh", "floral", "citrus", "woody"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "parfums-de-marly-castley-edp",
@@ -1091,7 +1152,8 @@
       "notes": ["citrus", "spices", "cedar", "amber", "musk"],
       "profile": ["citrus", "woody", "spicy", "warm"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "xerjoff-naxos-edp",
@@ -1112,7 +1174,8 @@
       ],
       "profile": ["sweet", "aromatic", "warm", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-erba-pura-edp",
@@ -1132,7 +1195,8 @@
       ],
       "profile": ["fresh", "citrus", "sweet", "amber"],
       "occasions": ["Parties", "Date nights"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-torino21-edp",
@@ -1152,7 +1216,8 @@
       ],
       "profile": ["fresh", "citrus", "green", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-torino22-edp",
@@ -1171,7 +1236,8 @@
       ],
       "profile": ["woody", "aromatic", "fresh", "spicy"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-torino24-edp",
@@ -1191,7 +1257,8 @@
       ],
       "profile": ["fresh", "citrus", "green", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-torino25-edp",
@@ -1203,7 +1270,8 @@
       "notes": ["bergamot", "pineapple", "mint", "geranium", "amber", "musk"],
       "profile": ["fresh", "citrus", "sweet", "aromatic"],
       "occasions": ["Daily / casual", "Parties"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-lira-edp",
@@ -1223,7 +1291,8 @@
       ],
       "profile": ["sweet", "citrus", "gourmand", "warm"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "xerjoff-renaissance-edp",
@@ -1243,7 +1312,8 @@
       ],
       "profile": ["citrus", "fresh", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-dama-bianca-edp",
@@ -1263,7 +1333,8 @@
       ],
       "profile": ["floral", "sweet", "fresh"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["spring", "autumn", "winter"]
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "xerjoff-uden-edp",
@@ -1283,7 +1354,8 @@
       ],
       "profile": ["citrus", "fresh", "woody", "sweet"],
       "occasions": ["Work / school", "Date nights"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-accento-edp",
@@ -1303,7 +1375,8 @@
       ],
       "profile": ["floral", "fresh", "sweet", "amber"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-la-capitale-edp",
@@ -1323,7 +1396,8 @@
       ],
       "profile": ["sweet", "gourmand", "warm", "amber"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-mefisto-edp",
@@ -1344,7 +1418,8 @@
       ],
       "profile": ["citrus", "fresh", "aromatic", "floral"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-gibeon-edp",
@@ -1356,7 +1431,8 @@
       "notes": ["citrus", "lavender", "spices", "cedar", "musk"],
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-purple-accento-edp",
@@ -1376,7 +1452,8 @@
       ],
       "profile": ["floral", "sweet", "amber", "warm"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-more-than-words-edp",
@@ -1388,7 +1465,8 @@
       "notes": ["oud", "incense", "amber", "rose", "frankincense"],
       "profile": ["woody", "amber", "warm", "spicy"],
       "occasions": ["Formal events", "Date nights"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-tony-iommi-monkey-special-edp",
@@ -1409,7 +1487,8 @@
       ],
       "profile": ["sweet", "woody", "spicy", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-opera-edp",
@@ -1429,7 +1508,8 @@
       ],
       "profile": ["floral", "sweet", "warm", "amber"],
       "occasions": ["Formal events", "Date nights"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-white-on-white-edp",
@@ -1441,7 +1521,8 @@
       "notes": ["citrus", "white flowers", "musk", "woods"],
       "profile": ["fresh", "floral", "woody", "citrus"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-starlight-edp",
@@ -1453,7 +1534,8 @@
       "notes": ["cardamom", "cinnamon", "almond", "amber", "cedar"],
       "profile": ["spicy", "sweet", "warm", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-nio-edp",
@@ -1473,7 +1555,8 @@
       ],
       "profile": ["citrus", "fresh", "green", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-apollonia-edp",
@@ -1485,7 +1568,8 @@
       "notes": ["white flowers", "iris", "white musk"],
       "profile": ["floral", "fresh"],
       "occasions": ["Formal events", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "xerjoff-cruz-del-sur-ii-edp",
@@ -1504,7 +1588,8 @@
       ],
       "profile": ["sweet", "gourmand", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "afnan-9-pm-pour-femme-edp",
@@ -1529,7 +1614,8 @@
       ],
       "profile": ["floral", "sweet", "fresh", "woody", "amber"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "afnan-9-pm-elixir-edp",
@@ -1541,7 +1627,8 @@
       "notes": ["leather", "spices", "amber", "woody notes"],
       "profile": ["spicy", "warm", "amber", "woody"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "afnan-9-pm-rebel-edp",
@@ -1564,7 +1651,8 @@
       ],
       "profile": ["woody", "amber", "sweet", "fresh"],
       "occasions": ["Daily / casual", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "afnan-9-pm-night-out-edp",
@@ -1576,7 +1664,8 @@
       "notes": ["spices", "amber", "fruity notes"],
       "profile": ["spicy", "amber", "sweet", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "afnan-9-am-edp",
@@ -1597,7 +1686,8 @@
       ],
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "afnan-9-am-dive-edp",
@@ -1618,7 +1708,8 @@
       ],
       "profile": ["fresh", "aquatic", "citrus", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "afnan-9-am-pour-femme-edp",
@@ -1639,7 +1730,8 @@
       ],
       "profile": ["fresh", "citrus", "floral", "sweet"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "afnan-supremacy-not-only-intense-edp",
@@ -1661,7 +1753,8 @@
       ],
       "profile": ["fresh", "woody", "amber", "sweet"],
       "occasions": ["Work / school", "Parties"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "men"
     },
     {
       "id": "afnan-turathi-blue-edp",
@@ -1673,7 +1766,8 @@
       "notes": ["bergamot", "mandarin", "amber", "woods", "musk"],
       "profile": ["citrus", "fresh", "woody", "amber"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "afnan-supremacy-in-oud-edp",
@@ -1685,7 +1779,8 @@
       "notes": ["saffron", "lavender", "nutmeg", "oud", "patchouli", "musk"],
       "profile": ["woody", "spicy", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "afnan-supremacy-silver-edp",
@@ -1706,7 +1801,8 @@
       ],
       "profile": ["fresh", "woody", "aromatic", "sweet"],
       "occasions": ["Work / school", "Daily / casual"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "afnan-supremacy-pour-homme-edp",
@@ -1727,7 +1823,8 @@
       ],
       "profile": ["fresh", "woody", "aromatic", "sweet"],
       "occasions": ["Work / school", "Daily / casual"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "afnan-turathi-brown-edp",
@@ -1739,7 +1836,8 @@
       "notes": ["citrus", "spices", "amber", "woods", "musk"],
       "profile": ["citrus", "spicy", "woody", "warm"],
       "occasions": ["Work / school", "Date nights"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "afnan-modest-une-edp",
@@ -1760,7 +1858,8 @@
       ],
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "afnan-supremacy-in-heaven-edp",
@@ -1780,7 +1879,8 @@
       ],
       "profile": ["fresh", "green", "woody", "sweet"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "afnan-supremacy-gold-edp",
@@ -1801,7 +1901,8 @@
       ],
       "profile": ["spicy", "woody", "amber", "warm"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "afnan-rare-carbon-edp",
@@ -1821,7 +1922,8 @@
       ],
       "profile": ["woody", "spicy", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "afnan-supremacy-not-only-intense-extrait",
@@ -1841,7 +1943,8 @@
       ],
       "profile": ["fresh", "woody", "amber", "sweet"],
       "occasions": ["Parties", "Date nights"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "men"
     },
     {
       "id": "lattafa-asad-edp",
@@ -1862,7 +1965,8 @@
       ],
       "profile": ["spicy", "warm", "sweet", "amber"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "lattafa-asad-zanzibar-edp",
@@ -1881,7 +1985,8 @@
       ],
       "profile": ["fresh", "aquatic", "sweet", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "lattafa-khamrah-qahwa-edp",
@@ -1902,7 +2007,8 @@
       ],
       "profile": ["sweet", "gourmand", "warm", "spicy"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "lattafa-khamrah-dukhan-edp",
@@ -1923,7 +2029,8 @@
       ],
       "profile": ["spicy", "warm", "amber", "sweet"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "lattafa-yara-edp",
@@ -1943,7 +2050,8 @@
       ],
       "profile": ["sweet", "floral", "gourmand", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "women"
     },
     {
       "id": "lattafa-yara-tous-edp",
@@ -1963,7 +2071,8 @@
       ],
       "profile": ["sweet", "floral", "warm"],
       "occasions": ["Daily / casual", "Parties"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "lattafa-yara-moi-edp",
@@ -1982,7 +2091,8 @@
       ],
       "profile": ["sweet", "floral", "warm", "woody"],
       "occasions": ["Date nights", "Daily / casual"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "lattafa-fakhar-black-edp",
@@ -2004,7 +2114,8 @@
       ],
       "profile": ["fresh", "aromatic", "woody", "sweet"],
       "occasions": ["Work / school", "Daily / casual"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "lattafa-fakhar-rose-edp",
@@ -2025,7 +2136,8 @@
       ],
       "profile": ["floral", "sweet", "fresh", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
     },
     {
       "id": "lattafa-badee-al-oud-oud-for-glory-edp",
@@ -2037,7 +2149,8 @@
       "notes": ["saffron", "nutmeg", "lavender", "oud", "patchouli", "musk"],
       "profile": ["woody", "spicy", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "lattafa-badee-al-oud-amethyst-edp",
@@ -2057,7 +2170,8 @@
       ],
       "profile": ["floral", "amber", "warm", "woody"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "unisex"
     },
     {
       "id": "lattafa-badee-al-oud-sublime-edp",
@@ -2069,7 +2183,8 @@
       "notes": ["apple", "lychee", "rose", "plum", "vanilla", "moss"],
       "profile": ["sweet", "floral", "fresh"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "lattafa-badee-al-oud-honor-and-glory-edp",
@@ -2089,7 +2204,8 @@
       ],
       "profile": ["sweet", "gourmand", "warm", "spicy"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "lattafa-fakhar-extrait-gold-edp",
@@ -2109,7 +2225,8 @@
       ],
       "profile": ["fresh", "aromatic", "woody", "spicy"],
       "occasions": ["Work / school", "Date nights"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "men"
     },
     {
       "id": "lattafa-pride-victoria-edp",
@@ -2121,7 +2238,8 @@
       "notes": ["lemon meringue", "vanilla", "sugar", "musk"],
       "profile": ["citrus", "sweet", "gourmand", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "lattafa-pride-angham-edp",
@@ -2142,7 +2260,8 @@
       ],
       "profile": ["sweet", "gourmand", "warm", "spicy"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "lattafa-pride-art-of-nature-ii-edp",
@@ -2154,7 +2273,8 @@
       "notes": ["citrus", "fruity notes", "floral notes", "woods", "amber"],
       "profile": ["fresh", "woody", "amber", "green"],
       "occasions": ["Work / school", "Daily / casual"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "unisex"
     },
     {
       "id": "lattafa-pride-nebras-edp",
@@ -2174,7 +2294,8 @@
       ],
       "profile": ["sweet", "gourmand", "warm", "amber"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "rabanne-1-million-edt",
@@ -2194,7 +2315,8 @@
       ],
       "profile": ["spicy", "warm", "sweet", "woody"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "rabanne-1-million-lucky-edt",
@@ -2214,7 +2336,8 @@
       ],
       "profile": ["sweet", "woody", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "rabanne-1-million-elixir-parfum",
@@ -2234,7 +2357,8 @@
       ],
       "profile": ["sweet", "warm", "woody", "floral"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "rabanne-1-million-royal-parfum",
@@ -2254,7 +2378,8 @@
       ],
       "profile": ["spicy", "warm", "woody", "aromatic"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "rabanne-1-million-gold-elixir-parfum-intense",
@@ -2273,7 +2398,8 @@
       ],
       "profile": ["spicy", "warm", "amber", "woody"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "rabanne-invictus-edt",
@@ -2293,7 +2419,8 @@
       ],
       "profile": ["fresh", "aquatic", "citrus", "woody"],
       "occasions": ["Daily / casual", "Parties"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "rabanne-invictus-victory-elixir-parfum",
@@ -2313,7 +2440,8 @@
       ],
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "rabanne-invictus-platinum-edp",
@@ -2332,7 +2460,8 @@
       ],
       "profile": ["fresh", "aromatic", "citrus", "woody"],
       "occasions": ["Daily / casual", "Parties"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "rabanne-phantom-edt",
@@ -2351,7 +2480,8 @@
       ],
       "profile": ["fresh", "aromatic", "sweet", "woody"],
       "occasions": ["Daily / casual", "Parties"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "rabanne-phantom-parfum",
@@ -2370,7 +2500,8 @@
       ],
       "profile": ["aromatic", "woody", "sweet", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "rabanne-fame-edp",
@@ -2389,7 +2520,8 @@
       ],
       "profile": ["sweet", "floral", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
     },
     {
       "id": "rabanne-invictus-parfum",
@@ -2408,7 +2540,8 @@
       ],
       "profile": ["aquatic", "fresh", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "jean-paul-gaultier-le-male-edt",
@@ -2428,7 +2561,8 @@
       ],
       "profile": ["aromatic", "sweet", "warm", "spicy"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "jean-paul-gaultier-ultra-male-edt-intense",
@@ -2448,7 +2582,8 @@
       ],
       "profile": ["sweet", "warm", "aromatic"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "jean-paul-gaultier-le-male-le-parfum",
@@ -2460,7 +2595,8 @@
       "notes": ["cardamom", "lavender", "iris", "vanilla", "woods"],
       "profile": ["spicy", "warm", "aromatic", "woody"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "jean-paul-gaultier-le-beau-le-parfum",
@@ -2480,7 +2616,8 @@
       ],
       "profile": ["sweet", "woody", "warm", "fresh"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "jean-paul-gaultier-scandal-pour-homme-edt",
@@ -2492,7 +2629,8 @@
       "notes": ["mandarin", "clary sage", "caramel", "tonka bean", "vetiver"],
       "profile": ["sweet", "gourmand", "warm", "woody"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "jean-paul-gaultier-scandal-le-parfum-pour-homme",
@@ -2504,7 +2642,8 @@
       "notes": ["geranium", "tonka bean", "sandalwood"],
       "profile": ["sweet", "woody", "warm", "aromatic"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "jean-paul-gaultier-la-belle-edp",
@@ -2516,7 +2655,8 @@
       "notes": ["pear", "bergamot", "vanilla", "vetiver"],
       "profile": ["sweet", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "jean-paul-gaultier-la-belle-le-parfum",
@@ -2528,7 +2668,8 @@
       "notes": ["pear", "tonka bean", "vanilla", "jasmine"],
       "profile": ["sweet", "warm", "gourmand", "floral"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "jean-paul-gaultier-gaultier-divine-edp",
@@ -2540,7 +2681,8 @@
       "notes": ["lily", "meringue", "salt", "tuberose", "patchouli"],
       "profile": ["floral", "sweet", "aquatic", "warm"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
     },
     {
       "id": "jean-paul-gaultier-gaultier2-edp",
@@ -2552,7 +2694,8 @@
       "notes": ["amber", "vanilla", "musk"],
       "profile": ["warm", "amber", "sweet"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "prada-luna-rossa-carbon-edt",
@@ -2571,7 +2714,8 @@
       ],
       "profile": ["fresh", "aromatic", "woody", "spicy"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "prada-luna-rossa-ocean-edp",
@@ -2583,7 +2727,8 @@
       "notes": ["bergamot", "iris", "sage", "saffron", "suede", "vetiver"],
       "profile": ["fresh", "aromatic", "woody", "warm"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "prada-luna-rossa-black-edp",
@@ -2602,7 +2747,8 @@
       ],
       "profile": ["warm", "amber", "woody", "aromatic"],
       "occasions": ["Date nights", "Work / school"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "prada-paradoxe-edp",
@@ -2622,7 +2768,8 @@
       ],
       "profile": ["floral", "citrus", "sweet", "amber"],
       "occasions": ["Work / school", "Date nights"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
     },
     {
       "id": "prada-paradoxe-intense-edp",
@@ -2634,7 +2781,8 @@
       "notes": ["pear", "neroli", "jasmine", "moss", "amber", "musk"],
       "profile": ["floral", "amber", "warm", "sweet"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "prada-luna-rossa-ocean-le-parfum",
@@ -2646,7 +2794,8 @@
       "notes": ["lemon", "saffron", "suede", "oakwood", "amber"],
       "profile": ["fresh", "woody", "warm", "spicy"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "valentino-uomo-born-in-roma-edt",
@@ -2665,7 +2814,8 @@
       ],
       "profile": ["fresh", "aromatic", "woody", "green"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "valentino-uomo-born-in-roma-intense-edp",
@@ -2677,7 +2827,8 @@
       "notes": ["vanilla", "lavender", "vetiver"],
       "profile": ["sweet", "warm", "aromatic", "woody"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "valentino-uomo-born-in-roma-coral-fantasy-edt",
@@ -2696,7 +2847,8 @@
       ],
       "profile": ["sweet", "spicy", "woody", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "valentino-uomo-born-in-roma-green-stravaganza-edt",
@@ -2708,7 +2860,8 @@
       "notes": ["bergamot", "coffee", "vetiver"],
       "profile": ["fresh", "green", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "valentino-donna-born-in-roma-edp",
@@ -2720,7 +2873,8 @@
       "notes": ["blackcurrant", "bergamot", "jasmine", "cashmeran", "vanilla"],
       "profile": ["floral", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "women"
     },
     {
       "id": "valentino-donna-born-in-roma-intense-edp",
@@ -2732,7 +2886,8 @@
       "notes": ["vanilla", "jasmine", "benzoin"],
       "profile": ["sweet", "floral", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "valentino-donna-born-in-roma-coral-fantasy-edp",
@@ -2744,7 +2899,8 @@
       "notes": ["kiwi", "orange", "jasmine", "ambrette", "musk"],
       "profile": ["floral", "fresh", "sweet"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "valentino-donna-born-in-roma-green-stravaganza-edp",
@@ -2756,7 +2912,8 @@
       "notes": ["bergamot", "tea", "jasmine", "vanilla"],
       "profile": ["green", "floral", "fresh", "warm"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "zara-red-zara-temptation-edp",
@@ -2768,7 +2925,8 @@
       "notes": ["saffron", "jasmine", "amberwood", "musk"],
       "profile": ["amber", "woody", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "zara-golden-decade-edp",
@@ -2780,7 +2938,8 @@
       "notes": ["orange blossom", "mandarin", "lavender", "vanilla", "amber"],
       "profile": ["floral", "citrus", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "women"
     },
     {
       "id": "zara-vibrant-leather-edp",
@@ -2792,7 +2951,8 @@
       "notes": ["bergamot", "lemon", "bamboo", "leather", "patchouli"],
       "profile": ["fresh", "citrus", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "zara-vibrant-leather-elixir-parfum",
@@ -2804,7 +2964,8 @@
       "notes": ["bergamot", "leather", "woods", "amber"],
       "profile": ["woody", "warm", "amber", "fresh"],
       "occasions": ["Date nights", "Work / school"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "zara-tobacco-collection-rich-warm-addictive-edt",
@@ -2816,7 +2977,8 @@
       "notes": ["coconut", "honey", "tobacco", "sandalwood"],
       "profile": ["sweet", "warm", "woody", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "zara-energetically-new-york-edp",
@@ -2828,7 +2990,8 @@
       "notes": ["bergamot", "coffee", "cardamom", "sandalwood", "vanilla"],
       "profile": ["woody", "warm", "aromatic", "sweet"],
       "occasions": ["Work / school", "Date nights"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "unisex"
     },
     {
       "id": "zara-bohemian-bluebells-edp",
@@ -2840,7 +3003,8 @@
       "notes": ["bluebell", "pear", "musk", "woods"],
       "profile": ["floral", "fresh", "green", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "zara-applejuice-edt",
@@ -2852,7 +3016,8 @@
       "notes": ["apple", "grapefruit", "rose", "jasmine", "musk"],
       "profile": ["fresh", "citrus", "floral"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "zara-nuit-edp",
@@ -2864,7 +3029,8 @@
       "notes": ["bergamot", "peony", "vanilla", "musk"],
       "profile": ["floral", "sweet", "warm"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "zara-waterlily-tea-dress-edp",
@@ -2876,7 +3042,8 @@
       "notes": ["waterlily", "tea", "citrus", "musk"],
       "profile": ["fresh", "floral", "green", "citrus"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "zara-rose-gourmand-edp",
@@ -2888,7 +3055,8 @@
       "notes": ["rose", "amber", "vanilla", "musk"],
       "profile": ["floral", "sweet", "amber", "warm"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "zara-oud-temptation-edp",
@@ -2900,7 +3068,8 @@
       "notes": ["saffron", "rose", "oud", "amber", "woods"],
       "profile": ["woody", "amber", "warm", "spicy"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "zara-zara-temptation-le-parfum",
@@ -2912,7 +3081,8 @@
       "notes": ["orange", "saffron", "amberwood", "vanilla"],
       "profile": ["citrus", "amber", "warm", "sweet"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "zara-red-zara-temptation-elixir-parfum",
@@ -2924,7 +3094,8 @@
       "notes": ["bitter orange", "saffron", "amber", "woods"],
       "profile": ["citrus", "spicy", "amber", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "zara-sunrise-on-the-red-sand-dunes-edp",
@@ -2943,7 +3114,8 @@
       ],
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "zara-sunrise-on-the-red-sand-dunes-intense-edp",
@@ -2962,7 +3134,8 @@
       ],
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "zara-sand-desert-at-sunset-edp",
@@ -2981,7 +3154,8 @@
       ],
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "zara-sand-desert-at-sunset-intense-edp",
@@ -3001,7 +3175,8 @@
       ],
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "zara-fields-at-nightfall-edp",
@@ -3013,7 +3188,8 @@
       "notes": ["praline", "jasmine", "sandalwood"],
       "profile": ["sweet", "floral", "gourmand", "woody"],
       "occasions": ["Date nights", "Daily / casual"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "zara-ebony-wood-edp",
@@ -3025,7 +3201,8 @@
       "notes": ["pink pepper", "clove", "ebony wood"],
       "profile": ["woody", "spicy", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "zara-fashionably-london-edp",
@@ -3037,7 +3214,8 @@
       "notes": ["rose", "raspberry", "patchouli", "amber"],
       "profile": ["floral", "sweet", "warm", "woody"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "zara-hypnotic-vanilla-edp",
@@ -3049,7 +3227,8 @@
       "notes": ["vanilla", "almond", "amber", "musk"],
       "profile": ["sweet", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "zara-immortal-vanilla-edp",
@@ -3061,7 +3240,8 @@
       "notes": ["vanilla", "amber", "woods", "musk"],
       "profile": ["sweet", "warm", "amber"],
       "occasions": ["Date nights", "Daily / casual"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "zara-cocoa-sunset-edp",
@@ -3073,7 +3253,8 @@
       "notes": ["cocoa", "vanilla", "amber", "woods"],
       "profile": ["sweet", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "zara-gourmand-coffee-edp",
@@ -3085,7 +3266,8 @@
       "notes": ["coffee", "vanilla", "caramel", "woods"],
       "profile": ["sweet", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "zara-vibrant-leather-oud-edp",
@@ -3097,7 +3279,8 @@
       "notes": ["bergamot", "leather", "oud", "woods"],
       "profile": ["woody", "warm", "spicy", "aromatic"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "hermes-terre-d-hermes-edt",
@@ -3109,7 +3292,8 @@
       "notes": ["grapefruit", "orange", "pepper", "flint", "cedar", "vetiver"],
       "profile": ["citrus", "woody", "spicy", "aromatic"],
       "occasions": ["Daily / casual", "Work / school", "Formal events"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "men"
     },
     {
       "id": "hermes-terre-d-hermes-parfum-parfum",
@@ -3121,7 +3305,8 @@
       "notes": ["orange", "grapefruit", "flint", "cedar", "benzoin", "oakmoss"],
       "profile": ["citrus", "woody", "warm", "spicy"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "hermes-terre-d-hermes-eau-intense-vetiver-edp",
@@ -3133,7 +3318,8 @@
       "notes": ["bergamot", "Sichuan pepper", "vetiver", "green bergamot"],
       "profile": ["citrus", "woody", "spicy", "green"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "hermes-terre-d-hermes-eau-givree-edp",
@@ -3150,7 +3336,8 @@
       ],
       "profile": ["fresh", "citrus", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "hermes-h24-edt",
@@ -3162,7 +3349,8 @@
       "notes": ["clary sage", "narcissus", "rosewood", "sclarene"],
       "profile": ["fresh", "green", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "hermes-h24-eau-de-parfum-edp",
@@ -3174,7 +3362,8 @@
       "notes": ["sage", "oak moss", "rosewood", "sclarene"],
       "profile": ["green", "aromatic", "woody", "warm"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "men"
     },
     {
       "id": "hermes-un-jardin-sur-le-nil-edt",
@@ -3186,7 +3375,8 @@
       "notes": ["green mango", "lotus", "sycamore", "incense"],
       "profile": ["fresh", "green", "citrus", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "hermes-twilly-d-hermes-edp",
@@ -3198,7 +3388,8 @@
       "notes": ["ginger", "tuberose", "sandalwood"],
       "profile": ["floral", "spicy", "warm", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "women"
     },
     {
       "id": "hugo-boss-boss-bottled-edt",
@@ -3210,7 +3401,8 @@
       "notes": ["apple", "plum", "lemon", "cinnamon", "mahogany", "vanilla"],
       "profile": ["woody", "spicy", "fresh", "warm"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "hugo-boss-boss-bottled-eau-de-parfum-edp",
@@ -3229,7 +3421,8 @@
       ],
       "profile": ["woody", "spicy", "warm", "aromatic"],
       "occasions": ["Work / school", "Date nights"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "hugo-boss-boss-bottled-intense-edp",
@@ -3248,7 +3441,8 @@
       ],
       "profile": ["woody", "spicy", "warm", "sweet"],
       "occasions": ["Date nights", "Work / school"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "hugo-boss-boss-bottled-elixir-parfum",
@@ -3260,7 +3454,8 @@
       "notes": ["incense", "cardamom", "patchouli", "vetiver", "cedar"],
       "profile": ["woody", "spicy", "warm", "aromatic"],
       "occasions": ["Formal events", "Date nights"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "hugo-boss-boss-the-scent-edt",
@@ -3272,7 +3467,8 @@
       "notes": ["ginger", "maninka fruit", "lavender", "leather"],
       "profile": ["sweet", "spicy", "warm", "woody"],
       "occasions": ["Date nights", "Work / school"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "hugo-boss-hugo-man-edt",
@@ -3284,7 +3480,8 @@
       "notes": ["green apple", "lavender", "mint", "fir balsam", "cedar"],
       "profile": ["fresh", "green", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "hugo-boss-boss-the-scent-for-her-edp",
@@ -3296,7 +3493,8 @@
       "notes": ["peach", "freesia", "osmanthus", "cacao"],
       "profile": ["sweet", "floral", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "hugo-boss-boss-bottled-night-edt",
@@ -3308,7 +3506,8 @@
       "notes": ["birch", "lavender", "violet", "woody notes"],
       "profile": ["woody", "aromatic", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "burberry-burberry-goddess-edp",
@@ -3320,7 +3519,8 @@
       "notes": ["vanilla", "lavender", "cacao", "ginger"],
       "profile": ["sweet", "warm", "gourmand", "aromatic"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "burberry-burberry-goddess-intense-edp",
@@ -3332,7 +3532,8 @@
       "notes": ["vanilla", "lavender", "patchouli", "woody notes"],
       "profile": ["sweet", "warm", "woody", "aromatic"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "burberry-burberry-her-edp",
@@ -3344,7 +3545,8 @@
       "notes": ["strawberry", "raspberry", "blackcurrant", "jasmine", "musk"],
       "profile": ["sweet", "fruity", "floral", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
     },
     {
       "id": "burberry-burberry-her-elixir-de-parfum-parfum",
@@ -3356,7 +3558,8 @@
       "notes": ["strawberry", "blackberry", "vanilla", "amber", "musk"],
       "profile": ["sweet", "fruity", "gourmand", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "burberry-my-burberry-edp",
@@ -3368,7 +3571,8 @@
       "notes": ["sweet pea", "bergamot", "geranium", "patchouli", "rose"],
       "profile": ["floral", "fresh", "woody", "warm"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "women"
     },
     {
       "id": "burberry-mr-burberry-edt",
@@ -3380,7 +3584,8 @@
       "notes": ["grapefruit", "cardamom", "cedar", "vetiver", "sandalwood"],
       "profile": ["woody", "aromatic", "fresh", "spicy"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "men"
     },
     {
       "id": "burberry-burberry-hero-edt",
@@ -3392,7 +3597,8 @@
       "notes": ["bergamot", "juniper", "black pepper", "cedar"],
       "profile": ["woody", "fresh", "aromatic", "spicy"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "burberry-burberry-hero-edp",
@@ -3404,7 +3610,8 @@
       "notes": ["pine needles", "benzoin", "incense", "cedar"],
       "profile": ["woody", "warm", "aromatic", "spicy"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "calvin-klein-ck-one-edt",
@@ -3416,7 +3623,8 @@
       "notes": ["bergamot", "green tea", "papaya", "violet", "amber", "musk"],
       "profile": ["fresh", "citrus", "green", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "calvin-klein-ck-be-edt",
@@ -3435,7 +3643,8 @@
       ],
       "profile": ["fresh", "aromatic", "woody", "green"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "calvin-klein-eternity-for-men-edt",
@@ -3447,7 +3656,8 @@
       "notes": ["lavender", "green notes", "mandarin", "sandalwood", "amber"],
       "profile": ["fresh", "aromatic", "woody", "green"],
       "occasions": ["Work / school", "Daily / casual"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "calvin-klein-eternity-for-women-edp",
@@ -3459,7 +3669,8 @@
       "notes": ["mandarin", "freesia", "sage", "lily", "rose", "sandalwood"],
       "profile": ["floral", "fresh", "aromatic", "woody"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "calvin-klein-obsession-for-men-edt",
@@ -3471,7 +3682,8 @@
       "notes": ["cinnamon", "lavender", "myrrh", "amber", "sandalwood"],
       "profile": ["spicy", "warm", "amber", "woody"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "calvin-klein-euphoria-for-women-edp",
@@ -3483,7 +3695,8 @@
       "notes": ["pomegranate", "orchid", "mahogany", "amber", "violet"],
       "profile": ["floral", "sweet", "woody", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "calvin-klein-defy-edt",
@@ -3495,7 +3708,8 @@
       "notes": ["bergamot", "lavender", "vetiver", "amber"],
       "profile": ["fresh", "aromatic", "woody", "citrus"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "dior-sauvage-edt",
@@ -3507,7 +3721,8 @@
       "notes": ["bergamot", "pepper", "lavender", "ambroxan", "cedar"],
       "profile": ["fresh", "citrus", "aromatic", "spicy"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "dior-sauvage-edp",
@@ -3519,7 +3734,8 @@
       "notes": ["bergamot", "pepper", "lavender", "vanilla", "ambroxan"],
       "profile": ["fresh", "spicy", "warm", "aromatic"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "dior-sauvage-elixir-parfum",
@@ -3538,7 +3754,8 @@
       ],
       "profile": ["spicy", "warm", "woody", "aromatic"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "dior-dior-homme-edt",
@@ -3550,7 +3767,8 @@
       "notes": ["bergamot", "pink pepper", "cedar", "patchouli", "musk"],
       "profile": ["woody", "aromatic", "fresh", "floral"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "men"
     },
     {
       "id": "dior-dior-homme-intense-edp",
@@ -3562,7 +3780,8 @@
       "notes": ["iris", "ambrette", "pear", "cedar", "vetiver"],
       "profile": ["floral", "woody", "warm", "powdery"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "dior-dior-homme-parfum-parfum",
@@ -3574,7 +3793,8 @@
       "notes": ["iris", "leather", "rose", "oud", "cedar"],
       "profile": ["woody", "floral", "warm", "spicy"],
       "occasions": ["Formal events", "Date nights"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "dior-fahrenheit-edt",
@@ -3586,7 +3806,8 @@
       "notes": ["mandarin", "violet", "leather", "nutmeg", "vetiver"],
       "profile": ["woody", "leather", "warm", "spicy"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "dior-miss-dior-edp",
@@ -3598,7 +3819,8 @@
       "notes": ["rose", "peony", "iris", "vanilla", "woods"],
       "profile": ["floral", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "autumn", "winter"]
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "dior-j-adore-edp",
@@ -3610,7 +3832,8 @@
       "notes": ["ylang-ylang", "rose", "jasmine", "bergamot", "vanilla"],
       "profile": ["floral", "fresh", "sweet"],
       "occasions": ["Formal events", "Daily / casual"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
     },
     {
       "id": "dior-hypnotic-poison-edt",
@@ -3622,7 +3845,8 @@
       "notes": ["bitter almond", "vanilla", "jasmine", "musk", "tonka bean"],
       "profile": ["sweet", "warm", "gourmand", "floral"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "dior-poison-girl-edp",
@@ -3634,7 +3858,8 @@
       "notes": ["bitter orange", "rose", "vanilla", "tonka bean", "almond"],
       "profile": ["sweet", "warm", "floral", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "dior-eau-sauvage-edt",
@@ -3646,7 +3871,8 @@
       "notes": ["lemon", "bergamot", "rosemary", "jasmine", "vetiver", "musk"],
       "profile": ["citrus", "fresh", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "tom-ford-oud-wood-edp",
@@ -3665,7 +3891,8 @@
       ],
       "profile": ["woody", "warm", "spicy", "amber"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "tom-ford-tobacco-vanille-edp",
@@ -3677,7 +3904,8 @@
       "notes": ["tobacco leaf", "vanilla", "cacao", "dried fruits", "spices"],
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "tom-ford-black-orchid-edp",
@@ -3695,7 +3923,8 @@
       ],
       "profile": ["floral", "warm", "woody", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "tom-ford-ombre-leather-edp",
@@ -3707,7 +3936,8 @@
       "notes": ["cardamom", "leather", "jasmine", "amber", "moss"],
       "profile": ["leather", "woody", "warm", "spicy"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "tom-ford-tuscan-leather-edp",
@@ -3719,7 +3949,8 @@
       "notes": ["saffron", "raspberry", "thyme", "leather", "amber", "suede"],
       "profile": ["leather", "woody", "warm", "spicy"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
     },
     {
       "id": "tom-ford-neroli-portofino-edp",
@@ -3731,7 +3962,8 @@
       "notes": ["bergamot", "mandarin", "neroli", "orange blossom", "amber"],
       "profile": ["citrus", "fresh", "floral", "aromatic"],
       "occasions": ["Daily / casual", "Formal events"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "tom-ford-grey-vetiver-edp",
@@ -3743,7 +3975,8 @@
       "notes": ["grapefruit", "orange blossom", "vetiver", "oakmoss", "amber"],
       "profile": ["citrus", "woody", "aromatic", "fresh"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "tom-ford-noir-extreme-edp",
@@ -3755,7 +3988,8 @@
       "notes": ["cardamom", "kulfi", "rose", "amber", "sandalwood", "vanilla"],
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "tom-ford-costa-azzurra-edp",
@@ -3767,7 +4001,8 @@
       "notes": ["sea air", "citrus", "juniper", "driftwood", "oak"],
       "profile": ["fresh", "aquatic", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Parties"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     },
     {
       "id": "tom-ford-lost-cherry-edp",
@@ -3779,7 +4014,8 @@
       "notes": ["black cherry", "almond", "rose", "tonka bean", "peru balsam"],
       "profile": ["sweet", "fruity", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "unisex"
     },
     {
       "id": "carolina-herrera-good-girl-edp",
@@ -3798,7 +4034,8 @@
       ],
       "profile": ["sweet", "floral", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "carolina-herrera-good-girl-blush-edp",
@@ -3810,7 +4047,8 @@
       "notes": ["bergamot", "peony", "ylang-ylang", "vanilla"],
       "profile": ["floral", "sweet", "fresh"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
     },
     {
       "id": "carolina-herrera-very-good-girl-edp",
@@ -3822,7 +4060,8 @@
       "notes": ["lychee", "red currant", "rose", "vanilla", "vetiver"],
       "profile": ["floral", "fruity", "sweet", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["spring", "autumn", "winter"]
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "carolina-herrera-bad-boy-edt",
@@ -3834,7 +4073,8 @@
       "notes": ["sage", "bergamot", "pepper", "cocoa", "tonka bean", "vetiver"],
       "profile": ["fresh", "spicy", "warm", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "carolina-herrera-bad-boy-cobalt-edp",
@@ -3853,7 +4093,8 @@
       ],
       "profile": ["fresh", "woody", "aromatic", "spicy"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "carolina-herrera-212-men-edt",
@@ -3872,7 +4113,8 @@
       ],
       "profile": ["fresh", "aromatic", "woody", "green"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "carolina-herrera-212-vip-men-edt",
@@ -3884,7 +4126,8 @@
       "notes": ["lime", "caviar", "ginger", "vodka", "king wood"],
       "profile": ["fresh", "woody", "aromatic", "spicy"],
       "occasions": ["Parties", "Daily / casual"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "carolina-herrera-ch-men-edt",
@@ -3896,7 +4139,8 @@
       "notes": ["grapefruit", "saffron", "leather", "suede", "cashmere wood"],
       "profile": ["woody", "leather", "warm", "spicy"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "montblanc-explorer-edp",
@@ -3915,7 +4159,8 @@
       ],
       "profile": ["woody", "fresh", "aromatic", "citrus"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "montblanc-explorer-platinum-edp",
@@ -3927,7 +4172,8 @@
       "notes": ["grapefruit", "violet leaf", "clary sage", "cedarwood"],
       "profile": ["fresh", "woody", "aromatic", "green"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "montblanc-legend-edt",
@@ -3946,7 +4192,8 @@
       ],
       "profile": ["fresh", "aromatic", "woody", "sweet"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "montblanc-legend-spirit-edt",
@@ -3965,7 +4212,8 @@
       ],
       "profile": ["fresh", "citrus", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "montblanc-legend-red-edp",
@@ -3977,7 +4225,8 @@
       "notes": ["blood orange", "clary sage", "mahogany", "tonka bean"],
       "profile": ["fresh", "woody", "warm", "aromatic"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "men"
     },
     {
       "id": "montblanc-starwalker-edt",
@@ -3996,7 +4245,8 @@
       ],
       "profile": ["fresh", "woody", "citrus", "green"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "montblanc-individuel-edt",
@@ -4015,7 +4265,8 @@
       ],
       "profile": ["sweet", "woody", "warm", "spicy"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "montblanc-presence-edt",
@@ -4034,7 +4285,8 @@
       ],
       "profile": ["spicy", "warm", "woody", "aromatic"],
       "occasions": ["Work / school", "Date nights"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "chanel-bleu-de-chanel-edt",
@@ -4054,7 +4306,8 @@
       ],
       "profile": ["fresh", "citrus", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "chanel-bleu-de-chanel-parfum",
@@ -4073,7 +4326,8 @@
       ],
       "profile": ["woody", "aromatic", "warm", "citrus"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["spring", "autumn", "winter"]
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "men"
     },
     {
       "id": "chanel-allure-homme-sport-edt",
@@ -4092,7 +4346,8 @@
       ],
       "profile": ["fresh", "citrus", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "men"
     },
     {
       "id": "chanel-allure-homme-sport-eau-extreme-edp",
@@ -4104,7 +4359,8 @@
       "notes": ["mandarin", "mint", "pepper", "cedar", "tonka bean", "musk"],
       "profile": ["fresh", "woody", "aromatic", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "chanel-coco-mademoiselle-edp",
@@ -4123,7 +4379,8 @@
       ],
       "profile": ["floral", "citrus", "sweet", "woody"],
       "occasions": ["Work / school", "Date nights", "Formal events"],
-      "seasons": ["spring", "autumn", "winter"]
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "chanel-chance-eau-tendre-edt",
@@ -4135,7 +4392,8 @@
       "notes": ["grapefruit", "quince", "jasmine", "hyacinth", "white musk"],
       "profile": ["fresh", "citrus", "floral"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "chanel-chance-eau-fraiche-edp",
@@ -4147,7 +4405,8 @@
       "notes": ["citron", "jasmine", "teakwood", "amber"],
       "profile": ["fresh", "citrus", "woody", "floral"],
       "occasions": ["Daily / casual", "Work / school"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
     },
     {
       "id": "chanel-n-5-edp",
@@ -4166,7 +4425,8 @@
       ],
       "profile": ["floral", "warm", "powdery", "woody"],
       "occasions": ["Formal events", "Date nights"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
     },
     {
       "id": "chanel-gabrielle-chanel-edp",
@@ -4184,7 +4444,8 @@
       ],
       "profile": ["floral", "fresh", "warm"],
       "occasions": ["Formal events", "Daily / casual"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
     },
     {
       "id": "chanel-egoiste-platinum-edt",
@@ -4196,7 +4457,8 @@
       "notes": ["lavender", "rosemary", "petitgrain", "clary sage", "oakmoss"],
       "profile": ["aromatic", "fresh", "green", "woody"],
       "occasions": ["Work / school", "Formal events"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
     },
     {
       "id": "gucci-guilty-pour-homme-edp",
@@ -4208,7 +4470,8 @@
       "notes": ["lemon", "lavender", "orange blossom", "cedar", "patchouli"],
       "profile": ["woody", "aromatic", "citrus", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "men"
     },
     {
       "id": "gucci-guilty-pour-homme-parfum-parfum",
@@ -4227,7 +4490,8 @@
       ],
       "profile": ["woody", "aromatic", "spicy", "warm"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter", "spring"]
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
     },
     {
       "id": "gucci-guilty-pour-femme-edp",
@@ -4246,7 +4510,8 @@
       ],
       "profile": ["floral", "citrus", "warm", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "autumn"]
+      "seasons": ["spring", "autumn"],
+      "gender": "women"
     },
     {
       "id": "gucci-flora-gorgeous-gardenia-edp",
@@ -4265,7 +4530,8 @@
       ],
       "profile": ["floral", "sweet", "fruity"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
     },
     {
       "id": "gucci-flora-gorgeous-gardenia-intense-edp",
@@ -4277,7 +4543,8 @@
       "notes": ["mandarin", "gardenia", "hedione", "sandalwood", "patchouli"],
       "profile": ["floral", "sweet", "woody", "warm"],
       "occasions": ["Date nights", "Parties"],
-      "seasons": ["spring", "autumn", "winter"]
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "gucci-bloom-edp",
@@ -4289,7 +4556,8 @@
       "notes": ["jasmine", "tuberose", "rangoon creeper"],
       "profile": ["floral", "green", "fresh"],
       "occasions": ["Daily / casual", "Formal events"],
-      "seasons": ["spring", "summer"]
+      "seasons": ["spring", "summer"],
+      "gender": "women"
     },
     {
       "id": "gucci-bloom-ambrosia-di-fiori-edp",
@@ -4301,7 +4569,8 @@
       "notes": ["jasmine", "tuberose", "rose", "orris", "patchouli"],
       "profile": ["floral", "woody", "warm"],
       "occasions": ["Formal events", "Date nights"],
-      "seasons": ["spring", "autumn", "winter"]
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "women"
     },
     {
       "id": "gucci-flora-gorgeous-magnolia-edp",
@@ -4313,7 +4582,8 @@
       "notes": ["dewberry", "magnolia", "patchouli", "musk"],
       "profile": ["floral", "fruity", "fresh", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
-      "seasons": ["spring", "summer", "autumn"]
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
     },
     {
       "id": "gucci-guilty-absolute-pour-homme-edp",
@@ -4325,7 +4595,1880 @@
       "notes": ["leather", "woods", "vetiver", "goldenwood"],
       "profile": ["woody", "leather", "warm", "aromatic"],
       "occasions": ["Date nights", "Formal events"],
-      "seasons": ["autumn", "winter"]
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "dior-addict-edp",
+      "name": "Dior Addict",
+      "brand": "Dior",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 160,
+      "notes": ["vanilla", "jasmine", "tonka", "amber"],
+      "profile": ["floral", "sweet", "warm", "amber"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "dior-joy-edp",
+      "name": "Joy by Dior",
+      "brand": "Dior",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 170,
+      "notes": ["bergamot", "mandarin", "rose", "jasmine", "musk"],
+      "profile": ["floral", "fresh", "citrus", "powdery"],
+      "occasions": ["Daily / casual", "Work / school", "Formal events"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
+    },
+    {
+      "id": "dior-pure-poison-edp",
+      "name": "Pure Poison",
+      "brand": "Dior",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 160,
+      "notes": ["orange blossom", "jasmine", "gardenia", "amber", "sandalwood"],
+      "profile": ["floral", "white floral", "fresh", "warm"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "hermes-jour-dhermes-edp",
+      "name": "Jour d'Hermès",
+      "brand": "Hermès",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 145,
+      "notes": ["grapefruit", "lemon", "gardenia", "sweet pea", "musk"],
+      "profile": ["floral", "citrus", "fresh", "green"],
+      "occasions": ["Daily / casual", "Work / school", "Formal events"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "hermes-twilly-eau-ginger-edp",
+      "name": "Twilly d'Hermès Eau Ginger",
+      "brand": "Hermès",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 145,
+      "notes": ["peony", "candied ginger", "ginger", "cedar"],
+      "profile": ["floral", "spicy", "fresh", "woody"],
+      "occasions": ["Daily / casual", "Work / school", "Date nights"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
+    },
+    {
+      "id": "burberry-brit-for-her-edp",
+      "name": "Burberry Brit for Her",
+      "brand": "Burberry",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 145,
+      "notes": [
+        "lime",
+        "almond",
+        "pear",
+        "peony",
+        "vanilla",
+        "amber",
+        "mahogany"
+      ],
+      "profile": ["sweet", "floral", "warm", "woody"],
+      "occasions": ["Daily / casual", "Date nights"],
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
+    },
+    {
+      "id": "burberry-my-burberry-blush-edp",
+      "name": "My Burberry Blush",
+      "brand": "Burberry",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": [
+        "pomegranate",
+        "lemon",
+        "green apple",
+        "rose",
+        "jasmine",
+        "wisteria"
+      ],
+      "profile": ["floral", "fruity", "fresh", "citrus"],
+      "occasions": ["Daily / casual", "Work / school", "Formal events"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "burberry-my-burberry-black-parfum",
+      "name": "My Burberry Black",
+      "brand": "Burberry",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 180,
+      "notes": ["jasmine", "peach", "rose", "amber", "patchouli"],
+      "profile": ["floral", "sweet", "amber", "warm"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "tom-ford-velvet-orchid-edp",
+      "name": "Velvet Orchid",
+      "brand": "Tom Ford",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 230,
+      "notes": [
+        "rum",
+        "honey",
+        "mandarin",
+        "orchid",
+        "jasmine",
+        "vanilla",
+        "suede"
+      ],
+      "profile": ["floral", "sweet", "amber", "warm"],
+      "occasions": ["Date nights", "Parties", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "tom-ford-soleil-blanc-edp",
+      "name": "Soleil Blanc",
+      "brand": "Tom Ford",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 280,
+      "notes": [
+        "bergamot",
+        "pistachio",
+        "cardamom",
+        "ylang-ylang",
+        "coconut",
+        "amber"
+      ],
+      "profile": ["floral", "sweet", "fresh", "warm"],
+      "occasions": ["Daily / casual", "Date nights", "Formal events"],
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
+    },
+    {
+      "id": "tom-ford-jasmin-rouge-edp",
+      "name": "Jasmin Rouge",
+      "brand": "Tom Ford",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 280,
+      "notes": [
+        "cinnamon",
+        "ginger",
+        "bergamot",
+        "jasmine",
+        "ylang-ylang",
+        "amber",
+        "vanilla"
+      ],
+      "profile": ["floral", "spicy", "warm", "amber"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "unisex"
+    },
+    {
+      "id": "tom-ford-rose-prick-edp",
+      "name": "Rose Prick",
+      "brand": "Tom Ford",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 350,
+      "notes": [
+        "sichuan pepper",
+        "turkish rose",
+        "bulgarian rose",
+        "may rose",
+        "patchouli",
+        "tonka"
+      ],
+      "profile": ["floral", "spicy", "woody", "warm"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "unisex"
+    },
+    {
+      "id": "hugo-boss-boss-alive-edp",
+      "name": "BOSS Alive",
+      "brand": "Hugo Boss",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 120,
+      "notes": [
+        "apple",
+        "cinnamon",
+        "black currant",
+        "jasmine",
+        "vanilla",
+        "cedar",
+        "sandalwood"
+      ],
+      "profile": ["fruity", "sweet", "woody", "warm"],
+      "occasions": ["Daily / casual", "Work / school", "Date nights"],
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
+    },
+    {
+      "id": "zara-gardenia-edp",
+      "name": "Gardenia",
+      "brand": "Zara",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 30,
+      "notes": ["orange blossom", "coffee", "peach", "raspberry", "vanilla"],
+      "profile": ["floral", "gourmand", "sweet", "warm"],
+      "occasions": ["Daily / casual", "Date nights", "Parties"],
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
+    },
+    {
+      "id": "zara-orchid-edp",
+      "name": "Orchid",
+      "brand": "Zara",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 30,
+      "notes": ["bergamot", "orchid", "vanilla"],
+      "profile": ["floral", "sweet", "fresh"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "zara-fields-at-nightfall-intense-edp",
+      "name": "Fields at Nightfall Intense",
+      "brand": "Zara",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 35,
+      "notes": ["blackcurrant", "plum", "jasmine", "ebony wood", "leather"],
+      "profile": ["fruity", "floral", "woody", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "carolina-herrera-212-vip-rose-edp",
+      "name": "212 VIP Rosé",
+      "brand": "Carolina Herrera",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 130,
+      "notes": [
+        "champagne",
+        "pink pepper",
+        "peach blossom",
+        "rose",
+        "musk",
+        "amber"
+      ],
+      "profile": ["floral", "fruity", "fresh", "sweet"],
+      "occasions": ["Parties", "Date nights", "Daily / casual"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
+    },
+    {
+      "id": "carolina-herrera-good-girl-blush-elixir-edp",
+      "name": "Good Girl Blush Elixir",
+      "brand": "Carolina Herrera",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 160,
+      "notes": ["bitter almond", "rose", "ylang-ylang", "vanilla", "patchouli"],
+      "profile": ["floral", "sweet", "warm", "amber"],
+      "occasions": ["Date nights", "Parties", "Formal events"],
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
+    },
+    {
+      "id": "lattafa-eclaire-edp",
+      "name": "Eclaire",
+      "brand": "Lattafa",
+      "type": "arabic",
+      "concentration": "EDP",
+      "priceUsd": 42,
+      "notes": [
+        "caramel",
+        "milk",
+        "sugar",
+        "white flowers",
+        "honey",
+        "vanilla",
+        "praline",
+        "musk"
+      ],
+      "profile": ["gourmand", "sweet", "floral", "warm"],
+      "occasions": ["Date nights", "Daily / casual", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "lattafa-mayar-edp",
+      "name": "Mayar",
+      "brand": "Lattafa",
+      "type": "arabic",
+      "concentration": "EDP",
+      "priceUsd": 30,
+      "notes": [
+        "raspberry",
+        "lychee",
+        "violet leaf",
+        "peony",
+        "white rose",
+        "jasmine",
+        "vanilla",
+        "musk"
+      ],
+      "profile": ["fruity", "floral", "sweet", "fresh"],
+      "occasions": ["Daily / casual", "Date nights"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "lattafa-mayar-natural-intense-edp",
+      "name": "Mayar Natural Intense",
+      "brand": "Lattafa",
+      "type": "arabic",
+      "concentration": "EDP",
+      "priceUsd": 35,
+      "notes": [
+        "fig",
+        "coconut water",
+        "green tangerine",
+        "melon",
+        "lotus",
+        "jasmine",
+        "water lily",
+        "musk",
+        "sandalwood",
+        "vanilla"
+      ],
+      "profile": ["fruity", "floral", "fresh", "sweet"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "lattafa-mayar-cherry-intense-edp",
+      "name": "Mayar Cherry Intense",
+      "brand": "Lattafa",
+      "type": "arabic",
+      "concentration": "EDP",
+      "priceUsd": 35,
+      "notes": [
+        "strawberry",
+        "bergamot",
+        "cherry",
+        "cacao",
+        "vanilla",
+        "patchouli",
+        "amber"
+      ],
+      "profile": ["fruity", "sweet", "gourmand", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "afnan-souvenir-floral-bouquet-edp",
+      "name": "Souvenir Floral Bouquet",
+      "brand": "Afnan",
+      "type": "arabic",
+      "concentration": "EDP",
+      "priceUsd": 50,
+      "notes": [
+        "rhubarb",
+        "lychee",
+        "bergamot",
+        "rose",
+        "peony",
+        "vanilla",
+        "musk",
+        "cashmere wood"
+      ],
+      "profile": ["floral", "fruity", "fresh", "sweet"],
+      "occasions": ["Daily / casual", "Work / school", "Date nights"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "lattafa-asad-bourbon-edp",
+      "name": "Asad Bourbon",
+      "brand": "Lattafa",
+      "type": "arabic",
+      "concentration": "EDP",
+      "priceUsd": 30,
+      "notes": [
+        "pink pepper",
+        "lavender",
+        "mirabelle plum",
+        "cacao",
+        "davana",
+        "nutmeg",
+        "vetiver",
+        "bourbon vanilla",
+        "amber"
+      ],
+      "profile": ["spicy", "sweet", "gourmand", "warm"],
+      "occasions": ["Date nights", "Parties", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex"
+    },
+    {
+      "id": "lattafa-asad-elixir-edp",
+      "name": "Asad Elixir",
+      "brand": "Lattafa",
+      "type": "arabic",
+      "concentration": "EDP",
+      "priceUsd": 35,
+      "notes": [
+        "pink pepper",
+        "saffron",
+        "grapefruit",
+        "tobacco",
+        "cedarwood",
+        "vanilla",
+        "patchouli",
+        "olibanum",
+        "amber"
+      ],
+      "profile": ["spicy", "woody", "warm", "amber"],
+      "occasions": ["Date nights", "Parties", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "lattafa-asad-zanzibar-limited-edition-edp",
+      "name": "Asad Zanzibar Limited Edition",
+      "brand": "Lattafa",
+      "type": "arabic",
+      "concentration": "EDP",
+      "priceUsd": 25,
+      "notes": [
+        "marine notes",
+        "lavender",
+        "pink pepper",
+        "soap",
+        "cashmeran",
+        "cinnamon",
+        "amber",
+        "sandalwood",
+        "cedar",
+        "tonka bean"
+      ],
+      "profile": ["aquatic", "fresh", "aromatic", "woody"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-myslf-edp",
+      "name": "MYSLF",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 155,
+      "notes": ["bergamot", "orange blossom", "ambrofix", "patchouli", "woods"],
+      "profile": ["fresh", "floral", "woody", "aromatic"],
+      "occasions": ["Daily / casual", "Work / school", "Date nights"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-myslf-le-parfum",
+      "name": "MYSLF Le Parfum",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 165,
+      "notes": [
+        "black pepper",
+        "orange blossom",
+        "vanilla bourbon",
+        "amber",
+        "woody notes",
+        "patchouli"
+      ],
+      "profile": ["woody", "spicy", "sweet", "warm", "amber"],
+      "occasions": ["Date nights", "Parties", "Formal events"],
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-myslf-labsolu",
+      "name": "MYSLF L'Absolu",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 215,
+      "notes": [
+        "ginger",
+        "bergamot",
+        "cardamom",
+        "orange blossom",
+        "patchouli"
+      ],
+      "profile": ["fresh", "spicy", "aromatic", "woody"],
+      "occasions": [
+        "Daily / casual",
+        "Work / school",
+        "Date nights",
+        "Formal events"
+      ],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-myslf-edt-intense",
+      "name": "MYSLF Eau de Toilette Intense",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "EDT Intense",
+      "priceUsd": 155,
+      "notes": [
+        "bergamot",
+        "orange blossom",
+        "ambrofix",
+        "patchouli",
+        "white musk"
+      ],
+      "profile": ["fresh", "floral", "woody", "aromatic"],
+      "occasions": ["Daily / casual", "Work / school", "Date nights"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-y-edp",
+      "name": "Y Eau de Parfum",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": ["bergamot", "sage", "geranium", "cedar", "amberwood"],
+      "profile": ["fresh", "aromatic", "woody"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-y-le-parfum",
+      "name": "Y Le Parfum",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 165,
+      "notes": ["geranium", "lavender", "cedar", "tonka bean", "amberwood"],
+      "profile": ["aromatic", "woody", "warm"],
+      "occasions": ["Work / school", "Date nights", "Formal events"],
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-y-edp-intense",
+      "name": "Y Eau de Parfum Intense",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 165,
+      "notes": ["juniper berries", "lavender", "sage", "patchouli", "cedar"],
+      "profile": ["aromatic", "woody", "fresh"],
+      "occasions": ["Daily / casual", "Work / school", "Date nights"],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-y-elixir",
+      "name": "Y Elixir",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 180,
+      "notes": ["lavender", "geranium", "incense", "oud", "patchouli"],
+      "profile": ["aromatic", "woody", "spicy", "warm"],
+      "occasions": ["Date nights", "Parties", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-lhomme-edt",
+      "name": "L'Homme",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 130,
+      "notes": [
+        "ginger",
+        "bergamot",
+        "lemon",
+        "violet leaf",
+        "basil",
+        "cedar",
+        "vetiver"
+      ],
+      "profile": ["fresh", "citrus", "woody", "aromatic"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-lhomme-le-parfum",
+      "name": "L’Homme Le Parfum",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": [
+        "ozonic notes",
+        "cardamom",
+        "lemon",
+        "geranium",
+        "violet leaf",
+        "cedar",
+        "amberwood"
+      ],
+      "profile": ["fresh", "woody", "aromatic"],
+      "occasions": ["Daily / casual", "Work / school", "Formal events"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-la-nuit-de-lhomme-edt",
+      "name": "La Nuit de L'Homme",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 135,
+      "notes": [
+        "cardamom",
+        "bergamot",
+        "lavender",
+        "cedar",
+        "vetiver",
+        "coumarin"
+      ],
+      "profile": ["spicy", "woody", "aromatic", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-la-nuit-de-lhomme-le-parfum",
+      "name": "La Nuit de L'Homme Le Parfum",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 150,
+      "notes": [
+        "bergamot",
+        "anise",
+        "black pepper",
+        "lavender",
+        "labdanum",
+        "patchouli",
+        "vanilla",
+        "vetiver"
+      ],
+      "profile": ["spicy", "woody", "warm", "amber"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-la-nuit-de-lhomme-bleu-electrique",
+      "name": "La Nuit de L’Homme Bleu Électrique",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 140,
+      "notes": [
+        "cardamom",
+        "ginger",
+        "bergamot",
+        "lavender",
+        "cedar",
+        "vetiver"
+      ],
+      "profile": ["spicy", "fresh", "woody", "aromatic"],
+      "occasions": ["Date nights", "Daily / casual"],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "ysl-libre-edp",
+      "name": "Libre",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 160,
+      "notes": [
+        "lavender",
+        "mandarin",
+        "blackcurrant",
+        "orange blossom",
+        "jasmine",
+        "vanilla",
+        "musk"
+      ],
+      "profile": ["floral", "aromatic", "sweet", "warm"],
+      "occasions": ["Daily / casual", "Date nights", "Formal events"],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "ysl-libre-intense-edp",
+      "name": "Libre Intense",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 170,
+      "notes": [
+        "lavender",
+        "mandarin",
+        "orange blossom",
+        "orchid",
+        "vanilla",
+        "tonka bean",
+        "amber"
+      ],
+      "profile": ["floral", "sweet", "warm", "amber"],
+      "occasions": ["Date nights", "Parties", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "ysl-libre-le-parfum",
+      "name": "Libre Le Parfum",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 180,
+      "notes": [
+        "saffron",
+        "ginger",
+        "mandarin",
+        "orange blossom",
+        "lavender",
+        "honey",
+        "vanilla"
+      ],
+      "profile": ["floral", "spicy", "sweet", "warm"],
+      "occasions": ["Date nights", "Parties", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "ysl-libre-edt",
+      "name": "Libre Eau de Toilette",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 150,
+      "notes": [
+        "lavender",
+        "bergamot",
+        "orange blossom",
+        "jasmine",
+        "white tea",
+        "musk"
+      ],
+      "profile": ["floral", "fresh", "aromatic"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "ysl-black-opium-edp",
+      "name": "Black Opium",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 160,
+      "notes": [
+        "pear",
+        "pink pepper",
+        "orange blossom",
+        "coffee",
+        "jasmine",
+        "vanilla",
+        "patchouli"
+      ],
+      "profile": ["sweet", "gourmand", "warm", "floral"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "ysl-black-opium-le-parfum",
+      "name": "Black Opium Le Parfum",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 175,
+      "notes": [
+        "pear",
+        "cinnamon",
+        "orange blossom",
+        "coffee",
+        "jasmine",
+        "vanilla",
+        "patchouli"
+      ],
+      "profile": ["sweet", "gourmand", "warm", "floral"],
+      "occasions": ["Date nights", "Parties", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "ysl-black-opium-over-red-edp",
+      "name": "Black Opium Over Red",
+      "brand": "Yves Saint Laurent",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 170,
+      "notes": [
+        "cherry",
+        "green mandarin",
+        "coffee",
+        "jasmine",
+        "vanilla",
+        "patchouli"
+      ],
+      "profile": ["fruity", "sweet", "gourmand", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "azzaro-pour-homme-edt",
+      "name": "Azzaro Pour Homme",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 75,
+      "notes": [
+        "lavender",
+        "anise",
+        "lemon",
+        "basil",
+        "juniper",
+        "vetiver",
+        "oakmoss",
+        "leather"
+      ],
+      "profile": ["aromatic", "woody", "spicy", "warm"],
+      "occasions": ["Work / school", "Formal events"],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "azzaro-chrome-edt",
+      "name": "Chrome",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 75,
+      "notes": [
+        "lemon",
+        "bergamot",
+        "rosemary",
+        "jasmine",
+        "musk",
+        "oakmoss",
+        "cedar"
+      ],
+      "profile": ["fresh", "citrus", "aromatic", "woody"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "men"
+    },
+    {
+      "id": "azzaro-chrome-extreme-edp",
+      "name": "Chrome Extreme",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 90,
+      "notes": [
+        "green mandarin",
+        "juniper berries",
+        "sea notes",
+        "cashmeran",
+        "amber"
+      ],
+      "profile": ["fresh", "aquatic", "citrus", "woody"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "men"
+    },
+    {
+      "id": "azzaro-wanted-edt",
+      "name": "Wanted",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 100,
+      "notes": [
+        "lemon",
+        "ginger",
+        "lavender",
+        "cardamom",
+        "juniper",
+        "vetiver",
+        "tonka bean"
+      ],
+      "profile": ["fresh", "citrus", "spicy", "woody"],
+      "occasions": ["Daily / casual", "Work / school", "Parties"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
+    },
+    {
+      "id": "azzaro-wanted-by-night-edp",
+      "name": "Wanted by Night",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 110,
+      "notes": [
+        "cinnamon",
+        "mandarin",
+        "lavender",
+        "incense",
+        "cedar",
+        "tobacco",
+        "vanilla"
+      ],
+      "profile": ["spicy", "sweet", "woody", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "azzaro-wanted-girl-edp",
+      "name": "Wanted Girl",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 105,
+      "notes": [
+        "ginger flower",
+        "orange blossom",
+        "dulce de leche",
+        "vetiver",
+        "tonka bean"
+      ],
+      "profile": ["floral", "sweet", "gourmand", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
+    },
+    {
+      "id": "azzaro-wanted-girl-by-night-edp",
+      "name": "Wanted Girl by Night",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 100,
+      "notes": [
+        "blackcurrant",
+        "mandarin",
+        "datura",
+        "tuberose",
+        "whipped cream",
+        "patchouli"
+      ],
+      "profile": ["floral", "sweet", "fruity", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "azzaro-the-most-wanted-edp-intense",
+      "name": "The Most Wanted Eau de Parfum Intense",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 120,
+      "notes": ["cardamom", "toffee", "amberwood"],
+      "profile": ["spicy", "sweet", "warm", "amber"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "azzaro-the-most-wanted-parfum",
+      "name": "The Most Wanted Parfum",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 125,
+      "notes": ["red ginger", "burning woods", "bourbon vanilla"],
+      "profile": ["spicy", "woody", "sweet", "warm"],
+      "occasions": ["Date nights", "Parties", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "azzaro-the-most-wanted-edt-intense",
+      "name": "The Most Wanted Eau de Toilette Intense",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDT Intense",
+      "priceUsd": 115,
+      "notes": ["bergamot", "lavender", "cardamom", "toffee", "amberwood"],
+      "profile": ["fresh", "spicy", "sweet", "warm"],
+      "occasions": ["Daily / casual", "Date nights", "Parties"],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "azzaro-forever-wanted-elixir",
+      "name": "Forever Wanted Elixir",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 150,
+      "notes": ["raspberry", "cardamom", "leather", "amberwood"],
+      "profile": ["fruity", "spicy", "woody", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "azzaro-chrome-azure-edt",
+      "name": "Chrome Azure",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 95,
+      "notes": ["bergamot", "marine notes", "lavender", "cedar", "musk"],
+      "profile": ["fresh", "aquatic", "aromatic", "woody"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "men"
+    },
+    {
+      "id": "azzaro-pour-elle-edp",
+      "name": "Azzaro Pour Elle",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 110,
+      "notes": ["pear", "rose", "jasmine", "vanilla", "musk"],
+      "profile": ["floral", "fruity", "sweet", "warm"],
+      "occasions": ["Daily / casual", "Date nights"],
+      "seasons": ["spring", "autumn"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-light-blue-edt",
+      "name": "Light Blue",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 120,
+      "notes": [
+        "sicilian lemon",
+        "apple",
+        "cedar",
+        "bellflower",
+        "bamboo",
+        "musk"
+      ],
+      "profile": ["fresh", "citrus", "fruity", "woody"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-light-blue-eau-intense-edp",
+      "name": "Light Blue Eau Intense",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 140,
+      "notes": [
+        "lemon",
+        "granny smith apple",
+        "jasmine",
+        "marigold",
+        "musk",
+        "amberwood"
+      ],
+      "profile": ["fresh", "citrus", "fruity", "aquatic"],
+      "occasions": ["Daily / casual", "Date nights"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-light-blue-pour-homme-edt",
+      "name": "Light Blue Pour Homme",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 120,
+      "notes": [
+        "sicilian mandarin",
+        "grapefruit",
+        "bergamot",
+        "juniper",
+        "rosemary",
+        "musk",
+        "oakmoss"
+      ],
+      "profile": ["fresh", "citrus", "aromatic", "woody"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "men"
+    },
+    {
+      "id": "dolce-gabbana-light-blue-eau-intense-pour-homme-edp",
+      "name": "Light Blue Eau Intense Pour Homme",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 140,
+      "notes": [
+        "mandarin",
+        "grapefruit",
+        "juniper",
+        "sea water",
+        "musk",
+        "amberwood"
+      ],
+      "profile": ["fresh", "citrus", "aquatic", "woody"],
+      "occasions": ["Daily / casual", "Date nights"],
+      "seasons": ["spring", "summer"],
+      "gender": "men"
+    },
+    {
+      "id": "dolce-gabbana-the-one-edp",
+      "name": "The One",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": [
+        "bergamot",
+        "peach",
+        "lychee",
+        "jasmine",
+        "lily",
+        "vanilla",
+        "amber"
+      ],
+      "profile": ["floral", "fruity", "sweet", "warm"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-the-one-for-men-edt",
+      "name": "The One for Men",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 120,
+      "notes": [
+        "grapefruit",
+        "coriander",
+        "basil",
+        "ginger",
+        "cardamom",
+        "tobacco",
+        "amber",
+        "cedar"
+      ],
+      "profile": ["spicy", "woody", "aromatic", "warm"],
+      "occasions": ["Work / school", "Date nights", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "dolce-gabbana-the-one-for-men-edp",
+      "name": "The One for Men Eau de Parfum",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 145,
+      "notes": [
+        "grapefruit",
+        "coriander",
+        "basil",
+        "ginger",
+        "cardamom",
+        "tobacco",
+        "amber",
+        "cedar"
+      ],
+      "profile": ["spicy", "woody", "aromatic", "warm"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "dolce-gabbana-the-only-one-edp",
+      "name": "The Only One",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": [
+        "violet",
+        "coffee",
+        "orange",
+        "rose",
+        "iris",
+        "vanilla",
+        "caramel",
+        "patchouli"
+      ],
+      "profile": ["floral", "gourmand", "sweet", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-devotion-edp",
+      "name": "Devotion",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": ["candied lemon", "orange blossom", "panacotta", "vanilla"],
+      "profile": ["citrus", "sweet", "gourmand", "warm"],
+      "occasions": ["Daily / casual", "Date nights", "Parties"],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-devotion-intense-edp",
+      "name": "Devotion Intense",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 160,
+      "notes": ["hazelnut", "orange blossom", "vanilla"],
+      "profile": ["sweet", "gourmand", "warm", "floral"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-k-edp",
+      "name": "K by Dolce & Gabbana",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 140,
+      "notes": [
+        "blood orange",
+        "lemon",
+        "juniper",
+        "clary sage",
+        "geranium",
+        "cedar",
+        "vetiver",
+        "patchouli"
+      ],
+      "profile": ["fresh", "citrus", "aromatic", "woody"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
+    },
+    {
+      "id": "dolce-gabbana-q-edp",
+      "name": "Q by Dolce & Gabbana",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": [
+        "sicilian lemon",
+        "blood orange",
+        "jasmine",
+        "cherry",
+        "heliotrope",
+        "musk",
+        "cedar"
+      ],
+      "profile": ["fruity", "floral", "sweet", "fresh"],
+      "occasions": ["Daily / casual", "Date nights"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-devotion-pour-homme-parfum",
+      "name": "Devotion Pour Homme",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 150,
+      "notes": ["lemon", "coffee", "patchouli", "vanilla", "amber"],
+      "profile": ["citrus", "woody", "warm", "gourmand"],
+      "occasions": ["Work / school", "Date nights"],
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "men"
+    },
+    {
+      "id": "dolce-gabbana-pour-homme-edt",
+      "name": "Dolce&Gabbana Pour Homme",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 120,
+      "notes": [
+        "bergamot",
+        "neroli",
+        "citrus",
+        "lavender",
+        "tobacco",
+        "sandalwood",
+        "cedar"
+      ],
+      "profile": ["aromatic", "citrus", "woody", "warm"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
+    },
+    {
+      "id": "mugler-angel-edp",
+      "name": "Angel",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": [
+        "bergamot",
+        "red berries",
+        "praline",
+        "patchouli",
+        "vanilla",
+        "caramel"
+      ],
+      "profile": ["sweet", "gourmand", "warm", "fruity"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-angel-nova-edp",
+      "name": "Angel Nova",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": ["raspberry", "lychee", "damask rose", "akigalawood", "benzoin"],
+      "profile": ["fruity", "floral", "woody", "sweet"],
+      "occasions": ["Daily / casual", "Date nights", "Parties"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-angel-elixir-edp",
+      "name": "Angel Elixir",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 160,
+      "notes": [
+        "pink pepper",
+        "ylang-ylang",
+        "orange blossom",
+        "jasmine",
+        "sandalwood",
+        "vanilla"
+      ],
+      "profile": ["floral", "sweet", "warm", "woody"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-angel-muse-edp",
+      "name": "Angel Muse",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 145,
+      "notes": [
+        "grapefruit",
+        "pink pepper",
+        "hazelnut cocoa",
+        "patchouli",
+        "vetiver"
+      ],
+      "profile": ["sweet", "gourmand", "woody", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-alien-edp",
+      "name": "Alien",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": ["jasmine sambac", "cashmeran", "amber"],
+      "profile": ["floral", "woody", "warm", "amber"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-alien-goddess-edp",
+      "name": "Alien Goddess",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 160,
+      "notes": [
+        "bergamot",
+        "coconut water",
+        "jasmine grandiflorum",
+        "bourbon vanilla",
+        "cashmeran"
+      ],
+      "profile": ["floral", "sweet", "warm", "fresh"],
+      "occasions": ["Daily / casual", "Date nights"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-alien-goddess-intense-edp",
+      "name": "Alien Goddess Intense",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 170,
+      "notes": [
+        "bergamot",
+        "coconut",
+        "jasmine grandiflorum",
+        "benzoin",
+        "bourbon vanilla"
+      ],
+      "profile": ["floral", "sweet", "warm", "amber"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["autumn", "winter", "spring"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-alien-hypersense-edp",
+      "name": "Alien Hypersense",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 160,
+      "notes": [
+        "green mandarin",
+        "pear",
+        "jasmine sambac",
+        "cashmeran",
+        "musk"
+      ],
+      "profile": ["floral", "fruity", "fresh", "woody"],
+      "occasions": ["Daily / casual", "Date nights"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-alien-goddess-supra-florale-edp",
+      "name": "Alien Goddess Supra Florale",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 165,
+      "notes": [
+        "cactus flower",
+        "jasmine grandiflorum",
+        "everlasting flower",
+        "amber"
+      ],
+      "profile": ["floral", "fresh", "green", "warm"],
+      "occasions": ["Daily / casual", "Formal events"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-alien-pulp-edp",
+      "name": "Alien Pulp",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 160,
+      "notes": ["raspberry", "jasmine", "musk", "cashmeran"],
+      "profile": ["fruity", "floral", "sweet", "woody"],
+      "occasions": ["Daily / casual", "Date nights", "Parties"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-aura-edp",
+      "name": "Aura Mugler",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": [
+        "rhubarb leaf",
+        "tiger liana",
+        "orange blossom",
+        "vanilla",
+        "wolfwood"
+      ],
+      "profile": ["green", "woody", "sweet", "warm"],
+      "occasions": ["Daily / casual", "Date nights"],
+      "seasons": ["spring", "autumn"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-womanity-edp",
+      "name": "Womanity",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 160,
+      "notes": ["fig", "caviar accord", "fig leaf", "woodsy notes"],
+      "profile": ["fruity", "green", "woody", "aquatic"],
+      "occasions": ["Daily / casual", "Date nights"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-amen-edt",
+      "name": "A*Men",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 130,
+      "notes": [
+        "lavender",
+        "mint",
+        "coffee",
+        "patchouli",
+        "vanilla",
+        "benzoin"
+      ],
+      "profile": ["woody", "aromatic", "sweet", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "mugler-amen-pure-malt-edp",
+      "name": "A*Men Pure Malt",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": [
+        "fruity notes",
+        "peat",
+        "malt whiskey",
+        "coffee",
+        "patchouli",
+        "vanilla"
+      ],
+      "profile": ["woody", "sweet", "gourmand", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "mugler-amen-fantasm-edp",
+      "name": "A*Men Fantasm",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 170,
+      "notes": ["bergamot", "dark chocolate", "patchouli", "coffee", "vanilla"],
+      "profile": ["woody", "gourmand", "sweet", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "mugler-alien-man-edt",
+      "name": "Alien Man",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 130,
+      "notes": ["anise", "dill", "leather", "cashmeran", "oud", "amber"],
+      "profile": ["woody", "spicy", "leather", "warm"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "azzaro-wanted-tonic-edt",
+      "name": "Wanted Tonic",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 95,
+      "notes": ["lime", "green cardamom", "ginger", "patchouli", "styrax"],
+      "profile": ["fresh", "citrus", "spicy", "woody"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "men"
+    },
+    {
+      "id": "azzaro-wanted-girl-tonic-edt",
+      "name": "Wanted Girl Tonic",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 90,
+      "notes": ["lemon ginger", "acai berry", "kiwi", "bamboo wood"],
+      "profile": ["fruity", "fresh", "floral", "green"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "azzaro-mademoiselle-edt",
+      "name": "Mademoiselle Azzaro",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 85,
+      "notes": ["peach", "orange", "jasmine", "iris", "woody notes"],
+      "profile": ["fruity", "floral", "fresh", "sweet"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "azzaro-wanted-edp",
+      "name": "Wanted Eau de Parfum",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 110,
+      "notes": [
+        "juniper berries",
+        "lemon",
+        "sage",
+        "ginger",
+        "vetiver",
+        "tonka bean"
+      ],
+      "profile": ["fresh", "aromatic", "spicy", "woody"],
+      "occasions": ["Daily / casual", "Work / school", "Parties"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
+    },
+    {
+      "id": "azzaro-forever-wanted-absolu",
+      "name": "Forever Wanted Absolu",
+      "brand": "Azzaro",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 160,
+      "notes": ["spices", "woody notes", "amber", "leather"],
+      "profile": ["spicy", "woody", "warm", "amber"],
+      "occasions": ["Date nights", "Parties", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "men"
+    },
+    {
+      "id": "dolce-gabbana-my-devotion-edp-intense",
+      "name": "My Devotion Eau de Parfum Intense",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 155,
+      "notes": ["pear", "blackcurrant", "orange blossom", "vanilla", "musk"],
+      "profile": ["fruity", "floral", "sweet", "warm"],
+      "occasions": ["Daily / casual", "Date nights"],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-the-one-gold-edp-intense",
+      "name": "The One Gold Eau de Parfum Intense",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 155,
+      "notes": [
+        "plum",
+        "italian mandarin",
+        "pink pepper",
+        "jasmine",
+        "vanilla",
+        "patchouli"
+      ],
+      "profile": ["fruity", "floral", "sweet", "warm"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-q-elixir",
+      "name": "Q by Dolce & Gabbana Elixir",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 170,
+      "notes": [
+        "sicilian lemon",
+        "blood orange",
+        "cherry",
+        "jasmine",
+        "vanilla",
+        "amber"
+      ],
+      "profile": ["fruity", "floral", "sweet", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-q-edp-intense",
+      "name": "Q by Dolce & Gabbana Eau de Parfum Intense",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 155,
+      "notes": ["sicilian lemon", "orange", "jasmine", "cherry", "amber"],
+      "profile": ["fruity", "floral", "sweet", "fresh"],
+      "occasions": ["Daily / casual", "Date nights"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-the-one-edp-intense",
+      "name": "The One Eau de Parfum Intense",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 155,
+      "notes": [
+        "blackcurrant",
+        "pink pepper",
+        "mandarin",
+        "jasmine",
+        "vanilla",
+        "amber"
+      ],
+      "profile": ["floral", "fruity", "sweet", "warm"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-blue-jasmine-edp",
+      "name": "Dolce Blue Jasmine",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 120,
+      "notes": ["sicilian fig", "blue jasmine", "cedarwood"],
+      "profile": ["floral", "fruity", "green", "fresh"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-light-blue-capri-in-love-edp",
+      "name": "Light Blue Capri In Love",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": ["lemon", "fig", "jasmine", "cedar", "musk"],
+      "profile": ["fresh", "citrus", "fruity", "woody"],
+      "occasions": ["Daily / casual", "Date nights"],
+      "seasons": ["spring", "summer"],
+      "gender": "women"
+    },
+    {
+      "id": "dolce-gabbana-light-blue-capri-in-love-pour-homme-edp",
+      "name": "Light Blue Capri In Love Pour Homme",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 150,
+      "notes": ["lemon", "fig", "cypress", "cedar", "musk"],
+      "profile": ["fresh", "citrus", "woody", "aromatic"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "men"
+    },
+    {
+      "id": "dolce-gabbana-k-parfum",
+      "name": "K by Dolce & Gabbana Parfum",
+      "brand": "Dolce & Gabbana",
+      "type": "designer",
+      "concentration": "Parfum",
+      "priceUsd": 160,
+      "notes": [
+        "blood orange",
+        "lemon",
+        "juniper",
+        "fig",
+        "saffron",
+        "cedar",
+        "vetiver"
+      ],
+      "profile": ["citrus", "woody", "aromatic", "warm"],
+      "occasions": ["Daily / casual", "Work / school", "Date nights"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men"
+    },
+    {
+      "id": "mugler-angel-fantasm-edp",
+      "name": "Angel Fantasm",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 160,
+      "notes": ["pineapple", "coconut", "jasmine", "patchouli", "vanilla"],
+      "profile": ["fruity", "sweet", "gourmand", "warm"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-alien-extraintense-edp",
+      "name": "Alien Extraintense",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 170,
+      "notes": ["jasmine grandiflorum", "tuberose", "cashmeran", "vanilla"],
+      "profile": ["floral", "woody", "sweet", "warm"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women"
+    },
+    {
+      "id": "mugler-cologne-edt",
+      "name": "Mugler Cologne",
+      "brand": "Mugler",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 100,
+      "notes": ["petitgrain", "neroli", "bergamot", "white musk"],
+      "profile": ["fresh", "citrus", "aromatic", "green"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "unisex"
     }
   ],
   "easterEggs": []

@@ -2,7 +2,25 @@ import {spanish} from './locales/es.mjs';
 
 const label = value => {value=value.trim();return spanish[value] ?? spanish[value[0]?.toUpperCase()+value.slice(1)] ?? value;};
 const labels = value => value.split(', ').map(label).join(', ');
+const naturalLabels = value => new Intl.ListFormat('es',{style:'long',type:'conjunction'}).format(value.split(/, and | and |, /).map(x=>label(x).toLowerCase()));
 const rules = [
+  [/^Try up to USD (.+) per fragrance \((\d+) matches\)$/,(_,amount,n)=>`Probar hasta ${amount.replace('.',',')} USD por perfume (${n} opciones)`],
+  [/^Include any fragrance type \((\d+) matches\)$/,(_,n)=>`Incluir cualquier tipo de perfume (${n} opciones)`],
+  [/^Remove scent preferences \((\d+) matches\)$/,(_,n)=>`Quitar la preferencia de aromas (${n} opciones)`],
+  [/^Remove occasion preferences \((\d+) matches\)$/,(_,n)=>`Quitar la preferencia de ocasiones (${n} opciones)`],
+  [/^Up to USD (.+) per fragrance$/,(_,n)=>`Hasta ${n.replace('.',',')} USD por perfume`],
+  [/^Looking at the perfumes you have chosen, you seem to lean toward (.+) scents\. They keep coming up in your collection, so they feel like a good place to start when describing your style\.$/,(_,names)=>`Por los perfumes que has elegido, parece que te inclinas hacia lo ${naturalLabels(names)}. Es algo que se repite en tu colección y que da una primera pista de tu estilo al elegir aromas.`],
+  [/^You have not stuck to just that, though\. Your (.+) choices show another side of your collection\. They are less frequent, but still part of what makes this selection yours\.$/,(_,names)=>`Aunque no te quedas solo ahí. También has elegido perfumes con un lado ${naturalLabels(names)}, que dejan ver otros matices de tu colección. Tienen menos presencia, pero también cuentan al hablar de tu selección.`],
+  [/^And there is a little connection with occasions: that (.+) mix also appears among your options for (.+)\. So it is not just a recurring scent style; you also have it represented among the perfumes suggested for those moments\.$/,(_,names,occasions)=>`Y hay un detalle curioso: esa combinación de lo ${naturalLabels(names)} también aparece entre tus opciones para ${naturalLabels(occasions)}. Así que ese estilo no solo se repite en tus perfumes; también tiene su espacio entre los recomendados para esos momentos.`],
+  [/^The (.+) side takes the lead in your collection\. It is a thread running through your choices: (\d+) of your (\d+) fragrances include (?:this profile|each of these profiles)\.$/,(_,names,n,total)=>`Lo ${naturalLabels(names)} lleva la voz cantante en tu colección. Es un punto en común entre tus elecciones: ${n} de tus ${total} perfumes incluyen ${names.includes(' and ')?'cada uno de estos perfiles':'este perfil'}.`],
+  [/^But that is not the whole story\. There is a (.+) side here too, giving your selection another direction to explore without losing that recurring thread\.$/,(_,names)=>`Pero tu colección no se queda ahí. También tiene un lado ${naturalLabels(names)}, que le da otro matiz a la selección. Hay espacio para cambiar de aire sin perder ese hilo que conecta varios de tus perfumes.`],
+  [/^You can also spot that (.+) thread among your options for (.+)\. In your collection, (\d+) fragrances bring (?:that profile|those profiles together) to each of these occasions\. A little connection between the scents you have chosen and the moments they are listed for\.$/,(_,names,occasions,n)=>`Ese lado ${naturalLabels(names)} también aparece entre tus opciones para ${naturalLabels(occasions)}: ${n} perfumes reúnen ${names.includes(' and ')?'esos perfiles':'ese perfil'} en cada una de esas ocasiones. Es una pequeña conexión entre los aromas de tu colección y los momentos para los que están recomendados.`],
+  [/^Question (\d) of 6$/,(_,n)=>`Pregunta ${n} de 6`],
+  [/^Your fragrances share an average of (\d+)% of their scent profiles\.$/,(_,n)=>`Tus perfumes comparten, de media, un ${n} % de sus perfiles aromáticos.`],
+  [/^(\d+) excluded by type, gender or budget; (\d+) with no requested profile or occasion matches\.$/,(_,a,b)=>`${a} excluidos por tipo, género o presupuesto; ${b} sin coincidencias con los perfiles u ocasiones solicitados.`],
+  [/^Your collection brings together (\d+) distinct scent profiles\.$/,(_,n)=>`Tu colección reúne ${n} perfiles aromáticos distintos.`],
+  [/^Your collection leans toward (.+): (\d+) of your (\d+) fragrances include (?:this profile|each of these profiles)\.$/,(_,names,n,total)=>`En tu colección destaca lo ${labels(names).toLowerCase()}: ${n} de tus ${total} perfumes incluyen ${names.includes(', ')?'cada uno de estos perfiles':'este perfil'}.`],
+  [/^Alongside that, (.+) add another side to the collection\.$/,(_,names)=>`También hay espacio para lo ${labels(names).toLowerCase()}, que aporta otro lado a la colección.`],
   [/^Matches: (.+) \(\+(\d+) more\)\.$/,(_,names,n)=>`Coincidencias: ${labels(names)} (+${n} más).`],
   [/^Listed for (\d+) of 5 occasions\.$/,(_,n)=>`Asignado a ${n} de 5 ocasiones.`],
   [/^None of your fragrances are listed for (.+)\.$/,(_,names)=>`Ninguno de tus perfumes tiene asignado ${labels(names).toLowerCase()}.`],

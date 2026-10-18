@@ -6,6 +6,8 @@ import { initializeAnalysisFlow } from './analysis-flow.mjs';
 import { initializeMyNine } from './my-nine.mjs';
 import { initializePreferences } from './preferences.mjs';
 import { connectSearchKeyboard, searchAnnouncement } from './search-keyboard.mjs';
+import {initializeCompare} from './compare.mjs';
+import {createUndoToast} from './undo-toast.mjs';
 
 initializePreferences(document);
 
@@ -29,7 +31,9 @@ let catalog = [];
 let announcementTimer;
 let catalogStarted = false;
 const flow = initializeAnalysisFlow(document, {getCollection: () => collection.items(), getCatalog: () => catalog, announce});
-const myNine = initializeMyNine(document);
+const toast=createUndoToast(document);
+const myNine = initializeMyNine(document,toast);
+const compare=initializeCompare(document);
 
 function announce(message) {
   clearTimeout(announcementTimer);
@@ -66,11 +70,13 @@ function updateCollection() {
 
 async function startCatalog() {
   search.disabled = true;
+  byId('first-fragrance').disabled=true;
   retry.hidden = true;
   catalogStatus.textContent = 'Loading the fragrance catalog…';
   try {
     catalog = await loadCatalog('./scents.json');
     search.disabled = catalog.length === 0;
+    byId('first-fragrance').disabled=catalog.length===0;
     catalogStatus.textContent = catalog.length ? '' : 'No fragrances are available yet.';
     updateSearch();
     if (document.activeElement === retry || document.activeElement === document.body) {
@@ -99,7 +105,8 @@ results.addEventListener('click', (event) => {
   const button = event.target.closest('button[data-action="add"]');
   if (!button || !results.contains(button)) return;
   const perfume = catalog.find(({ id }) => id === button.dataset.perfumeId);
-  if (!perfume || !collection.add(perfume)) return;
+  if (!perfume || collection.has(perfume.id)) return;
+  rememberCollection();collection.add(perfume);
   updateCollection();
   updateSearch();
   [...results.querySelectorAll('button')].find((item) => item.dataset.perfumeId === perfume.id)?.focus();
@@ -111,37 +118,42 @@ grid.addEventListener('click', (event) => {
   if (!button || !grid.contains(button)) return;
   const previousItems = collection.items();
   const index = previousItems.findIndex(({ id }) => id === button.dataset.perfumeId);
-  if (index < 0 || !collection.remove(button.dataset.perfumeId)) return;
+  if(index<0)return;
+  rememberCollection();collection.remove(button.dataset.perfumeId);
   updateCollection();
   updateSearch();
   const buttons = grid.querySelectorAll('button');
   (buttons[Math.min(index, buttons.length - 1)] ?? search).focus();
   announce(`${previousItems[index].name} removed. ${collection.size} ${collection.size === 1 ? 'fragrance' : 'fragrances'} in your collection.`);
+  toast.show('collection','Fragrance removed from your collection.',restoreCollection);
 });
 
 analyze.addEventListener('click', () => flow.openChoice());
 
-let clearedItems=[];
+let previousCollection=null;
 const undoClear=document.createElement('button');
-undoClear.id='undo-clear';undoClear.type='button';undoClear.className='secondary-button';undoClear.textContent='Undo clear';undoClear.hidden=true;
+undoClear.id='undo-clear';undoClear.type='button';undoClear.className='secondary-button';undoClear.textContent='Undo last change';undoClear.hidden=true;
 clearCollection.after(undoClear);
-undoClear.addEventListener('click',()=>{
-  for(const perfume of clearedItems) collection.add(perfume);
-  clearedItems=[];undoClear.hidden=true;updateCollection();updateSearch();search.focus();announce('Your fragrances are back in your collection.');
-});
+function rememberCollection(){previousCollection=collection.items();undoClear.hidden=false;toast.clear('collection');}
+function restoreCollection(){
+  if(previousCollection===null)return;
+  collection.clear();for(const perfume of previousCollection)collection.add(perfume);
+  previousCollection=null;undoClear.hidden=true;toast.clear('collection');updateCollection();updateSearch();search.focus();announce('Last change undone.');
+}
+undoClear.addEventListener('click',restoreCollection);
 clearCollection.addEventListener('click', () => {
   if (!collection.size) return;
-  clearedItems=collection.items();
-  undoClear.hidden=false;
+  rememberCollection();
   collection.clear();
   updateCollection();
   updateSearch();
   search.focus();
   announce('Collection cleared. You can start adding fragrances again.');
+  toast.show('collection','Collection cleared.',restoreCollection);
 });
 
 updateCollection();
-initializeNavigation(document, {beforeRoute: hash => {myNine.leaveRoute(); return flow.beforeRoute(hash);}, onRoute: flow.enterRoute, onHome: () => {
+initializeNavigation(document, {beforeRoute: hash => {toast.hide();myNine.leaveRoute(); return flow.beforeRoute(hash);}, onRoute: hash=>{flow.enterRoute(hash);if(hash==='#compare-scents')compare.enter();}, onHome: () => {
   if (catalogStarted) return;
   catalogStarted = true;
   startCatalog();

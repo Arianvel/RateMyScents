@@ -35,6 +35,8 @@ export function initializeNavigation(document, {onHome, beforeRoute = hash => ha
     '#how-it-works': ['how-it-works','how-title','How it works'],
     '#quiz': ['quiz-view','quiz-title','Find your next scent'],
     '#results': ['results-view','results-title','Your collection analysis'],
+    '#suggestions': ['results-view','results-title','Find your first fragrance'],
+    '#compare-scents': ['compare-view','compare-title','Compare Scents'],
   };
   function render(moveFocus = false) {
     setMenu(false);
@@ -45,7 +47,7 @@ export function initializeNavigation(document, {onHome, beforeRoute = hash => ha
     for (const id of new Set(Object.values(routes).map(route => route[0]))) document.getElementById(id).hidden=id!==viewId;
     document.title=`${title} · RateMyScents`;
     for(const link of document.querySelectorAll('.site-header a, .site-footer a')) {
-      const current = ['#how-it-works','#my-9-scents'].includes(hash) ? link.hash===hash : viewId==='home-view' && link.hash==='#collection';
+      const current = ['#how-it-works','#my-9-scents','#compare-scents'].includes(hash) ? link.hash===hash : viewId==='home-view' && link.hash==='#collection';
       if(current) link.setAttribute('aria-current','page'); else link.removeAttribute('aria-current');
     }
     if(viewId==='home-view') onHome();

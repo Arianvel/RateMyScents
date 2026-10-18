@@ -3,16 +3,22 @@ import { renderQuiz } from './quiz-view.mjs';
 import { analyzeCollection } from './analysis.mjs';
 import { recommendFragrances } from './recommendations.mjs';
 import { renderAnalysis, renderRecommendations } from './results-view.mjs';
+import { exportRating } from './rating-export.mjs';
+import {alternativeOptions} from './recommendation-options.mjs';
 
 export function initializeAnalysisFlow(document,{getCollection,getCatalog,announce}) {
   const window=document.defaultView;
   const el=id=>document.getElementById(id);
   const dialog=el('analysis-choice');
   const form=el('quiz-form');
-  const quiz=createQuiz();
+  const collectionQuiz=createQuiz(),firstQuiz=createQuiz();
+  let quiz=collectionQuiz;
+  let editingOne=false;
+  let exporting=false;
   let mode='rating';
+  let collectionMode='rating';
   let restoreFocus=true;
-  const complete=()=>[0,1,2,3,4].every(step=>quiz.validate(step).valid);
+  const complete=()=>[0,1,2,3,4,5].every(step=>quiz.validate(step).valid);
   function close(restore=true) {
     restoreFocus=restore;
     if(dialog.open) dialog.close();
@@ -20,14 +26,14 @@ export function initializeAnalysisFlow(document,{getCollection,getCatalog,announ
   function showQuiz(error='',focus=false) {
     const snapshot=quiz.snapshot();
     if(form.dataset.step!==String(snapshot.step)) {
-      renderQuiz(form,snapshot);
+      renderQuiz(form,snapshot,'',{firstFragrance:mode==='first'});
       form.dataset.step=String(snapshot.step);
     }
     const {answers,step}=snapshot;
     for(const input of form.querySelectorAll('input')) {
       const group=input.name;
       if(group==='profiles'||group==='occasions') input.checked=input.value==='none' ? Array.isArray(answers[group])&&!answers[group].length : answers[group]?.includes(input.value)??false;
-      else if(group==='type'||group==='priority') input.checked=answers[group]===input.value;
+      else if(group==='type'||group==='priority'||group==='gender') input.checked=answers[group]===input.value;
       else if(group==='budget-mode') input.checked=answers.budget.mode==='unlimited' ? input.value==='unlimited' : answers.budget.mode==='maximum' && input.value===(['50','100','150'].includes(answers.budget.amount)?answers.budget.amount:'maximum');
       input.removeAttribute('aria-invalid');
     }
@@ -36,6 +42,7 @@ export function initializeAnalysisFlow(document,{getCollection,getCatalog,announ
     const count=form.querySelector('.selection-count');
     if(count) count.textContent=`${answers.profiles?.length??0} of 3 selected`;
     el('quiz-error').textContent=error;
+    form.querySelector('button[type="submit"]').textContent=editingOne?'Update recommendations':step===5?'See my results':'Continue';
     const fieldset=form.querySelector('fieldset');
     fieldset.setAttribute('aria-describedby','quiz-help quiz-error');
     if(error)fieldset.setAttribute('aria-invalid','true');else fieldset.removeAttribute('aria-invalid');
@@ -56,22 +63,46 @@ export function initializeAnalysisFlow(document,{getCollection,getCatalog,announ
   }
   function beforeRoute(hash) {
     close(false);
-    if(['#quiz','#results'].includes(hash) && getCollection().length<2) {
+    if(hash==='#results'&&mode==='first') {
+      mode=collectionMode;quiz=collectionQuiz;editingOne=false;form.dataset.step='';
+    }
+    if(hash==='#suggestions'&&mode!=='first') {
+      if(![0,1,2,3,4,5].every(step=>firstQuiz.validate(step).valid))return '#collection';
+      mode='first';quiz=firstQuiz;editingOne=false;form.dataset.step='';
+    }
+    if((hash==='#results'||hash==='#quiz'&&mode!=='first') && getCollection().length<2) {
       announce('Add at least two fragrances to analyze your collection.'); return '#collection';
     }
-    if(hash==='#results' && mode==='recommendations' && !complete()) {
+    if((hash==='#results' && mode==='recommendations'||hash==='#suggestions') && !complete()) {
       announce('Complete your preferences to see recommendations.'); return '#quiz';
     }
     return hash;
   }
+  const resultsRoute=()=>mode==='first'?'#suggestions':'#results';
+  function renderSuggestions() {
+    const collection=getCollection(),answers=quiz.snapshot().answers;
+    const result=recommendFragrances(getCatalog(),collection,answers,{limit:Infinity});
+    const alternatives=result.items.length?[]:alternativeOptions(getCatalog(),collection,answers);
+    renderRecommendations(el('recommendation-results'),result,answers,alternatives);
+  }
   function enterRoute(hash) {
-    if(hash==='#quiz') showQuiz();
-    if(hash==='#results') {
+    if(hash==='#quiz') {
+      el('quiz-title').textContent=mode==='first'?'Find your first fragrance':'Find your next scent';
+      el('quiz-view').querySelector('.flow-intro').textContent=mode==='first'?'Tell us what you would like to try. You do not need a collection to get suggestions.':'Your preferences guide recommendations. Your collection score stays the same.';
+      showQuiz();
+    }
+    if(hash==='#results'||hash==='#suggestions') {
       const collection=getCollection();
-      renderAnalysis(el('analysis-results'),analyzeCollection(collection),collection);
+      const first=hash==='#suggestions';
+      el('results-title').textContent=first?'Find your first fragrance':'Your collection analysis';
+      document.title=(first?'Find your first fragrance':'Your collection analysis')+' · RateMyScents';
+      el('analysis-results').hidden=first;
+      el('results-view').querySelector('.results-method').hidden=first;
+      if(!first)renderAnalysis(el('analysis-results'),analyzeCollection(collection),collection);
+      else el('analysis-results').replaceChildren();
       const recommendations=el('recommendation-results');
-      recommendations.hidden=mode!=='recommendations';
-      if(mode==='recommendations' && complete()) renderRecommendations(recommendations,recommendFragrances(getCatalog(),collection,quiz.snapshot().answers,{limit:Infinity}),quiz.snapshot().answers);
+      recommendations.hidden=mode==='rating';
+      if(mode!=='rating' && complete())renderSuggestions();
       else recommendations.replaceChildren();
     }
   }
@@ -80,8 +111,11 @@ export function initializeAnalysisFlow(document,{getCollection,getCatalog,announ
     if(restoreFocus && !el('home-view').hidden) el('analyze-collection').focus();
   });
   el('close-analysis-choice').addEventListener('click',()=>close());
-  el('choose-rating').addEventListener('click',()=>{mode='rating'; go('#results');});
-  el('choose-recommendations').addEventListener('click',()=>{mode='recommendations'; quiz.goTo(0); go('#quiz');});
+  el('choose-rating').addEventListener('click',()=>{mode='rating';collectionMode='rating';quiz=collectionQuiz;editingOne=false;go('#results');});
+  el('choose-recommendations').addEventListener('click',()=>{mode='recommendations';collectionMode='recommendations';quiz=collectionQuiz;editingOne=false;form.dataset.step='';quiz.goTo(0);go('#quiz');});
+  el('first-fragrance').addEventListener('click',()=>{
+    mode='first';quiz=firstQuiz;editingOne=false;form.dataset.step='';quiz.goTo(0);go('#quiz');
+  });
   form.addEventListener('change',event=>{
     const input=event.target;
     if(!input.matches('input') || input.name==='budget-amount') return;
@@ -110,23 +144,58 @@ export function initializeAnalysisFlow(document,{getCollection,getCatalog,announ
   });
   form.addEventListener('click',event=>{
     if(!event.target.closest('[data-action="back"]')) return;
+    if(editingOne){editingOne=false;go(resultsRoute());return;}
     const {step}=quiz.snapshot();
     if(step>0) {quiz.goTo(step-1); showQuiz('',true);}
     else {
       go('#collection');
-      window.setTimeout(()=>{if(window.location.hash==='#collection') openChoice();},0);
+      if(mode!=='first')window.setTimeout(()=>{if(window.location.hash==='#collection') openChoice();},0);
     }
   });
   form.addEventListener('submit',event=>{
     event.preventDefault(); const {step}=quiz.snapshot(); const validation=quiz.validate(step);
     if(!validation.valid) {showQuiz(validation.message,true); return;}
-    if(step<4) {quiz.goTo(step+1); showQuiz('',true);}
-    else {mode='recommendations'; go('#results');}
+    if(editingOne){editingOne=false;go(resultsRoute());}
+    else if(step<5) {quiz.goTo(step+1); showQuiz('',true);}
+    else {if(mode!=='first')mode='recommendations';go(resultsRoute());}
   });
   el('recommendation-results').addEventListener('click',event=>{
-    if(event.target.closest('#edit-preferences, [data-action="retake-quiz"]')) {
-      event.preventDefault(); quiz.goTo(0); go('#quiz');
+    const tag=event.target.closest('[data-edit-step]');
+    if(tag){editingOne=true;quiz.goTo(Number(tag.dataset.editStep));go('#quiz');return;}
+    const alternative=event.target.closest('[data-alternative]');
+    if(alternative) {
+      const answers=quiz.snapshot().answers;
+      const option=alternativeOptions(getCatalog(),getCollection(),answers).find(x=>x.kind===alternative.dataset.alternative && (x.kind!=='budget'||String(x.amount)===alternative.dataset.amount));
+      if(!option)return;
+      if(option.kind==='budget')quiz.setBudget('maximum',option.amount);
+      else if(option.kind==='type')quiz.select('type','any');
+      else quiz.select(option.kind,'none');
+      renderSuggestions();el('recommendation-results').querySelector('#edit-preferences').focus();announce('Preferences updated. Your recommendations are ready.');return;
     }
+    if(event.target.closest('#edit-preferences, [data-action="retake-quiz"]')) {
+      event.preventDefault();editingOne=false;quiz.goTo(0);go('#quiz');
+    }
+  });
+  el('recommendation-results').addEventListener('submit',event=>{
+    const editor=event.target;if(editor.dataset.action!=='recommendation-budget')return;
+    event.preventDefault();
+    const amount=editor.elements.namedItem('amount');
+    const draft=createQuiz();draft.setBudget(editor.elements.namedItem('unlimited').checked?'unlimited':'maximum',amount.value);
+    const validation=draft.validate(3);
+    if(!validation.valid){el('recommendation-budget-error').textContent=validation.message;amount.setAttribute('aria-invalid','true');amount.focus();return;}
+    const budget=draft.snapshot().answers.budget;quiz.setBudget(budget.mode,budget.amount);
+    renderSuggestions();
+    el('recommendation-results').querySelector('.recommendation-budget summary').focus();
+    announce('Budget updated. Your recommendations are ready.');
+  });
+  el('analysis-results').addEventListener('click',async event=>{
+    const button=event.target.closest('#rating-export');if(!button||exporting)return;
+    exporting=true;button.setAttribute('aria-disabled','true');button.setAttribute('aria-busy','true');
+    const status=el('rating-export-status');status.textContent='Preparing your image...';
+    const collection=structuredClone(getCollection());
+    try {await exportRating(document,analyzeCollection(collection),collection);status.textContent='Your image is ready. Check your downloads.';}
+    catch {status.textContent='We could not create the image. Please try again.';}
+    finally {exporting=false;button.removeAttribute('aria-disabled');button.removeAttribute('aria-busy');}
   });
   return {openChoice,beforeRoute,enterRoute,collectionChanged() {
     el('analysis-results').replaceChildren(); el('recommendation-results').replaceChildren();
