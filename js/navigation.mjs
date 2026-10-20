@@ -29,6 +29,7 @@ export function initializeNavigation(document, {onHome, beforeRoute = hash => ha
   adaptMenu();
   if ('scrollRestoration' in window.history) window.history.scrollRestoration='manual';
   const routes = {
+    '#catalog': ['catalog-view','catalog-title','Fragrance catalog'],
     '#my-9-scents': ['my-nine-view','nine-title','My 9 Scents'],
     '#home': ['home-view','page-title','Build your collection'],
     '#collection': ['home-view','collection-heading','Build your collection'],
@@ -47,7 +48,7 @@ export function initializeNavigation(document, {onHome, beforeRoute = hash => ha
     for (const id of new Set(Object.values(routes).map(route => route[0]))) document.getElementById(id).hidden=id!==viewId;
     document.title=`${title} · RateMyScents`;
     for(const link of document.querySelectorAll('.site-header a, .site-footer a')) {
-      const current = ['#how-it-works','#my-9-scents','#compare-scents'].includes(hash) ? link.hash===hash : viewId==='home-view' && link.hash==='#collection';
+      const current = ['#catalog','#how-it-works','#my-9-scents','#compare-scents'].includes(hash) ? link.hash===hash : viewId==='home-view' && link.hash==='#collection';
       if(current) link.setAttribute('aria-current','page'); else link.removeAttribute('aria-current');
     }
     if(viewId==='home-view') onHome();

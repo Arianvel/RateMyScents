@@ -28,7 +28,7 @@ export function analyzeCollection(perfumes) {
   if (profiles.complete) {
     for (let i = 0; i < size; i++) for (let j = i+1; j < size; j++) {
       const a = sorted[i], b = sorted[j];
-      const left = new Set(a.profile), right = new Set(b.profile);
+      const left = readLabels(a.profile,PROFILES), right = readLabels(b.profile,PROFILES);
       pairs.push({ ids: [a.id,b.id], shared: [...left].filter(label => right.has(label)).length,
         union: new Set([...left,...right]).size, similarity: profileSimilarity(a,b) });
     }

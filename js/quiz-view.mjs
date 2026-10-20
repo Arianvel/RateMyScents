@@ -17,13 +17,14 @@ export function renderQuiz(container, {answers,step}, error = '', {firstFragranc
     return el;
   };
   container.replaceChildren();
-  const progressText = node('p',`Question ${step+1} of 6`,'eyebrow');
-  const progress = node('progress'); progress.max=6; progress.value=step+1; progress.setAttribute('aria-label',`Question ${step+1} of 6`);
+  const totalSteps=firstFragrance?5:6;
+  const progressText = node('p',`Question ${step+1} of ${totalSteps}`,'eyebrow');
+  const progress = node('progress'); progress.max=totalSteps; progress.value=step+1; progress.setAttribute('aria-label',`Question ${step+1} of ${totalSteps}`);
   const fieldset = node('fieldset');
   const legend = node('legend',questions[step],'section-heading'); legend.id='quiz-question'; legend.tabIndex=-1;
   fieldset.append(legend);
   const help = node('p',step===0 ? 'Choose any occasions you would like to cover, or No preference.'
-    : step===1 ? 'Choose up to 3, or select No preference.' : step===3 ? 'How much would you spend on one fragrance? Prices are in USD.' : 'Choose one option.','caption');
+    : step===1 ? 'Choose up to 3, or select No preference.' : step===2 ? 'Choose the types you want to explore, or Any type.' : step===3 ? 'How much would you spend on one fragrance? Prices are in USD.' : 'Choose one option.','caption');
   help.id='quiz-help'; fieldset.append(help);
   const options = node('div',null,`quiz-options${step===1 ? ' profile-options' : ''}`);
   let optionIndex=0;
@@ -48,7 +49,10 @@ export function renderQuiz(container, {answers,step}, error = '', {firstFragranc
     option(group,'none','No preference',Array.isArray(answers[group]) && !answers[group].length,true);
   } else if (step===2 || step===5) {
     const group = step===2 ? 'type' : 'priority';
-    for (const [value,label] of step===2 ? types : priorities.filter(([value])=>!firstFragrance||!['familiar','different'].includes(value))) option(group,value,label,answers[group]===value);
+    for (const [value,label] of step===2 ? types : priorities.filter(([value])=>!firstFragrance||!['familiar','different'].includes(value))) {
+      const checked=step===2 ? value==='any' ? Array.isArray(answers.type)&&!answers.type.length : answers.type?.includes(value)??false : answers[group]===value;
+      option(group,value,label,checked,step===2);
+    }
   } else if(step===4) {
     for(const [value,label] of [['men','Masculine & unisex'],['women','Feminine & unisex'],['unisex','Unisex only'],['any','No preference']]) option('gender',value,label,answers.gender===value);
   } else {
@@ -62,14 +66,20 @@ export function renderQuiz(container, {answers,step}, error = '', {firstFragranc
     const label = node('label','Maximum per fragrance (USD)','budget-label'); label.htmlFor='budget-amount';
     const input = node('input'); input.id='budget-amount'; input.name='budget-amount'; input.type='text'; input.inputMode='decimal';
     input.autocomplete='off'; input.value=answers.budget.amount; input.placeholder='e.g. 100'; input.disabled=answers.budget.mode==='unlimited';
-    input.setAttribute('aria-describedby','quiz-help quiz-error');
-    fieldset.append(label,input);
+    input.setAttribute('aria-describedby','quiz-help budget-warning quiz-error');
+    const numberField=node('div',null,'budget-number-field');
+    const digits=node('span',null,'budget-digits');digits.id='budget-digits';digits.setAttribute('aria-hidden','true');
+    numberField.append(input,digits);
+    digits.addEventListener('animationend',()=>numberField.classList.remove('budget-joke'));
+    const warning=node('p',null,'budget-warning');warning.id='budget-warning';warning.hidden=true;
+    warning.setAttribute('role','status');warning.setAttribute('aria-atomic','true');
+    fieldset.append(label,numberField,warning);
   }
   const message = node('p',error,'form-error'); message.id='quiz-error'; message.setAttribute('role','status');
   message.setAttribute('aria-atomic','true');
   const actions = node('div',null,'quiz-actions');
   const back = node('button','Back','secondary-button'); back.type='button'; back.dataset.action='back';
-  const next = node('button',step===5 ? 'See my results' : 'Continue','primary-button'); next.type='submit';
+  const next = node('button',step===totalSteps-1 ? 'See my results' : 'Continue','primary-button'); next.type='submit';
   actions.append(back,next);
   container.append(progressText,progress,fieldset,message,actions);
 }

@@ -1,10 +1,11 @@
-import { PROFILES, OCCASIONS, readLabels, profileSimilarity, alphabetical } from './method.mjs';
+import { PROFILES, OCCASIONS, readLabels, profileSimilarity, alphabetical, selectedTypes } from './method.mjs';
 import { matchingScentGroups } from './scent-groups.mjs';
 
 /** Answers must have passed quiz validation. Never relax filters or impute data. */
 export function recommendFragrances(catalog, collection, answers, {limit=3} = {}) {
   const counts = { alreadyOwned: 0, filtered: 0, noMatches: 0, incomplete: 0 };
   const owned = new Set(collection.map(perfume => perfume.id));
+  const types=selectedTypes(answers.type);
   const wantsProfiles = answers.profiles.length > 0;
   const wantsOccasions = answers.occasions.length > 0;
   const compareProfiles = ['familiar','different'].includes(answers.priority);
@@ -17,9 +18,9 @@ export function recommendFragrances(catalog, collection, answers, {limit=3} = {}
       if (!['men','women','unisex'].includes(perfume.gender)) { counts.incomplete++; continue; }
       if (perfume.gender !== answers.gender && perfume.gender !== 'unisex') { counts.filtered++; continue; }
     }
-    if (answers.type !== 'any') {
+    if (types.length) {
       if (!['designer','arabic','niche'].includes(perfume.type)) { counts.incomplete++; continue; }
-      if (perfume.type !== answers.type) { counts.filtered++; continue; }
+      if (!types.includes(perfume.type)) { counts.filtered++; continue; }
     }
     if (answers.budget.mode === 'maximum') {
       if (!Number.isFinite(perfume.priceUsd) || perfume.priceUsd < 0) { counts.incomplete++; continue; }

@@ -2,6 +2,12 @@ export function concentrationLabel(value) {
   return value === 'EDP' ? 'Eau de Parfum' : value;
 }
 
+export function infoButton(document,perfume) {
+  const button=document.createElement('button');button.className='fragrance-info';button.type='button';
+  button.dataset.fragranceInfo=perfume.id;button.setAttribute('aria-label',`View details for ${perfume.brand} ${perfume.name}`);button.setAttribute('aria-haspopup','dialog');
+  const icon=document.createElement('span');icon.textContent='i';icon.setAttribute('aria-hidden','true');button.append(icon);return button;
+}
+
 function fragranceNode(container, templateId, perfume) {
   const document = container.ownerDocument;
   const node = document.getElementById(templateId).content.firstElementChild.cloneNode(true);
@@ -33,6 +39,7 @@ export function renderCollection(container, perfumes) {
   container.replaceChildren(...perfumes.map((perfume) => {
     const node = fragranceNode(container, 'collection-card-template', perfume);
     node.querySelector('button').setAttribute('aria-label', `Remove ${perfume.brand} ${perfume.name}, ${concentrationLabel(perfume.concentration)}`);
+    node.append(infoButton(container.ownerDocument,perfume));
     return node;
   }));
 }

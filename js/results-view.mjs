@@ -1,7 +1,8 @@
 import { renderContexts, renderProfiles, renderCollectionStyle, renderSeasons } from './results-details.mjs';
-import { concentrationLabel } from './view.mjs';
+import { concentrationLabel, infoButton } from './view.mjs';
 import { ratingRing } from './rating-ring.mjs';
 import { SCENT_GROUPS } from './scent-groups.mjs';
+import { canonicalProfile } from './method.mjs';
 
 const number = value => String(Math.floor(value));
 function builder(container) {
@@ -134,7 +135,7 @@ export function renderRecommendations(container, result, answers, alternatives=[
     const recorded=Array.isArray(item.perfume.profile)?item.perfume.profile.filter(x=>typeof x==='string'&&x.trim()):[];
     const requestedLabels=new Set(item.matchedProfiles.flatMap(id=>SCENT_GROUPS.find(group=>group.id===id)?.profiles??[id]));
     const hasPreferences=answers.profiles.length>0||answers.occasions.length>0;
-    const profiles=[...new Set(hasPreferences?recorded.filter(label=>requestedLabels.has(label)):recorded)];
+    const profiles=[...new Set(hasPreferences?recorded.filter(label=>requestedLabels.has(canonicalProfile(label))):recorded)];
     const occasions=[...new Set(item.matchedOccasions)];
     const labels=[];
     for(let i=0;i<Math.max(profiles.length,occasions.length);i++) {
@@ -152,6 +153,7 @@ export function renderRecommendations(container, result, answers, alternatives=[
       : answers.priority==='different'?'Selected for your preference for something different.'
       :null;
     if(reason)card.append(el('p',reason,'reading-copy'));
+    card.append(infoButton(container.ownerDocument,item.perfume));
     return card;
   }
   function renderPage() {

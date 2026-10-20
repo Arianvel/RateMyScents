@@ -8,6 +8,9 @@ import { initializePreferences } from './preferences.mjs';
 import { connectSearchKeyboard, searchAnnouncement } from './search-keyboard.mjs';
 import {initializeCompare} from './compare.mjs';
 import {createUndoToast} from './undo-toast.mjs';
+import {initializeFragranceDetails} from './fragrance-details.mjs';
+import {initializeBrandFilter} from './brand-filter.mjs';
+import {initializeCatalogPage} from './catalog-page.mjs';
 
 initializePreferences(document);
 
@@ -30,10 +33,26 @@ const collection = createCollection();
 let catalog = [];
 let announcementTimer;
 let catalogStarted = false;
+let searchClosed=false;
+let searchLimit=20;
+const more=byId('search-more');
+const brands=initializeBrandFilter(document,()=>{searchClosed=false;searchLimit=20;updateSearch();});
 const flow = initializeAnalysisFlow(document, {getCollection: () => collection.items(), getCatalog: () => catalog, announce});
 const toast=createUndoToast(document);
 const myNine = initializeMyNine(document,toast);
-const compare=initializeCompare(document);
+const details=initializeFragranceDetails(document,{getCatalog:()=>catalog,onBrowse:(field,value)=>explorer.filter(field,value)});
+function addFromCatalog(perfume) {
+  if(collection.has(perfume.id))return false;
+  rememberCollection();collection.add(perfume);updateCollection();updateSearch();
+  announce(`${perfume.name} added. ${collection.size} ${collection.size===1?'fragrance':'fragrances'} in your collection.`);
+  return true;
+}
+const compare=initializeCompare(document,{getCollection:()=>collection.items(),addToCollection:addFromCatalog});
+const explorer=initializeCatalogPage(document,{
+  load:async()=>{if(!catalog.length)catalog=await loadCatalog('./scents.json');return catalog;},
+  getCollection:()=>collection.items(),addToCollection:addFromCatalog,
+  compare:perfume=>{compare.choose(perfume);document.querySelector('.header-nav [href="#compare-scents"]').click();},
+});
 
 function announce(message) {
   clearTimeout(announcementTimer);
@@ -44,15 +63,17 @@ function announce(message) {
 function updateSearch() {
   const query = search.value;
   clearSearch.hidden = !query;
-  const matches = searchCatalog(catalog, query);
-  const hasQuery = Boolean(query.trim());
-  results.hidden = !hasQuery || !matches.length;
-  summary.hidden = !hasQuery;
+  const filtered=brands.apply(catalog);
+  const matches = query.trim()?searchCatalog(filtered, query):brands.active?filtered:[];
+  const hasQuery = Boolean(query.trim())||brands.active;
+  results.hidden = searchClosed || !hasQuery || !matches.length;
+  summary.hidden = searchClosed || !hasQuery;
+  more.hidden=searchClosed||matches.length<=searchLimit;
   summary.textContent = !hasQuery ? '' : matches.length
     ? `${matches.length} ${matches.length === 1 ? 'fragrance' : 'fragrances'} found`
     : 'No fragrances found. Try another name or brand.';
   announceSearch(summary.textContent);
-  renderSearchResults(results, matches, new Set(collection.items().map(({ id }) => id)));
+  renderSearchResults(results, matches.slice(0,searchLimit), new Set(collection.items().map(({ id }) => id)));
 }
 
 function updateCollection() {
@@ -75,6 +96,7 @@ async function startCatalog() {
   catalogStatus.textContent = 'Loading the fragrance catalog…';
   try {
     catalog = await loadCatalog('./scents.json');
+    brands.populate(catalog);
     search.disabled = catalog.length === 0;
     byId('first-fragrance').disabled=catalog.length===0;
     catalogStatus.textContent = catalog.length ? '' : 'No fragrances are available yet.';
@@ -89,10 +111,20 @@ async function startCatalog() {
   }
 }
 
-search.addEventListener('input', updateSearch);
+function openSearch(){searchClosed=false;updateSearch();}
+function closeSearch(){searchClosed=true;results.hidden=true;summary.hidden=true;more.hidden=true;search.focus();}
+search.addEventListener('input',()=>{searchLimit=20;openSearch();});
+search.addEventListener('click',()=>{if(searchClosed)openSearch();});
+search.addEventListener('keydown',event=>{if(event.key==='ArrowDown'&&searchClosed)openSearch();if(event.key==='Escape')closeSearch();});
+results.addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();closeSearch();}});
 connectSearchKeyboard(search,results);
+more.addEventListener('click',()=>{
+  const previous=searchLimit;searchLimit+=20;updateSearch();
+  results.children[previous]?.querySelector('button')?.focus();
+});
 clearSearch.addEventListener('click', () => {
   search.value = '';
+  searchClosed=false;searchLimit=20;
   updateSearch();
   search.focus();
 });
@@ -109,7 +141,7 @@ results.addEventListener('click', (event) => {
   rememberCollection();collection.add(perfume);
   updateCollection();
   updateSearch();
-  [...results.querySelectorAll('button')].find((item) => item.dataset.perfumeId === perfume.id)?.focus();
+  closeSearch();
   announce(`${perfume.name} added. ${collection.size} ${collection.size === 1 ? 'fragrance' : 'fragrances'} in your collection.`);
 });
 
@@ -122,7 +154,7 @@ grid.addEventListener('click', (event) => {
   rememberCollection();collection.remove(button.dataset.perfumeId);
   updateCollection();
   updateSearch();
-  const buttons = grid.querySelectorAll('button');
+  const buttons = grid.querySelectorAll('button[data-action="remove"]');
   (buttons[Math.min(index, buttons.length - 1)] ?? search).focus();
   announce(`${previousItems[index].name} removed. ${collection.size} ${collection.size === 1 ? 'fragrance' : 'fragrances'} in your collection.`);
   toast.show('collection','Fragrance removed from your collection.',restoreCollection);
@@ -133,7 +165,8 @@ analyze.addEventListener('click', () => flow.openChoice());
 let previousCollection=null;
 const undoClear=document.createElement('button');
 undoClear.id='undo-clear';undoClear.type='button';undoClear.className='secondary-button';undoClear.textContent='Undo last change';undoClear.hidden=true;
-clearCollection.after(undoClear);
+const collectionActions=document.createElement('div');collectionActions.className='collection-actions';
+clearCollection.before(collectionActions);collectionActions.append(undoClear,clearCollection);
 function rememberCollection(){previousCollection=collection.items();undoClear.hidden=false;toast.clear('collection');}
 function restoreCollection(){
   if(previousCollection===null)return;
@@ -153,7 +186,7 @@ clearCollection.addEventListener('click', () => {
 });
 
 updateCollection();
-initializeNavigation(document, {beforeRoute: hash => {toast.hide();myNine.leaveRoute(); return flow.beforeRoute(hash);}, onRoute: hash=>{flow.enterRoute(hash);if(hash==='#compare-scents')compare.enter();}, onHome: () => {
+initializeNavigation(document, {beforeRoute: hash => {details.close(false);toast.hide();myNine.leaveRoute(); return flow.beforeRoute(hash);}, onRoute: hash=>{flow.enterRoute(hash);if(hash==='#compare-scents')compare.enter();if(hash==='#catalog')explorer.enter();}, onHome: () => {
   if (catalogStarted) return;
   catalogStarted = true;
   startCatalog();

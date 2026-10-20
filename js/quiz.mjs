@@ -3,8 +3,10 @@ import { SCENT_GROUPS } from './scent-groups.mjs';
 
 export function createQuiz() {
   let step = 0;
-  const answers = { occasions: null, profiles: null, type: null, gender:null, budget: {mode:null,amount:''}, priority:null };
+  const emptyAnswers=()=>({ occasions: null, profiles: null, type: null, gender:null, budget: {mode:null,amount:''}, priority:null });
+  let answers = emptyAnswers();
   return {
+    reset() { step=0; answers=emptyAnswers(); },
     snapshot: () => structuredClone({answers,step}),
     select(group,value) {
       if (['profiles','occasions'].includes(group)) {
@@ -15,7 +17,14 @@ export function createQuiz() {
           const remaining = selected.filter(item => item !== value);
           answers[group] = remaining.length ? remaining : null;
         } else if (group !== 'profiles' || selected.length < 3) answers[group] = [...selected,value];
-      } else if (group === 'type' && ['designer','arabic','niche','any'].includes(value)) answers.type=value;
+      } else if (group === 'type' && ['designer','arabic','niche','any'].includes(value)) {
+        if(value==='any') answers.type=[];
+        else {
+          const selected=answers.type??[];
+          const next=selected.includes(value)?selected.filter(item=>item!==value):[...selected,value];
+          answers.type=next.length?next:null;
+        }
+      }
       else if (group === 'priority' && ['familiar','different','versatile','none'].includes(value)) answers.priority=value;
       else if (group === 'gender' && ['men','women','unisex','any'].includes(value)) answers.gender=value;
     },

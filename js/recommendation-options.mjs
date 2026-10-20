@@ -1,5 +1,6 @@
 import {recommendFragrances} from './recommendations.mjs';
 import {scentGroupLabel} from './scent-groups.mjs';
+import {selectedTypes} from './method.mjs';
 
 export function preferenceTags(answers) {
   const tags=[];
@@ -8,7 +9,8 @@ export function preferenceTags(answers) {
   const types={designer:'Designer',arabic:'Middle Eastern / Arabic',niche:'Niche'};
   const genders={men:'Masculine & unisex',women:'Feminine & unisex',unisex:'Unisex only'};
   const priorities={familiar:'Similar to my collection',different:'Different from my collection',versatile:'More occasions covered'};
-  for(const [step,label] of [[2,types[answers.type]],[4,genders[answers.gender]],[5,priorities[answers.priority]]])if(label)tags.push({step,label});
+  for(const type of selectedTypes(answers.type)) if(types[type])tags.push({step:2,label:types[type]});
+  for(const [step,label] of [[4,genders[answers.gender]],[5,priorities[answers.priority]]])if(label)tags.push({step,label});
   return tags;
 }
 
@@ -25,7 +27,7 @@ export function alternativeOptions(catalog,collection,answers) {
       options.push({kind:'budget',amount,count});
     }
   }
-  for(const [kind,changes,active] of [['type',{type:'any'},answers.type!=='any'],['profiles',{profiles:[]},answers.profiles.length],['occasions',{occasions:[]},answers.occasions.length]]) {
+  for(const [kind,changes,active] of [['type',{type:[]},selectedTypes(answers.type).length],['profiles',{profiles:[]},answers.profiles.length],['occasions',{occasions:[]},answers.occasions.length]]) {
     if(!active)continue;
     const count=candidates(changes).length;if(count)options.push({kind,count});
   }

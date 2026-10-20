@@ -1,4 +1,4 @@
-import { OCCASIONS, SEASONS, readLabels } from './method.mjs';
+import { OCCASIONS, SEASONS, PROFILES, readLabels } from './method.mjs';
 import { concentrationLabel } from './view.mjs';
 import { collectionPatterns, patternText } from './collection-patterns.mjs';
 
@@ -23,7 +23,7 @@ export function renderCollectionStyle(el, analysis, collection) {
       if(next) copy.append(el('p',`You have not stuck to just that, though. Your ${list(sorted.filter(x=>x.count===next.count).map(x=>x.label))} choices show another side of your collection. They are less frequent, but still part of what makes this selection yours.`,'reading-copy'));
     }
     if(analysis.occasions.complete) {
-      const contexts=OCCASIONS.map(occasion=>({occasion,count:collection.filter(p=>p.occasions.includes(occasion)&&top.every(x=>p.profile.includes(x.label))).length}));
+      const contexts=OCCASIONS.map(occasion=>({occasion,count:collection.filter(p=>p.occasions.includes(occasion)&&top.every(x=>readLabels(p.profile,PROFILES)?.has(x.label))).length}));
       const max=Math.max(...contexts.map(x=>x.count));
       if(max>=2) copy.append(el('p',`And there is a little connection with occasions: that ${list(top.map(x=>x.label))} mix also appears among your options for ${list(contexts.filter(x=>x.count===max).map(x=>x.occasion.toLowerCase()))}. So it is not just a recurring scent style; you also have it represented among the perfumes suggested for those moments.`,'reading-copy'));
     }

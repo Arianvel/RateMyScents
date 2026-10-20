@@ -11,7 +11,8 @@
       "profile": ["fresh", "woody", "aromatic", "warm"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A fresh and woody fragrance built around amber, cedar and musk. It suits everyday wear and work or school."
     },
     {
       "id": "lattafa-khamrah-edp",
@@ -24,7 +25,8 @@
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With cinnamon, dates and praline at its core, this scent has a sweet and warm character. It works well for evenings out and parties."
     },
     {
       "id": "prada-lhomme-edt",
@@ -44,7 +46,8 @@
       "profile": ["fresh", "floral", "amber", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Fresh and floral in character, it brings together iris, neroli and amber. It fits everyday wear and work or school."
     },
     {
       "id": "prada-lhomme-intense-edp",
@@ -64,7 +67,8 @@
       "profile": ["floral", "amber", "woody", "warm", "sweet"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of iris, amber and patchouli gives this fragrance its floral and amber-rich feel, making it a good fit for evenings out and formal occasions."
     },
     {
       "id": "rabanne-1-million-black-edp",
@@ -87,7 +91,8 @@
       "profile": ["sweet", "gourmand", "warm", "woody", "spicy"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of pineapple, blood orange and cardamom shape its sweet and gourmand character. It feels at home in evenings out and parties."
     },
     {
       "id": "prada-paradigme-le-parfum",
@@ -108,7 +113,8 @@
       "profile": ["woody", "amber", "warm", "sweet", "aromatic"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its woody and amber-rich profile and notes of gourmand geranium, leathery vanilla and amber woods, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "lattafa-pride-art-of-universe-edp",
@@ -131,7 +137,8 @@
       "profile": ["fresh", "citrus", "aromatic", "woody", "floral"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A fresh and citrus-led fragrance built around bergamot, mandarin and ginger. It suits everyday wear and work or school."
     },
     {
       "id": "afnan-9-pm-edp",
@@ -155,7 +162,8 @@
       "profile": ["sweet", "gourmand", "warm", "aromatic", "amber"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With bergamot, lavandin and cinnamon at its core, this scent has a sweet and gourmand character. It works well for evenings out and parties."
     },
     {
       "id": "viktor-rolf-spicebomb-extreme-edp",
@@ -177,7 +185,8 @@
       "profile": ["spicy", "warm", "sweet", "aromatic", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Spiced and warm in character, it brings together lavender, black pepper and cinnamon. It fits evenings out and parties."
     },
     {
       "id": "french-avenue-vulcan-feu-edp",
@@ -203,7 +212,8 @@
       "profile": ["fresh", "sweet", "citrus", "spicy", "woody"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of mango, lemon and ginger gives this fragrance its fresh and sweet feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "versace-eros-najim-parfum",
@@ -228,7 +238,8 @@
       "profile": ["woody", "spicy", "warm", "sweet", "amber"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of mandarin, clary sage and saffron shape its woody and spiced character. It feels at home in evenings out and formal occasions."
     },
     {
       "id": "versace-eros-flame-edp",
@@ -257,7 +268,259 @@
       "profile": ["citrus", "spicy", "woody", "sweet", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its citrus-led and spiced profile and notes of lemon, mandarin and bitter orange, this fragrance is suited to evenings out and parties."
+    },
+    {
+      "id": "versace-dylan-blue-pour-homme-edt",
+      "name": "Dylan Blue Pour Homme",
+      "brand": "Versace",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 115,
+      "notes": [
+        "water notes",
+        "fig leaves",
+        "bergamot",
+        "grapefruit",
+        "violet leaves",
+        "patchouli",
+        "papyrus",
+        "black pepper",
+        "ambroxan",
+        "musk",
+        "tonka bean",
+        "saffron",
+        "incense"
+      ],
+      "profile": ["fresh", "aquatic", "aromatic", "woody", "spicy"],
+      "occasions": ["Daily / casual", "Work / school", "Parties"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "men",
+      "description": "A fresh and aquatic fragrance built around water notes, fig leaves and bergamot. It suits everyday wear and work or school."
+    },
+    {
+      "id": "versace-dylan-blue-pour-femme-edp",
+      "name": "Dylan Blue Pour Femme",
+      "brand": "Versace",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 145,
+      "notes": [
+        "blackcurrant",
+        "green apple",
+        "clover",
+        "forget-me-not",
+        "rose",
+        "jasmine",
+        "peach",
+        "styrax",
+        "woods",
+        "musk",
+        "patchouli"
+      ],
+      "profile": ["fruity", "floral", "woody", "fresh"],
+      "occasions": ["Daily / casual", "Work / school", "Date nights"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women",
+      "description": "With blackcurrant, green apple and clover at its core, this scent has a fruity and floral character. It works well for everyday wear and work or school."
+    },
+    {
+      "id": "versace-pour-homme-edt",
+      "name": "Versace Pour Homme",
+      "brand": "Versace",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 129,
+      "notes": [
+        "bergamot",
+        "lemon",
+        "neroli",
+        "rose de mai",
+        "hyacinth",
+        "clary sage",
+        "cedar",
+        "geranium",
+        "tonka bean",
+        "musk",
+        "amber"
+      ],
+      "profile": ["fresh", "citrus", "aromatic", "woody"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "men",
+      "description": "Fresh and citrus-led in character, it brings together bergamot, lemon and neroli. It fits everyday wear and work or school."
+    },
+    {
+      "id": "versace-eau-fraiche-edt",
+      "name": "Eau Fraîche",
+      "brand": "Versace",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 129,
+      "notes": [
+        "white lemon",
+        "rosewood",
+        "carambola",
+        "tarragon",
+        "cedar leaves",
+        "clary sage",
+        "musk",
+        "amber",
+        "sycamore wood"
+      ],
+      "profile": ["fresh", "citrus", "aromatic", "woody"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "men",
+      "description": "A blend of white lemon, rosewood and star fruit gives this fragrance its fresh and citrus-led feel, making it a good fit for everyday wear and work or school."
+    },
+    {
+      "id": "versace-eros-edt",
+      "name": "Eros",
+      "brand": "Versace",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 120,
+      "notes": [
+        "mint",
+        "lemon",
+        "green apple",
+        "tonka bean",
+        "ambroxan",
+        "geranium",
+        "vanilla",
+        "vetiver",
+        "oakmoss",
+        "cedar"
+      ],
+      "profile": ["fresh", "citrus", "sweet", "warm", "woody"],
+      "occasions": ["Date nights", "Parties"],
+      "seasons": ["spring", "autumn", "winter"],
+      "gender": "men",
+      "description": "Notes of mint, lemon and green apple shape its fresh and citrus-led character. It feels at home in evenings out and parties."
+    },
+    {
+      "id": "versace-eros-pour-femme-edp",
+      "name": "Eros Pour Femme",
+      "brand": "Versace",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 130,
+      "notes": [
+        "sicilian lemon",
+        "bergamot",
+        "pomegranate",
+        "peony",
+        "jasmine",
+        "lemon flower",
+        "sandalwood",
+        "ambrox",
+        "musk",
+        "woody notes"
+      ],
+      "profile": ["citrus", "floral", "woody", "fresh"],
+      "occasions": ["Date nights", "Parties", "Formal events"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women",
+      "description": "With its citrus-led and floral profile and notes of sicilian lemon, bergamot and pomegranate, this fragrance is suited to evenings out and parties."
+    },
+    {
+      "id": "versace-bright-crystal-edt",
+      "name": "Bright Crystal",
+      "brand": "Versace",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 138,
+      "notes": [
+        "yuzu",
+        "pomegranate",
+        "ice accord",
+        "peony",
+        "magnolia",
+        "lotus",
+        "amber",
+        "musk",
+        "mahogany"
+      ],
+      "profile": ["fresh", "floral", "fruity", "aquatic"],
+      "occasions": ["Daily / casual", "Work / school"],
+      "seasons": ["spring", "summer"],
+      "gender": "women",
+      "description": "A fresh and floral fragrance built around yuzu, pomegranate and ice accord. It suits everyday wear and work or school."
+    },
+    {
+      "id": "versace-crystal-noir-edt",
+      "name": "Crystal Noir",
+      "brand": "Versace",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 120,
+      "notes": [
+        "pepper",
+        "ginger",
+        "cardamom",
+        "coconut",
+        "gardenia",
+        "orange blossom",
+        "peony",
+        "sandalwood",
+        "musk",
+        "amber"
+      ],
+      "profile": ["floral", "warm", "spicy", "woody"],
+      "occasions": ["Date nights", "Formal events"],
+      "seasons": ["autumn", "winter"],
+      "gender": "women",
+      "description": "With pepper, ginger and cardamom at its core, this scent has a floral and warm character. It works well for evenings out and formal occasions."
+    },
+    {
+      "id": "versace-yellow-diamond-edt",
+      "name": "Yellow Diamond",
+      "brand": "Versace",
+      "type": "designer",
+      "concentration": "EDT",
+      "priceUsd": 138,
+      "notes": [
+        "citron",
+        "pear",
+        "neroli",
+        "bergamot",
+        "water lily",
+        "freesia",
+        "orange blossom",
+        "mimosa",
+        "amber wood",
+        "palo santo",
+        "musk"
+      ],
+      "profile": ["floral", "citrus", "fruity", "woody", "fresh"],
+      "occasions": ["Daily / casual", "Work / school", "Formal events"],
+      "seasons": ["spring", "summer"],
+      "gender": "women",
+      "description": "Floral and citrus-led in character, it brings together citron, pear and neroli. It fits everyday wear and work or school."
+    },
+    {
+      "id": "versace-dylan-purple-edp",
+      "name": "Dylan Purple",
+      "brand": "Versace",
+      "type": "designer",
+      "concentration": "EDP",
+      "priceUsd": 158,
+      "notes": [
+        "bitter orange",
+        "pear",
+        "bergamot",
+        "freesia",
+        "pomarose",
+        "cedarwood",
+        "musk"
+      ],
+      "profile": ["fruity", "floral", "citrus", "woody"],
+      "occasions": ["Daily / casual", "Date nights", "Parties"],
+      "seasons": ["spring", "summer", "autumn"],
+      "gender": "women",
+      "description": "A blend of bitter orange, pear and bergamot gives this fragrance its fruity and floral feel, making it a good fit for everyday wear and evenings out."
     },
     {
       "id": "giorgio-armani-acqua-di-gio-profondo-edp",
@@ -278,7 +541,8 @@
       "profile": ["fresh", "aquatic", "aromatic", "citrus", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of marine notes, bergamot and cypress shape its fresh and aquatic character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "armaf-club-de-nuit-untold-edp",
@@ -298,7 +562,8 @@
       "profile": ["amber", "woody", "sweet", "warm", "floral"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its amber-rich and woody profile and notes of saffron, jasmine and amberwood, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "jean-paul-gaultier-le-male-elixir-parfum",
@@ -319,7 +584,8 @@
       "profile": ["sweet", "gourmand", "warm", "amber", "aromatic"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A sweet and gourmand fragrance built around mint, lavender and benzoin. It suits evenings out and parties."
     },
     {
       "id": "jean-paul-gaultier-le-beau-edt",
@@ -332,7 +598,8 @@
       "profile": ["fresh", "sweet", "woody", "citrus", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With bergamot, coconut wood and tonka bean at its core, this scent has a fresh and sweet character. It works well for everyday wear and evenings out."
     },
     {
       "id": "jean-paul-gaultier-le-beau-paradise-garden-edp",
@@ -352,7 +619,8 @@
       "profile": ["fresh", "green", "aquatic", "woody", "sweet"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Fresh and green in character, it brings together coconut water, green fig and sandalwood. It fits everyday wear and evenings out."
     },
     {
       "id": "giorgio-armani-stronger-with-you-intensely-edp",
@@ -372,7 +640,8 @@
       "profile": ["sweet", "warm", "gourmand", "amber", "spicy"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of pink pepper, chestnut accord and lavender gives this fragrance its sweet and warm feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "giorgio-armani-stronger-with-you-powerfully-edp",
@@ -393,7 +662,8 @@
       "profile": ["sweet", "warm", "gourmand", "spicy", "amber"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of cherry accord, mandarin and lavender shape its sweet and warm character. It feels at home in evenings out and parties."
     },
     {
       "id": "wd-40-multi-use-product",
@@ -409,6 +679,20 @@
       "description": "A joke entry inspired by the smell of the multi-use lubricant. 'Garage accord' is fictional. Not a perfume; excluded from collection scoring and fragrance recommendations.",
       "seasons": [],
       "gender": null
+    },
+    {
+      "id": "mschf-smells-like-wd-40-edp",
+      "name": "Smells Like WD-40",
+      "brand": "MSCHF",
+      "type": "niche",
+      "concentration": "EDP",
+      "priceUsd": 48,
+      "notes": ["motor oil", "vanillin"],
+      "profile": ["warm", "sweet"],
+      "occasions": ["Daily / casual", "Parties"],
+      "seasons": ["autumn", "winter"],
+      "gender": "unisex",
+      "description": "A playful, unisex scent pairing motor oil with vanillin, moving from an industrial edge to a sweet finish. Best suited to casual wear or parties."
     },
     {
       "id": "initio-atomic-rose-edp",
@@ -428,7 +712,8 @@
       "profile": ["floral", "sweet", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With bergamot, bulgarian rose and turkish rose at its core, this scent has a floral and sweet character. It works well for evenings out and formal occasions."
     },
     {
       "id": "initio-oud-for-greatness-edp",
@@ -449,7 +734,8 @@
       "profile": ["woody", "spicy", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Woody and spiced in character, it brings together oud, agarwood oil and lavender. It fits evenings out and formal occasions."
     },
     {
       "id": "initio-rehab-edp",
@@ -469,7 +755,8 @@
       "profile": ["aromatic", "woody", "fresh", "warm"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of lavender, bergamot and cedar gives this fragrance its aromatic and woody feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "initio-side-effect-edp",
@@ -482,7 +769,8 @@
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Notes of rum, tobacco and vanilla shape its sweet and warm character. It feels at home in evenings out and parties."
     },
     {
       "id": "initio-musk-therapy-edp",
@@ -501,7 +789,8 @@
       "profile": ["fresh", "floral", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its fresh and floral profile and notes of white sandalwood, white magnolia and blackcurrant, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "initio-paragon-edp",
@@ -522,7 +811,8 @@
       "profile": ["woody", "aromatic", "fresh", "warm"],
       "occasions": ["Daily / casual", "Formal events"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A woody and aromatic fragrance built around lavender, bergamot and sage. It suits everyday wear and formal occasions."
     },
     {
       "id": "initio-blessed-baraka-edp",
@@ -535,7 +825,8 @@
       "profile": ["warm", "amber", "woody", "sweet"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With sandalwood, amber and vanilla at its core, this scent has a warm and amber-rich character. It works well for evenings out and formal occasions."
     },
     {
       "id": "initio-high-frequency-edp",
@@ -548,7 +839,8 @@
       "profile": ["sweet", "floral", "woody", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["spring", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Sweet and floral in character, it brings together almond, heliotrope and magnolia. It fits evenings out and formal occasions."
     },
     {
       "id": "initio-absolute-aphrodisiac-edp",
@@ -561,7 +853,8 @@
       "profile": ["sweet", "warm", "amber", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of vanilla, amber and musk gives this fragrance its sweet and warm feel, making it a good fit for evenings out and formal occasions."
     },
     {
       "id": "initio-oud-for-greatness-neo-edp",
@@ -574,7 +867,8 @@
       "profile": ["woody", "aromatic", "spicy", "fresh"],
       "occasions": ["Formal events", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Notes of bergamot, lavender and oud shape its woody and aromatic character. It feels at home in formal occasions and evenings out."
     },
     {
       "id": "louis-vuitton-imagination-edp",
@@ -595,7 +889,8 @@
       "profile": ["citrus", "fresh", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its citrus-led and fresh profile and notes of citron, bergamot and orange, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "louis-vuitton-ombre-nomade-edp",
@@ -616,7 +911,8 @@
       "profile": ["woody", "amber", "warm", "sweet"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A woody and amber-rich fragrance built around oud, raspberry and rose. It suits evenings out and formal occasions."
     },
     {
       "id": "louis-vuitton-pacific-chill-edp",
@@ -638,7 +934,8 @@
       "profile": ["fresh", "citrus", "green", "sweet"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With blackcurrant, citron and orange at its core, this scent has a fresh and citrus-led character. It works well for everyday wear and work or school."
     },
     {
       "id": "louis-vuitton-afternoon-swim-edp",
@@ -651,7 +948,8 @@
       "profile": ["citrus", "fresh", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Citrus-led and fresh in character, it brings together orange, bergamot and mandarin. It fits everyday wear and work or school."
     },
     {
       "id": "louis-vuitton-meteore-edp",
@@ -672,7 +970,8 @@
       "profile": ["citrus", "fresh", "spicy", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of mandarin, bergamot and neroli gives this fragrance its citrus-led and fresh feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "louis-vuitton-limmensite-edp",
@@ -693,7 +992,8 @@
       "profile": ["citrus", "fresh", "aromatic", "amber"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Notes of grapefruit, ginger and bergamot shape its citrus-led and fresh character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "louis-vuitton-nouveau-monde-edp",
@@ -706,7 +1006,8 @@
       "profile": ["woody", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its woody and warm profile and notes of cocoa, saffron and oud, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "louis-vuitton-attrape-reves-edp",
@@ -719,7 +1020,8 @@
       "profile": ["floral", "sweet", "fresh"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A floral and sweet fragrance built around lychee, ginger and peony. It suits everyday wear and evenings out."
     },
     {
       "id": "louis-vuitton-spell-on-you-edp",
@@ -732,7 +1034,8 @@
       "profile": ["floral", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["spring", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With iris, rose and violet at its core, this scent has a floral and warm character. It works well for evenings out and formal occasions."
     },
     {
       "id": "louis-vuitton-le-jour-se-leve-edp",
@@ -745,7 +1048,8 @@
       "profile": ["citrus", "fresh", "floral"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Citrus-led and fresh in character, it brings together mandarin, blackcurrant and jasmine. It fits everyday wear and work or school."
     },
     {
       "id": "louis-vuitton-les-sables-roses-edp",
@@ -758,7 +1062,8 @@
       "profile": ["floral", "woody", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of rose, oud and ambergris gives this fragrance its floral and woody feel, making it a good fit for evenings out and formal occasions."
     },
     {
       "id": "louis-vuitton-fleur-du-desert-edp",
@@ -771,7 +1076,8 @@
       "profile": ["floral", "amber", "warm", "woody"],
       "occasions": ["Formal events", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Notes of jasmine, orange blossom and rose shape its floral and amber-rich character. It feels at home in formal occasions and evenings out."
     },
     {
       "id": "parfums-de-marly-layton-edp",
@@ -793,7 +1099,8 @@
       "profile": ["fresh", "sweet", "aromatic", "warm", "woody"],
       "occasions": ["Work / school", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and sweet profile and notes of apple, bergamot and lavender, this fragrance is suited to work or school and evenings out."
     },
     {
       "id": "parfums-de-marly-delina-edp",
@@ -814,7 +1121,8 @@
       "profile": ["floral", "fresh", "sweet", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A floral and fresh fragrance built around rhubarb, lychee and bergamot. It suits evenings out and formal occasions."
     },
     {
       "id": "parfums-de-marly-delina-exclusif-edp",
@@ -835,7 +1143,8 @@
       "profile": ["floral", "sweet", "amber", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With lychee, pear and bergamot at its core, this scent has a floral and sweet character. It works well for evenings out and formal occasions."
     },
     {
       "id": "parfums-de-marly-perseus-edp",
@@ -855,7 +1164,8 @@
       "profile": ["citrus", "fresh", "green", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Citrus-led and fresh in character, it brings together grapefruit, bergamot and blackcurrant. It fits everyday wear and work or school."
     },
     {
       "id": "parfums-de-marly-percival-edp",
@@ -876,7 +1186,8 @@
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of bergamot, mandarin and lavender gives this fragrance its fresh and citrus-led feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "parfums-de-marly-althair-edp",
@@ -896,7 +1207,8 @@
       "profile": ["sweet", "warm", "gourmand", "amber", "spicy"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of orange blossom, cinnamon and cardamom shape its sweet and warm character. It feels at home in evenings out and formal occasions."
     },
     {
       "id": "parfums-de-marly-carlisle-edp",
@@ -917,7 +1229,8 @@
       "profile": ["woody", "sweet", "spicy", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its woody and sweet profile and notes of apple, nutmeg and saffron, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "parfums-de-marly-haltane-edp",
@@ -938,7 +1251,8 @@
       "profile": ["woody", "spicy", "sweet", "warm"],
       "occasions": ["Formal events", "Date nights"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A woody and spiced fragrance built around bergamot, lavender and saffron. It suits formal occasions and evenings out."
     },
     {
       "id": "parfums-de-marly-layton-exclusif-edp",
@@ -960,7 +1274,8 @@
       "profile": ["woody", "warm", "sweet", "aromatic"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With bergamot, almond and mandarin at its core, this scent has a woody and warm character. It works well for evenings out and formal occasions."
     },
     {
       "id": "parfums-de-marly-pegasus-edp",
@@ -980,7 +1295,8 @@
       "profile": ["floral", "sweet", "woody", "warm"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Floral and sweet in character, it brings together bergamot, heliotrope and jasmine. It fits work or school and formal occasions."
     },
     {
       "id": "parfums-de-marly-pegasus-exclusif-edp",
@@ -1001,7 +1317,8 @@
       "profile": ["spicy", "woody", "warm", "sweet"],
       "occasions": ["Formal events", "Date nights"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of cardamom, pink pepper and heliotrope gives this fragrance its spiced and woody feel, making it a good fit for formal occasions and evenings out."
     },
     {
       "id": "parfums-de-marly-herod-edp",
@@ -1014,7 +1331,8 @@
       "profile": ["spicy", "warm", "sweet", "woody"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of cinnamon, pepper and tobacco shape its spiced and warm character. It feels at home in evenings out and formal occasions."
     },
     {
       "id": "parfums-de-marly-kalan-edp",
@@ -1034,7 +1352,8 @@
       "profile": ["spicy", "citrus", "warm", "woody"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its spiced and citrus-led profile and notes of blood orange, black pepper and spices, this fragrance is suited to work or school and formal occasions."
     },
     {
       "id": "parfums-de-marly-galloway-edp",
@@ -1047,7 +1366,8 @@
       "profile": ["citrus", "fresh", "floral", "amber"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A citrus-led and fresh fragrance built around citrus, pepper and iris. It suits work or school and formal occasions."
     },
     {
       "id": "parfums-de-marly-delina-la-rosee-edp",
@@ -1060,7 +1380,8 @@
       "profile": ["floral", "fresh", "sweet"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With lychee, pear and bergamot at its core, this scent has a floral and fresh character. It works well for everyday wear and evenings out."
     },
     {
       "id": "parfums-de-marly-oriana-edp",
@@ -1080,7 +1401,8 @@
       "profile": ["sweet", "floral", "gourmand", "fresh"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Sweet and floral in character, it brings together mandarin, bergamot and orange blossom. It fits evenings out and parties."
     },
     {
       "id": "parfums-de-marly-safanad-edp",
@@ -1100,7 +1422,8 @@
       "profile": ["floral", "sweet", "warm", "woody"],
       "occasions": ["Formal events", "Date nights"],
       "seasons": ["spring", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of pear, orange and ylang-ylang gives this fragrance its floral and sweet feel, making it a good fit for formal occasions and evenings out."
     },
     {
       "id": "parfums-de-marly-meliora-edp",
@@ -1120,7 +1443,8 @@
       "profile": ["floral", "fresh", "sweet"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of red berries, blackcurrant and rose shape its floral and fresh character. It feels at home in everyday wear and evenings out."
     },
     {
       "id": "parfums-de-marly-valaya-edp",
@@ -1140,7 +1464,8 @@
       "profile": ["fresh", "floral", "citrus", "woody"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its fresh and floral profile and notes of bergamot, mandarin and white peach, this fragrance is suited to work or school and formal occasions."
     },
     {
       "id": "parfums-de-marly-castley-edp",
@@ -1153,7 +1478,8 @@
       "profile": ["citrus", "woody", "spicy", "warm"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A citrus-led and woody fragrance built around citrus, spices and cedar. It suits work or school and formal occasions."
     },
     {
       "id": "xerjoff-naxos-edp",
@@ -1175,7 +1501,8 @@
       "profile": ["sweet", "aromatic", "warm", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With bergamot, lemon and lavender at its core, this scent has a sweet and aromatic character. It works well for evenings out and formal occasions."
     },
     {
       "id": "xerjoff-erba-pura-edp",
@@ -1196,7 +1523,8 @@
       "profile": ["fresh", "citrus", "sweet", "amber"],
       "occasions": ["Parties", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Fresh and citrus-led in character, it brings together citrus, sicilian orange and bergamot. It fits parties and evenings out."
     },
     {
       "id": "xerjoff-torino21-edp",
@@ -1217,7 +1545,8 @@
       "profile": ["fresh", "citrus", "green", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of mint, lemon and basil gives this fragrance its fresh and citrus-led feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "xerjoff-torino22-edp",
@@ -1237,7 +1566,8 @@
       "profile": ["woody", "aromatic", "fresh", "spicy"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Notes of saffron, eucalyptus and mate shape its woody and aromatic character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "xerjoff-torino24-edp",
@@ -1258,7 +1588,8 @@
       "profile": ["fresh", "citrus", "green", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its fresh and citrus-led profile and notes of bergamot, lemon and mint, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "xerjoff-torino25-edp",
@@ -1271,7 +1602,8 @@
       "profile": ["fresh", "citrus", "sweet", "aromatic"],
       "occasions": ["Daily / casual", "Parties"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A fresh and citrus-led fragrance built around bergamot, pineapple and mint. It suits everyday wear and parties."
     },
     {
       "id": "xerjoff-lira-edp",
@@ -1292,7 +1624,8 @@
       "profile": ["sweet", "citrus", "gourmand", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With blood orange, bergamot and lavender at its core, this scent has a sweet and citrus-led character. It works well for evenings out and formal occasions."
     },
     {
       "id": "xerjoff-renaissance-edp",
@@ -1313,7 +1646,8 @@
       "profile": ["citrus", "fresh", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Citrus-led and fresh in character, it brings together lemon, bergamot and mandarin. It fits everyday wear and work or school."
     },
     {
       "id": "xerjoff-dama-bianca-edp",
@@ -1334,7 +1668,8 @@
       "profile": ["floral", "sweet", "fresh"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of lime, kumquat and iris gives this fragrance its floral and sweet feel, making it a good fit for evenings out and formal occasions."
     },
     {
       "id": "xerjoff-uden-edp",
@@ -1355,7 +1690,8 @@
       "profile": ["citrus", "fresh", "woody", "sweet"],
       "occasions": ["Work / school", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Notes of lemon, grapefruit and rum shape its citrus-led and fresh character. It feels at home in work or school and evenings out."
     },
     {
       "id": "xerjoff-accento-edp",
@@ -1376,7 +1712,8 @@
       "profile": ["floral", "fresh", "sweet", "amber"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["spring", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its floral and fresh profile and notes of pineapple, hyacinth and iris, this fragrance is suited to work or school and formal occasions."
     },
     {
       "id": "xerjoff-la-capitale-edp",
@@ -1397,7 +1734,8 @@
       "profile": ["sweet", "gourmand", "warm", "amber"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A sweet and gourmand fragrance built around strawberry, peach and caramel. It suits evenings out and parties."
     },
     {
       "id": "xerjoff-mefisto-edp",
@@ -1419,7 +1757,8 @@
       "profile": ["citrus", "fresh", "aromatic", "floral"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With grapefruit, bergamot and lemon at its core, this scent has a citrus-led and fresh character. It works well for work or school and formal occasions."
     },
     {
       "id": "xerjoff-gibeon-edp",
@@ -1432,7 +1771,8 @@
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Fresh and citrus-led in character, it brings together citrus, lavender and spices. It fits everyday wear and work or school."
     },
     {
       "id": "xerjoff-purple-accento-edp",
@@ -1453,7 +1793,8 @@
       "profile": ["floral", "sweet", "amber", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of pineapple, hyacinth and iris gives this fragrance its floral and sweet feel, making it a good fit for evenings out and formal occasions."
     },
     {
       "id": "xerjoff-more-than-words-edp",
@@ -1466,7 +1807,8 @@
       "profile": ["woody", "amber", "warm", "spicy"],
       "occasions": ["Formal events", "Date nights"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Notes of oud, incense and amber shape its woody and amber-rich character. It feels at home in formal occasions and evenings out."
     },
     {
       "id": "xerjoff-tony-iommi-monkey-special-edp",
@@ -1488,7 +1830,8 @@
       "profile": ["sweet", "woody", "spicy", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its sweet and woody profile and notes of rum, passion fruit and bergamot, this fragrance is suited to evenings out and parties."
     },
     {
       "id": "xerjoff-opera-edp",
@@ -1509,7 +1852,8 @@
       "profile": ["floral", "sweet", "warm", "amber"],
       "occasions": ["Formal events", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A floral and sweet fragrance built around fruity accord, turkish rose and ylang-ylang. It suits formal occasions and evenings out."
     },
     {
       "id": "xerjoff-white-on-white-edp",
@@ -1522,7 +1866,8 @@
       "profile": ["fresh", "floral", "woody", "citrus"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With citrus, white flowers and musk at its core, this scent has a fresh and floral character. It works well for work or school and formal occasions."
     },
     {
       "id": "xerjoff-starlight-edp",
@@ -1535,7 +1880,8 @@
       "profile": ["spicy", "sweet", "warm", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Spiced and sweet in character, it brings together cardamom, cinnamon and almond. It fits evenings out and formal occasions."
     },
     {
       "id": "xerjoff-nio-edp",
@@ -1556,7 +1902,8 @@
       "profile": ["citrus", "fresh", "green", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of bergamot, neroli and green notes gives this fragrance its citrus-led and fresh feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "xerjoff-apollonia-edp",
@@ -1569,7 +1916,8 @@
       "profile": ["floral", "fresh"],
       "occasions": ["Formal events", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Notes of white flowers, iris and white musk shape its floral and fresh character. It feels at home in formal occasions and work or school."
     },
     {
       "id": "xerjoff-cruz-del-sur-ii-edp",
@@ -1589,7 +1937,8 @@
       "profile": ["sweet", "gourmand", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its sweet and gourmand profile and notes of mango, pineapple and apple, this fragrance is suited to evenings out and parties."
     },
     {
       "id": "afnan-9-pm-pour-femme-edp",
@@ -1615,7 +1964,8 @@
       "profile": ["floral", "sweet", "fresh", "woody", "amber"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A floral and sweet fragrance built around raspberry, apple and violet. It suits evenings out and parties."
     },
     {
       "id": "afnan-9-pm-elixir-edp",
@@ -1628,7 +1978,8 @@
       "profile": ["spicy", "warm", "amber", "woody"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With leather, spices and amber at its core, this scent has a spiced and warm character. It works well for evenings out and parties."
     },
     {
       "id": "afnan-9-pm-rebel-edp",
@@ -1652,7 +2003,8 @@
       "profile": ["woody", "amber", "sweet", "fresh"],
       "occasions": ["Daily / casual", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Woody and amber-rich in character, it brings together mandarin, pineapple and granny smith apple. It fits everyday wear and parties."
     },
     {
       "id": "afnan-9-pm-night-out-edp",
@@ -1665,7 +2017,8 @@
       "profile": ["spicy", "amber", "sweet", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of spices, amber and fruity notes gives this fragrance its spiced and amber-rich feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "afnan-9-am-edp",
@@ -1687,7 +2040,8 @@
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of bergamot, lemon and cardamom shape its fresh and citrus-led character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "afnan-9-am-dive-edp",
@@ -1709,7 +2063,8 @@
       "profile": ["fresh", "aquatic", "citrus", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its fresh and aquatic profile and notes of lemon, mint and blackcurrant, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "afnan-9-am-pour-femme-edp",
@@ -1731,7 +2086,8 @@
       "profile": ["fresh", "citrus", "floral", "sweet"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A fresh and citrus-led fragrance built around mandarin, grapefruit and blackcurrant. It suits everyday wear and work or school."
     },
     {
       "id": "afnan-supremacy-not-only-intense-edp",
@@ -1754,7 +2110,8 @@
       "profile": ["fresh", "woody", "amber", "sweet"],
       "occasions": ["Work / school", "Parties"],
       "seasons": ["spring", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With blackcurrant, bergamot and apple at its core, this scent has a fresh and woody character. It works well for work or school and parties."
     },
     {
       "id": "afnan-turathi-blue-edp",
@@ -1767,7 +2124,8 @@
       "profile": ["citrus", "fresh", "woody", "amber"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Citrus-led and fresh in character, it brings together bergamot, mandarin and amber. It fits everyday wear and work or school."
     },
     {
       "id": "afnan-supremacy-in-oud-edp",
@@ -1780,7 +2138,8 @@
       "profile": ["woody", "spicy", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of saffron, lavender and nutmeg gives this fragrance its woody and spiced feel, making it a good fit for evenings out and formal occasions."
     },
     {
       "id": "afnan-supremacy-silver-edp",
@@ -1802,7 +2161,8 @@
       "profile": ["fresh", "woody", "aromatic", "sweet"],
       "occasions": ["Work / school", "Daily / casual"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of pineapple, bergamot and blackcurrant shape its fresh and woody character. It feels at home in work or school and everyday wear."
     },
     {
       "id": "afnan-supremacy-pour-homme-edp",
@@ -1824,7 +2184,8 @@
       "profile": ["fresh", "woody", "aromatic", "sweet"],
       "occasions": ["Work / school", "Daily / casual"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and woody profile and notes of pineapple, blackcurrant and apple, this fragrance is suited to work or school and everyday wear."
     },
     {
       "id": "afnan-turathi-brown-edp",
@@ -1837,7 +2198,8 @@
       "profile": ["citrus", "spicy", "woody", "warm"],
       "occasions": ["Work / school", "Date nights"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A citrus-led and spiced fragrance built around citrus, spices and amber. It suits work or school and evenings out."
     },
     {
       "id": "afnan-modest-une-edp",
@@ -1859,7 +2221,8 @@
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With lemon, mint and bergamot at its core, this scent has a fresh and citrus-led character. It works well for everyday wear and work or school."
     },
     {
       "id": "afnan-supremacy-in-heaven-edp",
@@ -1880,7 +2243,8 @@
       "profile": ["fresh", "green", "woody", "sweet"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Fresh and green in character, it brings together green apple, bergamot and mandarin. It fits everyday wear and work or school."
     },
     {
       "id": "afnan-supremacy-gold-edp",
@@ -1902,7 +2266,8 @@
       "profile": ["spicy", "woody", "amber", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of saffron, nutmeg and apple gives this fragrance its spiced and woody feel, making it a good fit for evenings out and formal occasions."
     },
     {
       "id": "afnan-rare-carbon-edp",
@@ -1923,7 +2288,8 @@
       "profile": ["woody", "spicy", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of leather, violet leaf and nutmeg shape its woody and spiced character. It feels at home in evenings out and formal occasions."
     },
     {
       "id": "afnan-supremacy-not-only-intense-extrait",
@@ -1944,7 +2310,8 @@
       "profile": ["fresh", "woody", "amber", "sweet"],
       "occasions": ["Parties", "Date nights"],
       "seasons": ["spring", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and woody profile and notes of blackcurrant, bergamot and apple, this fragrance is suited to parties and evenings out."
     },
     {
       "id": "lattafa-asad-edp",
@@ -1966,7 +2333,8 @@
       "profile": ["spicy", "warm", "sweet", "amber"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A spiced and warm fragrance built around black pepper, pineapple and tobacco. It suits evenings out and parties."
     },
     {
       "id": "lattafa-asad-zanzibar-edp",
@@ -1986,7 +2354,8 @@
       "profile": ["fresh", "aquatic", "sweet", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With black pepper, lavender and coconut water at its core, this scent has a fresh and aquatic character. It works well for everyday wear and evenings out."
     },
     {
       "id": "lattafa-khamrah-qahwa-edp",
@@ -2008,7 +2377,8 @@
       "profile": ["sweet", "gourmand", "warm", "spicy"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Sweet and gourmand in character, it brings together ginger, cinnamon and cardamom. It fits evenings out and parties."
     },
     {
       "id": "lattafa-khamrah-dukhan-edp",
@@ -2030,7 +2400,8 @@
       "profile": ["spicy", "warm", "amber", "sweet"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of spices, mandarin and pimento gives this fragrance its spiced and warm feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "lattafa-yara-edp",
@@ -2051,7 +2422,8 @@
       "profile": ["sweet", "floral", "gourmand", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of orchid, heliotrope and mandarin shape its sweet and floral character. It feels at home in everyday wear and evenings out."
     },
     {
       "id": "lattafa-yara-tous-edp",
@@ -2072,7 +2444,8 @@
       "profile": ["sweet", "floral", "warm"],
       "occasions": ["Daily / casual", "Parties"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its sweet and floral profile and notes of mango, coconut and passionfruit, this fragrance is suited to everyday wear and parties."
     },
     {
       "id": "lattafa-yara-moi-edp",
@@ -2092,7 +2465,8 @@
       "profile": ["sweet", "floral", "warm", "woody"],
       "occasions": ["Date nights", "Daily / casual"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A sweet and floral fragrance built around peach, jasmine and caramel. It suits evenings out and everyday wear."
     },
     {
       "id": "lattafa-fakhar-black-edp",
@@ -2115,7 +2489,8 @@
       "profile": ["fresh", "aromatic", "woody", "sweet"],
       "occasions": ["Work / school", "Daily / casual"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With apple, ginger and bergamot at its core, this scent has a fresh and aromatic character. It works well for work or school and everyday wear."
     },
     {
       "id": "lattafa-fakhar-rose-edp",
@@ -2137,7 +2512,8 @@
       "profile": ["floral", "sweet", "fresh", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and sweet in character, it brings together fruity notes, lily and pomegranate. It fits everyday wear and evenings out."
     },
     {
       "id": "lattafa-badee-al-oud-oud-for-glory-edp",
@@ -2150,7 +2526,8 @@
       "profile": ["woody", "spicy", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of saffron, nutmeg and lavender gives this fragrance its woody and spiced feel, making it a good fit for evenings out and formal occasions."
     },
     {
       "id": "lattafa-badee-al-oud-amethyst-edp",
@@ -2171,7 +2548,8 @@
       "profile": ["floral", "amber", "warm", "woody"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Notes of bergamot, pink pepper and rose shape its floral and amber-rich character. It feels at home in evenings out and formal occasions."
     },
     {
       "id": "lattafa-badee-al-oud-sublime-edp",
@@ -2184,7 +2562,8 @@
       "profile": ["sweet", "floral", "fresh"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its sweet and floral profile and notes of apple, lychee and rose, this fragrance is suited to everyday wear and evenings out."
     },
     {
       "id": "lattafa-badee-al-oud-honor-and-glory-edp",
@@ -2205,7 +2584,8 @@
       "profile": ["sweet", "gourmand", "warm", "spicy"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A sweet and gourmand fragrance built around pineapple, creme brulee and cinnamon. It suits evenings out and parties."
     },
     {
       "id": "lattafa-fakhar-extrait-gold-edp",
@@ -2226,7 +2606,8 @@
       "profile": ["fresh", "aromatic", "woody", "spicy"],
       "occasions": ["Work / school", "Date nights"],
       "seasons": ["spring", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With bergamot, black pepper and apple at its core, this scent has a fresh and aromatic character. It works well for work or school and evenings out."
     },
     {
       "id": "lattafa-pride-victoria-edp",
@@ -2239,7 +2620,8 @@
       "profile": ["citrus", "sweet", "gourmand", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Citrus-led and sweet in character, it brings together lemon meringue, vanilla and sugar. It fits everyday wear and evenings out."
     },
     {
       "id": "lattafa-pride-angham-edp",
@@ -2261,7 +2643,8 @@
       "profile": ["sweet", "gourmand", "warm", "spicy"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of ginger, mandarin and pink pepper gives this fragrance its sweet and gourmand feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "lattafa-pride-art-of-nature-ii-edp",
@@ -2274,7 +2657,8 @@
       "profile": ["fresh", "woody", "amber", "green"],
       "occasions": ["Work / school", "Daily / casual"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Notes of citrus, fruity notes and floral notes shape its fresh and woody character. It feels at home in work or school and everyday wear."
     },
     {
       "id": "lattafa-pride-nebras-edp",
@@ -2295,7 +2679,8 @@
       "profile": ["sweet", "gourmand", "warm", "amber"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its sweet and gourmand profile and notes of red berries, mandarin and cocoa, this fragrance is suited to evenings out and parties."
     },
     {
       "id": "rabanne-1-million-edt",
@@ -2316,7 +2701,8 @@
       "profile": ["spicy", "warm", "sweet", "woody"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A spiced and warm fragrance built around blood mandarin, grapefruit and mint. It suits evenings out and parties."
     },
     {
       "id": "rabanne-1-million-lucky-edt",
@@ -2337,7 +2723,8 @@
       "profile": ["sweet", "woody", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With plum, grapefruit and hazelnut at its core, this scent has a sweet and woody character. It works well for evenings out and parties."
     },
     {
       "id": "rabanne-1-million-elixir-parfum",
@@ -2358,7 +2745,8 @@
       "profile": ["sweet", "warm", "woody", "floral"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Sweet and warm in character, it brings together apple, davana and rose. It fits evenings out and parties."
     },
     {
       "id": "rabanne-1-million-royal-parfum",
@@ -2379,7 +2767,8 @@
       "profile": ["spicy", "warm", "woody", "aromatic"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of cardamom, mandarin and lavender gives this fragrance its spiced and warm feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "rabanne-1-million-gold-elixir-parfum-intense",
@@ -2399,7 +2788,8 @@
       "profile": ["spicy", "warm", "amber", "woody"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of mandarin, bergamot and cinnamon shape its spiced and warm character. It feels at home in evenings out and formal occasions."
     },
     {
       "id": "rabanne-invictus-edt",
@@ -2420,7 +2810,8 @@
       "profile": ["fresh", "aquatic", "citrus", "woody"],
       "occasions": ["Daily / casual", "Parties"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and aquatic profile and notes of grapefruit, marine notes and mandarin, this fragrance is suited to everyday wear and parties."
     },
     {
       "id": "rabanne-invictus-victory-elixir-parfum",
@@ -2441,7 +2832,8 @@
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A sweet and warm fragrance built around lavender, cardamom and black pepper. It suits evenings out and parties."
     },
     {
       "id": "rabanne-invictus-platinum-edp",
@@ -2461,7 +2853,8 @@
       "profile": ["fresh", "aromatic", "citrus", "woody"],
       "occasions": ["Daily / casual", "Parties"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With grapefruit, absinthe and mint at its core, this scent has a fresh and aromatic character. It works well for everyday wear and parties."
     },
     {
       "id": "rabanne-phantom-edt",
@@ -2481,7 +2874,8 @@
       "profile": ["fresh", "aromatic", "sweet", "woody"],
       "occasions": ["Daily / casual", "Parties"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Fresh and aromatic in character, it brings together lemon, lavender and apple. It fits everyday wear and parties."
     },
     {
       "id": "rabanne-phantom-parfum",
@@ -2501,7 +2895,8 @@
       "profile": ["aromatic", "woody", "sweet", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of lavender, bergamot and rhubarb gives this fragrance its aromatic and woody feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "rabanne-fame-edp",
@@ -2521,7 +2916,8 @@
       "profile": ["sweet", "floral", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of mango, bergamot and jasmine shape its sweet and floral character. It feels at home in evenings out and parties."
     },
     {
       "id": "rabanne-invictus-parfum",
@@ -2541,7 +2937,8 @@
       "profile": ["aquatic", "fresh", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its aquatic and fresh profile and notes of marine accord, lavender and mint, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "jean-paul-gaultier-le-male-edt",
@@ -2562,7 +2959,8 @@
       "profile": ["aromatic", "sweet", "warm", "spicy"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A aromatic and sweet fragrance built around mint, lavender and cardamom. It suits everyday wear and evenings out."
     },
     {
       "id": "jean-paul-gaultier-ultra-male-edt-intense",
@@ -2583,7 +2981,8 @@
       "profile": ["sweet", "warm", "aromatic"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With pear, lavender and mint at its core, this scent has a sweet and warm character. It works well for evenings out and parties."
     },
     {
       "id": "jean-paul-gaultier-le-male-le-parfum",
@@ -2596,7 +2995,8 @@
       "profile": ["spicy", "warm", "aromatic", "woody"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Spiced and warm in character, it brings together cardamom, lavender and iris. It fits evenings out and formal occasions."
     },
     {
       "id": "jean-paul-gaultier-le-beau-le-parfum",
@@ -2617,7 +3017,8 @@
       "profile": ["sweet", "woody", "warm", "fresh"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of pineapple, iris and cypress gives this fragrance its sweet and woody feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "jean-paul-gaultier-scandal-pour-homme-edt",
@@ -2630,7 +3031,8 @@
       "profile": ["sweet", "gourmand", "warm", "woody"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of mandarin, clary sage and caramel shape its sweet and gourmand character. It feels at home in evenings out and parties."
     },
     {
       "id": "jean-paul-gaultier-scandal-le-parfum-pour-homme",
@@ -2643,7 +3045,8 @@
       "profile": ["sweet", "woody", "warm", "aromatic"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its sweet and woody profile and notes of geranium, tonka bean and sandalwood, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "jean-paul-gaultier-la-belle-edp",
@@ -2656,7 +3059,8 @@
       "profile": ["sweet", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A sweet and warm fragrance built around pear, bergamot and vanilla. It suits evenings out and parties."
     },
     {
       "id": "jean-paul-gaultier-la-belle-le-parfum",
@@ -2669,7 +3073,8 @@
       "profile": ["sweet", "warm", "gourmand", "floral"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With pear, tonka bean and vanilla at its core, this scent has a sweet and warm character. It works well for evenings out and formal occasions."
     },
     {
       "id": "jean-paul-gaultier-gaultier-divine-edp",
@@ -2682,7 +3087,8 @@
       "profile": ["floral", "sweet", "aquatic", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and sweet in character, it brings together lily, meringue and salt. It fits evenings out and formal occasions."
     },
     {
       "id": "jean-paul-gaultier-gaultier2-edp",
@@ -2695,7 +3101,8 @@
       "profile": ["warm", "amber", "sweet"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of amber, vanilla and musk gives this fragrance its warm and amber-rich feel, making it a good fit for evenings out and formal occasions."
     },
     {
       "id": "prada-luna-rossa-carbon-edt",
@@ -2715,7 +3122,8 @@
       "profile": ["fresh", "aromatic", "woody", "spicy"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of bergamot, pepper and lavender shape its fresh and aromatic character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "prada-luna-rossa-ocean-edp",
@@ -2728,7 +3136,8 @@
       "profile": ["fresh", "aromatic", "woody", "warm"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and aromatic profile and notes of bergamot, iris and sage, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "prada-luna-rossa-black-edp",
@@ -2748,7 +3157,8 @@
       "profile": ["warm", "amber", "woody", "aromatic"],
       "occasions": ["Date nights", "Work / school"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A warm and amber-rich fragrance built around bergamot, angelica and patchouli. It suits evenings out and work or school."
     },
     {
       "id": "prada-paradoxe-edp",
@@ -2769,7 +3179,8 @@
       "profile": ["floral", "citrus", "sweet", "amber"],
       "occasions": ["Work / school", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With pear, mandarin and bergamot at its core, this scent has a floral and citrus-led character. It works well for work or school and evenings out."
     },
     {
       "id": "prada-paradoxe-intense-edp",
@@ -2782,7 +3193,8 @@
       "profile": ["floral", "amber", "warm", "sweet"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and amber-rich in character, it brings together pear, neroli and jasmine. It fits evenings out and formal occasions."
     },
     {
       "id": "prada-luna-rossa-ocean-le-parfum",
@@ -2795,7 +3207,8 @@
       "profile": ["fresh", "woody", "warm", "spicy"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of lemon, saffron and suede gives this fragrance its fresh and woody feel, making it a good fit for work or school and formal occasions."
     },
     {
       "id": "valentino-uomo-born-in-roma-edt",
@@ -2815,7 +3228,8 @@
       "profile": ["fresh", "aromatic", "woody", "green"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of violet leaf, mineral salt and ginger shape its fresh and aromatic character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "valentino-uomo-born-in-roma-intense-edp",
@@ -2828,7 +3242,8 @@
       "profile": ["sweet", "warm", "aromatic", "woody"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its sweet and warm profile and notes of vanilla, lavender and vetiver, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "valentino-uomo-born-in-roma-coral-fantasy-edt",
@@ -2848,7 +3263,8 @@
       "profile": ["sweet", "spicy", "woody", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A sweet and spiced fragrance built around red apple, cardamom and lavender. It suits evenings out and parties."
     },
     {
       "id": "valentino-uomo-born-in-roma-green-stravaganza-edt",
@@ -2861,7 +3277,8 @@
       "profile": ["fresh", "green", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With bergamot, coffee and vetiver at its core, this scent has a fresh and green character. It works well for everyday wear and work or school."
     },
     {
       "id": "valentino-donna-born-in-roma-edp",
@@ -2874,7 +3291,8 @@
       "profile": ["floral", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and sweet in character, it brings together blackcurrant, bergamot and jasmine. It fits everyday wear and evenings out."
     },
     {
       "id": "valentino-donna-born-in-roma-intense-edp",
@@ -2887,7 +3305,8 @@
       "profile": ["sweet", "floral", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of vanilla, jasmine and benzoin gives this fragrance its sweet and floral feel, making it a good fit for evenings out and formal occasions."
     },
     {
       "id": "valentino-donna-born-in-roma-coral-fantasy-edp",
@@ -2900,7 +3319,8 @@
       "profile": ["floral", "fresh", "sweet"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of kiwi, orange and jasmine shape its floral and fresh character. It feels at home in everyday wear and evenings out."
     },
     {
       "id": "valentino-donna-born-in-roma-green-stravaganza-edp",
@@ -2913,7 +3333,8 @@
       "profile": ["green", "floral", "fresh", "warm"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its green and floral profile and notes of bergamot, tea and jasmine, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "zara-red-zara-temptation-edp",
@@ -2926,7 +3347,8 @@
       "profile": ["amber", "woody", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A amber-rich and woody fragrance built around saffron, jasmine and amberwood. It suits everyday wear and evenings out."
     },
     {
       "id": "zara-golden-decade-edp",
@@ -2939,7 +3361,8 @@
       "profile": ["floral", "citrus", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With orange blossom, mandarin and lavender at its core, this scent has a floral and citrus-led character. It works well for everyday wear and evenings out."
     },
     {
       "id": "zara-vibrant-leather-edp",
@@ -2952,7 +3375,8 @@
       "profile": ["fresh", "citrus", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Fresh and citrus-led in character, it brings together bergamot, lemon and bamboo. It fits everyday wear and work or school."
     },
     {
       "id": "zara-vibrant-leather-elixir-parfum",
@@ -2965,7 +3389,8 @@
       "profile": ["woody", "warm", "amber", "fresh"],
       "occasions": ["Date nights", "Work / school"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of bergamot, leather and woods gives this fragrance its woody and warm feel, making it a good fit for evenings out and work or school."
     },
     {
       "id": "zara-tobacco-collection-rich-warm-addictive-edt",
@@ -2978,7 +3403,8 @@
       "profile": ["sweet", "warm", "woody", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of coconut, honey and tobacco shape its sweet and warm character. It feels at home in evenings out and parties."
     },
     {
       "id": "zara-energetically-new-york-edp",
@@ -2991,7 +3417,8 @@
       "profile": ["woody", "warm", "aromatic", "sweet"],
       "occasions": ["Work / school", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its woody and warm profile and notes of bergamot, coffee and cardamom, this fragrance is suited to work or school and evenings out."
     },
     {
       "id": "zara-bohemian-bluebells-edp",
@@ -3004,7 +3431,8 @@
       "profile": ["floral", "fresh", "green", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A floral and fresh fragrance built around bluebell, pear and musk. It suits everyday wear and work or school."
     },
     {
       "id": "zara-applejuice-edt",
@@ -3017,7 +3445,8 @@
       "profile": ["fresh", "citrus", "floral"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With apple, grapefruit and rose at its core, this scent has a fresh and citrus-led character. It works well for everyday wear and work or school."
     },
     {
       "id": "zara-nuit-edp",
@@ -3030,7 +3459,8 @@
       "profile": ["floral", "sweet", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and sweet in character, it brings together bergamot, peony and vanilla. It fits evenings out and formal occasions."
     },
     {
       "id": "zara-waterlily-tea-dress-edp",
@@ -3043,7 +3473,8 @@
       "profile": ["fresh", "floral", "green", "citrus"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of waterlily, tea and citrus gives this fragrance its fresh and floral feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "zara-rose-gourmand-edp",
@@ -3056,7 +3487,8 @@
       "profile": ["floral", "sweet", "amber", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of rose, amber and vanilla shape its floral and sweet character. It feels at home in evenings out and formal occasions."
     },
     {
       "id": "zara-oud-temptation-edp",
@@ -3069,7 +3501,8 @@
       "profile": ["woody", "amber", "warm", "spicy"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its woody and amber-rich profile and notes of saffron, rose and oud, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "zara-zara-temptation-le-parfum",
@@ -3082,7 +3515,8 @@
       "profile": ["citrus", "amber", "warm", "sweet"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A citrus-led and amber-rich fragrance built around orange, saffron and amberwood. It suits evenings out and parties."
     },
     {
       "id": "zara-red-zara-temptation-elixir-parfum",
@@ -3095,7 +3529,8 @@
       "profile": ["citrus", "spicy", "amber", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With bitter orange, saffron and amber at its core, this scent has a citrus-led and spiced character. It works well for evenings out and parties."
     },
     {
       "id": "zara-sunrise-on-the-red-sand-dunes-edp",
@@ -3115,7 +3550,8 @@
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Fresh and citrus-led in character, it brings together bergamot, ginger and mandarin. It fits everyday wear and work or school."
     },
     {
       "id": "zara-sunrise-on-the-red-sand-dunes-intense-edp",
@@ -3135,7 +3571,8 @@
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of bergamot, ginger and mandarin gives this fragrance its fresh and citrus-led feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "zara-sand-desert-at-sunset-edp",
@@ -3155,7 +3592,8 @@
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of orange, cinnamon and tonka bean shape its sweet and warm character. It feels at home in evenings out and parties."
     },
     {
       "id": "zara-sand-desert-at-sunset-intense-edp",
@@ -3176,7 +3614,8 @@
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its sweet and warm profile and notes of orange, incense and cinnamon, this fragrance is suited to evenings out and parties."
     },
     {
       "id": "zara-fields-at-nightfall-edp",
@@ -3189,7 +3628,8 @@
       "profile": ["sweet", "floral", "gourmand", "woody"],
       "occasions": ["Date nights", "Daily / casual"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A sweet and floral fragrance built around praline, jasmine and sandalwood. It suits evenings out and everyday wear."
     },
     {
       "id": "zara-ebony-wood-edp",
@@ -3202,7 +3642,8 @@
       "profile": ["woody", "spicy", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With pink pepper, clove and ebony wood at its core, this scent has a woody and spiced character. It works well for everyday wear and evenings out."
     },
     {
       "id": "zara-fashionably-london-edp",
@@ -3215,7 +3656,8 @@
       "profile": ["floral", "sweet", "warm", "woody"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and sweet in character, it brings together rose, raspberry and patchouli. It fits evenings out and parties."
     },
     {
       "id": "zara-hypnotic-vanilla-edp",
@@ -3228,7 +3670,8 @@
       "profile": ["sweet", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of vanilla, almond and amber gives this fragrance its sweet and warm feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "zara-immortal-vanilla-edp",
@@ -3241,7 +3684,8 @@
       "profile": ["sweet", "warm", "amber"],
       "occasions": ["Date nights", "Daily / casual"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Notes of vanilla, amber and woods shape its sweet and warm character. It feels at home in evenings out and everyday wear."
     },
     {
       "id": "zara-cocoa-sunset-edp",
@@ -3254,7 +3698,8 @@
       "profile": ["sweet", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its sweet and warm profile and notes of cocoa, vanilla and amber, this fragrance is suited to evenings out and parties."
     },
     {
       "id": "zara-gourmand-coffee-edp",
@@ -3267,7 +3712,8 @@
       "profile": ["sweet", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A sweet and warm fragrance built around coffee, vanilla and caramel. It suits evenings out and parties."
     },
     {
       "id": "zara-vibrant-leather-oud-edp",
@@ -3280,7 +3726,8 @@
       "profile": ["woody", "warm", "spicy", "aromatic"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With bergamot, leather and oud at its core, this scent has a woody and warm character. It works well for evenings out and formal occasions."
     },
     {
       "id": "hermes-terre-d-hermes-edt",
@@ -3293,7 +3740,8 @@
       "profile": ["citrus", "woody", "spicy", "aromatic"],
       "occasions": ["Daily / casual", "Work / school", "Formal events"],
       "seasons": ["spring", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Citrus-led and woody in character, it brings together grapefruit, orange and pepper. It fits everyday wear and work or school."
     },
     {
       "id": "hermes-terre-d-hermes-parfum-parfum",
@@ -3306,7 +3754,8 @@
       "profile": ["citrus", "woody", "warm", "spicy"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of orange, grapefruit and flint gives this fragrance its citrus-led and woody feel, making it a good fit for work or school and formal occasions."
     },
     {
       "id": "hermes-terre-d-hermes-eau-intense-vetiver-edp",
@@ -3319,7 +3768,8 @@
       "profile": ["citrus", "woody", "spicy", "green"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of bergamot, sichuan pepper and vetiver shape its citrus-led and woody character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "hermes-terre-d-hermes-eau-givree-edp",
@@ -3337,7 +3787,8 @@
       "profile": ["fresh", "citrus", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and citrus-led profile and notes of citron, juniper berry and timut pepper, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "hermes-h24-edt",
@@ -3350,7 +3801,8 @@
       "profile": ["fresh", "green", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A fresh and green fragrance built around clary sage, narcissus and rosewood. It suits everyday wear and work or school."
     },
     {
       "id": "hermes-h24-eau-de-parfum-edp",
@@ -3363,7 +3815,8 @@
       "profile": ["green", "aromatic", "woody", "warm"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With sage, oak moss and rosewood at its core, this scent has a green and aromatic character. It works well for everyday wear and work or school."
     },
     {
       "id": "hermes-un-jardin-sur-le-nil-edt",
@@ -3376,7 +3829,8 @@
       "profile": ["fresh", "green", "citrus", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Fresh and green in character, it brings together green mango, lotus and sycamore. It fits everyday wear and work or school."
     },
     {
       "id": "hermes-twilly-d-hermes-edp",
@@ -3389,7 +3843,8 @@
       "profile": ["floral", "spicy", "warm", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of ginger, tuberose and sandalwood gives this fragrance its floral and spiced feel, making it a good fit for everyday wear and evenings out."
     },
     {
       "id": "hugo-boss-boss-bottled-edt",
@@ -3402,7 +3857,8 @@
       "profile": ["woody", "spicy", "fresh", "warm"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of apple, plum and lemon shape its woody and spiced character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "hugo-boss-boss-bottled-eau-de-parfum-edp",
@@ -3422,7 +3878,8 @@
       "profile": ["woody", "spicy", "warm", "aromatic"],
       "occasions": ["Work / school", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its woody and spiced profile and notes of apple, black pepper and cinnamon, this fragrance is suited to work or school and evenings out."
     },
     {
       "id": "hugo-boss-boss-bottled-intense-edp",
@@ -3442,7 +3899,8 @@
       "profile": ["woody", "spicy", "warm", "sweet"],
       "occasions": ["Date nights", "Work / school"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A woody and spiced fragrance built around apple, orange blossom and cinnamon. It suits evenings out and work or school."
     },
     {
       "id": "hugo-boss-boss-bottled-elixir-parfum",
@@ -3455,7 +3913,8 @@
       "profile": ["woody", "spicy", "warm", "aromatic"],
       "occasions": ["Formal events", "Date nights"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With incense, cardamom and patchouli at its core, this scent has a woody and spiced character. It works well for formal occasions and evenings out."
     },
     {
       "id": "hugo-boss-boss-the-scent-edt",
@@ -3468,7 +3927,8 @@
       "profile": ["sweet", "spicy", "warm", "woody"],
       "occasions": ["Date nights", "Work / school"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Sweet and spiced in character, it brings together ginger, maninka fruit and lavender. It fits evenings out and work or school."
     },
     {
       "id": "hugo-boss-hugo-man-edt",
@@ -3481,7 +3941,8 @@
       "profile": ["fresh", "green", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of green apple, lavender and mint gives this fragrance its fresh and green feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "hugo-boss-boss-the-scent-for-her-edp",
@@ -3494,7 +3955,8 @@
       "profile": ["sweet", "floral", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of peach, freesia and osmanthus shape its sweet and floral character. It feels at home in evenings out and parties."
     },
     {
       "id": "hugo-boss-boss-bottled-night-edt",
@@ -3507,7 +3969,8 @@
       "profile": ["woody", "aromatic", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its woody and aromatic profile and notes of birch, lavender and violet, this fragrance is suited to evenings out and parties."
     },
     {
       "id": "burberry-burberry-goddess-edp",
@@ -3520,7 +3983,8 @@
       "profile": ["sweet", "warm", "gourmand", "aromatic"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A sweet and warm fragrance built around vanilla, lavender and cacao. It suits everyday wear and evenings out."
     },
     {
       "id": "burberry-burberry-goddess-intense-edp",
@@ -3533,7 +3997,8 @@
       "profile": ["sweet", "warm", "woody", "aromatic"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With vanilla, lavender and patchouli at its core, this scent has a sweet and warm character. It works well for evenings out and parties."
     },
     {
       "id": "burberry-burberry-her-edp",
@@ -3546,7 +4011,8 @@
       "profile": ["sweet", "fruity", "floral", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Sweet and fruity in character, it brings together strawberry, raspberry and blackcurrant. It fits everyday wear and evenings out."
     },
     {
       "id": "burberry-burberry-her-elixir-de-parfum-parfum",
@@ -3559,7 +4025,8 @@
       "profile": ["sweet", "fruity", "gourmand", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of strawberry, blackberry and vanilla gives this fragrance its sweet and fruity feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "burberry-my-burberry-edp",
@@ -3572,7 +4039,8 @@
       "profile": ["floral", "fresh", "woody", "warm"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["spring", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of sweet pea, bergamot and geranium shape its floral and fresh character. It feels at home in work or school and formal occasions."
     },
     {
       "id": "burberry-mr-burberry-edt",
@@ -3585,7 +4053,8 @@
       "profile": ["woody", "aromatic", "fresh", "spicy"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its woody and aromatic profile and notes of grapefruit, cardamom and cedar, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "burberry-burberry-hero-edt",
@@ -3598,7 +4067,8 @@
       "profile": ["woody", "fresh", "aromatic", "spicy"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A woody and fresh fragrance built around bergamot, juniper and black pepper. It suits everyday wear and work or school."
     },
     {
       "id": "burberry-burberry-hero-edp",
@@ -3611,7 +4081,8 @@
       "profile": ["woody", "warm", "aromatic", "spicy"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With pine needles, benzoin and incense at its core, this scent has a woody and warm character. It works well for everyday wear and evenings out."
     },
     {
       "id": "calvin-klein-ck-one-edt",
@@ -3624,7 +4095,8 @@
       "profile": ["fresh", "citrus", "green", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Fresh and citrus-led in character, it brings together bergamot, green tea and papaya. It fits everyday wear and work or school."
     },
     {
       "id": "calvin-klein-ck-be-edt",
@@ -3644,7 +4116,8 @@
       "profile": ["fresh", "aromatic", "woody", "green"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of bergamot, lavender and green notes gives this fragrance its fresh and aromatic feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "calvin-klein-eternity-for-men-edt",
@@ -3657,7 +4130,8 @@
       "profile": ["fresh", "aromatic", "woody", "green"],
       "occasions": ["Work / school", "Daily / casual"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of lavender, green notes and mandarin shape its fresh and aromatic character. It feels at home in work or school and everyday wear."
     },
     {
       "id": "calvin-klein-eternity-for-women-edp",
@@ -3670,7 +4144,8 @@
       "profile": ["floral", "fresh", "aromatic", "woody"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its floral and fresh profile and notes of mandarin, freesia and sage, this fragrance is suited to work or school and formal occasions."
     },
     {
       "id": "calvin-klein-obsession-for-men-edt",
@@ -3683,7 +4158,8 @@
       "profile": ["spicy", "warm", "amber", "woody"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A spiced and warm fragrance built around cinnamon, lavender and myrrh. It suits evenings out and formal occasions."
     },
     {
       "id": "calvin-klein-euphoria-for-women-edp",
@@ -3696,7 +4172,8 @@
       "profile": ["floral", "sweet", "woody", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With pomegranate, orchid and mahogany at its core, this scent has a floral and sweet character. It works well for evenings out and parties."
     },
     {
       "id": "calvin-klein-defy-edt",
@@ -3709,7 +4186,8 @@
       "profile": ["fresh", "aromatic", "woody", "citrus"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Fresh and aromatic in character, it brings together bergamot, lavender and vetiver. It fits everyday wear and work or school."
     },
     {
       "id": "dior-sauvage-edt",
@@ -3722,7 +4200,8 @@
       "profile": ["fresh", "citrus", "aromatic", "spicy"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of bergamot, pepper and lavender gives this fragrance its fresh and citrus-led feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "dior-sauvage-edp",
@@ -3735,7 +4214,8 @@
       "profile": ["fresh", "spicy", "warm", "aromatic"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of bergamot, pepper and lavender shape its fresh and spiced character. It feels at home in everyday wear and evenings out."
     },
     {
       "id": "dior-sauvage-elixir-parfum",
@@ -3755,7 +4235,8 @@
       "profile": ["spicy", "warm", "woody", "aromatic"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its spiced and warm profile and notes of grapefruit, cinnamon and nutmeg, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "dior-dior-homme-edt",
@@ -3768,7 +4249,8 @@
       "profile": ["woody", "aromatic", "fresh", "floral"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["spring", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A woody and aromatic fragrance built around bergamot, pink pepper and cedar. It suits work or school and formal occasions."
     },
     {
       "id": "dior-dior-homme-intense-edp",
@@ -3781,7 +4263,8 @@
       "profile": ["floral", "woody", "warm", "powdery"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With iris, ambrette and pear at its core, this scent has a floral and woody character. It works well for evenings out and formal occasions."
     },
     {
       "id": "dior-dior-homme-parfum-parfum",
@@ -3794,7 +4277,8 @@
       "profile": ["woody", "floral", "warm", "spicy"],
       "occasions": ["Formal events", "Date nights"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Woody and floral in character, it brings together iris, leather and rose. It fits formal occasions and evenings out."
     },
     {
       "id": "dior-fahrenheit-edt",
@@ -3807,7 +4291,8 @@
       "profile": ["woody", "leather", "warm", "spicy"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of mandarin, violet and leather gives this fragrance its woody and leathery feel, making it a good fit for everyday wear and evenings out."
     },
     {
       "id": "dior-miss-dior-edp",
@@ -3820,7 +4305,8 @@
       "profile": ["floral", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of rose, peony and iris shape its floral and sweet character. It feels at home in everyday wear and evenings out."
     },
     {
       "id": "dior-j-adore-edp",
@@ -3833,7 +4319,8 @@
       "profile": ["floral", "fresh", "sweet"],
       "occasions": ["Formal events", "Daily / casual"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its floral and fresh profile and notes of ylang-ylang, rose and jasmine, this fragrance is suited to formal occasions and everyday wear."
     },
     {
       "id": "dior-hypnotic-poison-edt",
@@ -3846,7 +4333,8 @@
       "profile": ["sweet", "warm", "gourmand", "floral"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A sweet and warm fragrance built around bitter almond, vanilla and jasmine. It suits evenings out and parties."
     },
     {
       "id": "dior-poison-girl-edp",
@@ -3859,7 +4347,8 @@
       "profile": ["sweet", "warm", "floral", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With bitter orange, rose and vanilla at its core, this scent has a sweet and warm character. It works well for evenings out and parties."
     },
     {
       "id": "dior-eau-sauvage-edt",
@@ -3872,7 +4361,8 @@
       "profile": ["citrus", "fresh", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Citrus-led and fresh in character, it brings together lemon, bergamot and rosemary. It fits everyday wear and work or school."
     },
     {
       "id": "tom-ford-oud-wood-edp",
@@ -3892,7 +4382,8 @@
       "profile": ["woody", "warm", "spicy", "amber"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of oud, rosewood and cardamom gives this fragrance its woody and warm feel, making it a good fit for evenings out and formal occasions."
     },
     {
       "id": "tom-ford-tobacco-vanille-edp",
@@ -3905,7 +4396,8 @@
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Notes of tobacco leaf, vanilla and cacao shape its sweet and warm character. It feels at home in evenings out and formal occasions."
     },
     {
       "id": "tom-ford-black-orchid-edp",
@@ -3924,7 +4416,8 @@
       "profile": ["floral", "warm", "woody", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its floral and warm profile and notes of black truffle, black orchid and patchouli, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "tom-ford-ombre-leather-edp",
@@ -3937,7 +4430,8 @@
       "profile": ["leather", "woody", "warm", "spicy"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A leathery and woody fragrance built around cardamom, leather and jasmine. It suits evenings out and formal occasions."
     },
     {
       "id": "tom-ford-tuscan-leather-edp",
@@ -3950,7 +4444,8 @@
       "profile": ["leather", "woody", "warm", "spicy"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With saffron, raspberry and thyme at its core, this scent has a leathery and woody character. It works well for evenings out and formal occasions."
     },
     {
       "id": "tom-ford-neroli-portofino-edp",
@@ -3963,7 +4458,8 @@
       "profile": ["citrus", "fresh", "floral", "aromatic"],
       "occasions": ["Daily / casual", "Formal events"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Citrus-led and fresh in character, it brings together bergamot, mandarin and neroli. It fits everyday wear and formal occasions."
     },
     {
       "id": "tom-ford-grey-vetiver-edp",
@@ -3976,7 +4472,8 @@
       "profile": ["citrus", "woody", "aromatic", "fresh"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of grapefruit, orange blossom and vetiver gives this fragrance its citrus-led and woody feel, making it a good fit for work or school and formal occasions."
     },
     {
       "id": "tom-ford-noir-extreme-edp",
@@ -3989,7 +4486,8 @@
       "profile": ["sweet", "warm", "spicy", "gourmand"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of cardamom, kulfi and rose shape its sweet and warm character. It feels at home in evenings out and formal occasions."
     },
     {
       "id": "tom-ford-costa-azzurra-edp",
@@ -4002,7 +4500,8 @@
       "profile": ["fresh", "aquatic", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Parties"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its fresh and aquatic profile and notes of sea air, citrus and juniper, this fragrance is suited to everyday wear and parties."
     },
     {
       "id": "tom-ford-lost-cherry-edp",
@@ -4015,7 +4514,8 @@
       "profile": ["sweet", "fruity", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A sweet and fruity fragrance built around black cherry, almond and rose. It suits evenings out and parties."
     },
     {
       "id": "carolina-herrera-good-girl-edp",
@@ -4035,7 +4535,8 @@
       "profile": ["sweet", "floral", "warm", "gourmand"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With almond, coffee and jasmine at its core, this scent has a sweet and floral character. It works well for evenings out and parties."
     },
     {
       "id": "carolina-herrera-good-girl-blush-edp",
@@ -4048,7 +4549,8 @@
       "profile": ["floral", "sweet", "fresh"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and sweet in character, it brings together bergamot, peony and ylang-ylang. It fits everyday wear and evenings out."
     },
     {
       "id": "carolina-herrera-very-good-girl-edp",
@@ -4061,7 +4563,8 @@
       "profile": ["floral", "fruity", "sweet", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of lychee, red currant and rose gives this fragrance its floral and fruity feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "carolina-herrera-bad-boy-edt",
@@ -4074,7 +4577,8 @@
       "profile": ["fresh", "spicy", "warm", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of sage, bergamot and pepper shape its fresh and spiced character. It feels at home in everyday wear and evenings out."
     },
     {
       "id": "carolina-herrera-bad-boy-cobalt-edp",
@@ -4094,7 +4598,8 @@
       "profile": ["fresh", "woody", "aromatic", "spicy"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and woody profile and notes of pink pepper, lavender and geranium, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "carolina-herrera-212-men-edt",
@@ -4114,7 +4619,8 @@
       "profile": ["fresh", "aromatic", "woody", "green"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A fresh and aromatic fragrance built around petitgrain, lavender and green notes. It suits everyday wear and work or school."
     },
     {
       "id": "carolina-herrera-212-vip-men-edt",
@@ -4127,7 +4633,8 @@
       "profile": ["fresh", "woody", "aromatic", "spicy"],
       "occasions": ["Parties", "Daily / casual"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With lime, caviar and ginger at its core, this scent has a fresh and woody character. It works well for parties and everyday wear."
     },
     {
       "id": "carolina-herrera-ch-men-edt",
@@ -4140,7 +4647,8 @@
       "profile": ["woody", "leather", "warm", "spicy"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Woody and leathery in character, it brings together grapefruit, saffron and leather. It fits evenings out and formal occasions."
     },
     {
       "id": "montblanc-explorer-edp",
@@ -4160,7 +4668,8 @@
       "profile": ["woody", "fresh", "aromatic", "citrus"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of bergamot, pink pepper and clary sage gives this fragrance its woody and fresh feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "montblanc-explorer-platinum-edp",
@@ -4173,7 +4682,8 @@
       "profile": ["fresh", "woody", "aromatic", "green"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of grapefruit, violet leaf and clary sage shape its fresh and woody character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "montblanc-legend-edt",
@@ -4193,7 +4703,8 @@
       "profile": ["fresh", "aromatic", "woody", "sweet"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and aromatic profile and notes of bergamot, lavender and pineapple, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "montblanc-legend-spirit-edt",
@@ -4213,7 +4724,8 @@
       "profile": ["fresh", "citrus", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A fresh and citrus-led fragrance built around grapefruit, bergamot and pink pepper. It suits everyday wear and work or school."
     },
     {
       "id": "montblanc-legend-red-edp",
@@ -4226,7 +4738,8 @@
       "profile": ["fresh", "woody", "warm", "aromatic"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With blood orange, clary sage and mahogany at its core, this scent has a fresh and woody character. It works well for everyday wear and evenings out."
     },
     {
       "id": "montblanc-starwalker-edt",
@@ -4246,7 +4759,8 @@
       "profile": ["fresh", "woody", "citrus", "green"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Fresh and woody in character, it brings together bamboo, bergamot and mandarin. It fits everyday wear and work or school."
     },
     {
       "id": "montblanc-individuel-edt",
@@ -4266,7 +4780,8 @@
       "profile": ["sweet", "woody", "warm", "spicy"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of raspberry, pineapple and cinnamon gives this fragrance its sweet and woody feel, making it a good fit for everyday wear and evenings out."
     },
     {
       "id": "montblanc-presence-edt",
@@ -4286,7 +4801,8 @@
       "profile": ["spicy", "warm", "woody", "aromatic"],
       "occasions": ["Work / school", "Date nights"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of ginger, bergamot and cinnamon shape its spiced and warm character. It feels at home in work or school and evenings out."
     },
     {
       "id": "chanel-bleu-de-chanel-edt",
@@ -4307,7 +4823,8 @@
       "profile": ["fresh", "citrus", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and citrus-led profile and notes of lemon, mint and pink pepper, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "chanel-bleu-de-chanel-parfum",
@@ -4327,7 +4844,8 @@
       "profile": ["woody", "aromatic", "warm", "citrus"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A woody and aromatic fragrance built around lemon, bergamot and lavender. It suits work or school and formal occasions."
     },
     {
       "id": "chanel-allure-homme-sport-edt",
@@ -4347,7 +4865,8 @@
       "profile": ["fresh", "citrus", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With orange, aldehydes and pepper at its core, this scent has a fresh and citrus-led character. It works well for everyday wear and work or school."
     },
     {
       "id": "chanel-allure-homme-sport-eau-extreme-edp",
@@ -4360,7 +4879,8 @@
       "profile": ["fresh", "woody", "aromatic", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Fresh and woody in character, it brings together mandarin, mint and pepper. It fits everyday wear and evenings out."
     },
     {
       "id": "chanel-coco-mademoiselle-edp",
@@ -4380,7 +4900,8 @@
       "profile": ["floral", "citrus", "sweet", "woody"],
       "occasions": ["Work / school", "Date nights", "Formal events"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of orange, bergamot and rose gives this fragrance its floral and citrus-led feel, making it a good fit for work or school and evenings out."
     },
     {
       "id": "chanel-chance-eau-tendre-edt",
@@ -4393,7 +4914,8 @@
       "profile": ["fresh", "citrus", "floral"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of grapefruit, quince and jasmine shape its fresh and citrus-led character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "chanel-chance-eau-fraiche-edp",
@@ -4406,7 +4928,8 @@
       "profile": ["fresh", "citrus", "woody", "floral"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its fresh and citrus-led profile and notes of citron, jasmine and teakwood, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "chanel-n-5-edp",
@@ -4426,7 +4949,8 @@
       "profile": ["floral", "warm", "powdery", "woody"],
       "occasions": ["Formal events", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A floral and warm fragrance built around aldehydes, ylang-ylang and rose. It suits formal occasions and evenings out."
     },
     {
       "id": "chanel-gabrielle-chanel-edp",
@@ -4445,7 +4969,8 @@
       "profile": ["floral", "fresh", "warm"],
       "occasions": ["Formal events", "Daily / casual"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With jasmine, ylang-ylang and orange blossom at its core, this scent has a floral and fresh character. It works well for formal occasions and everyday wear."
     },
     {
       "id": "chanel-egoiste-platinum-edt",
@@ -4458,7 +4983,8 @@
       "profile": ["aromatic", "fresh", "green", "woody"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Aromatic and fresh in character, it brings together lavender, rosemary and petitgrain. It fits work or school and formal occasions."
     },
     {
       "id": "gucci-guilty-pour-homme-edp",
@@ -4471,7 +4997,8 @@
       "profile": ["woody", "aromatic", "citrus", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of lemon, lavender and orange blossom gives this fragrance its woody and aromatic feel, making it a good fit for everyday wear and evenings out."
     },
     {
       "id": "gucci-guilty-pour-homme-parfum-parfum",
@@ -4491,7 +5018,8 @@
       "profile": ["woody", "aromatic", "spicy", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of juniper, lavender and orange blossom shape its woody and aromatic character. It feels at home in evenings out and formal occasions."
     },
     {
       "id": "gucci-guilty-pour-femme-edp",
@@ -4511,7 +5039,8 @@
       "profile": ["floral", "citrus", "warm", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its floral and citrus-led profile and notes of mandora, bergamot and pink pepper, this fragrance is suited to everyday wear and evenings out."
     },
     {
       "id": "gucci-flora-gorgeous-gardenia-edp",
@@ -4531,7 +5060,8 @@
       "profile": ["floral", "sweet", "fruity"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A floral and sweet fragrance built around pear, red berries and gardenia. It suits everyday wear and evenings out."
     },
     {
       "id": "gucci-flora-gorgeous-gardenia-intense-edp",
@@ -4544,7 +5074,8 @@
       "profile": ["floral", "sweet", "woody", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With mandarin, gardenia and hedione at its core, this scent has a floral and sweet character. It works well for evenings out and parties."
     },
     {
       "id": "gucci-bloom-edp",
@@ -4557,7 +5088,8 @@
       "profile": ["floral", "green", "fresh"],
       "occasions": ["Daily / casual", "Formal events"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and green in character, it brings together jasmine, tuberose and rangoon creeper. It fits everyday wear and formal occasions."
     },
     {
       "id": "gucci-bloom-ambrosia-di-fiori-edp",
@@ -4570,7 +5102,8 @@
       "profile": ["floral", "woody", "warm"],
       "occasions": ["Formal events", "Date nights"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of jasmine, tuberose and rose gives this fragrance its floral and woody feel, making it a good fit for formal occasions and evenings out."
     },
     {
       "id": "gucci-flora-gorgeous-magnolia-edp",
@@ -4583,7 +5116,8 @@
       "profile": ["floral", "fruity", "fresh", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of dewberry, magnolia and patchouli shape its floral and fruity character. It feels at home in everyday wear and evenings out."
     },
     {
       "id": "gucci-guilty-absolute-pour-homme-edp",
@@ -4596,7 +5130,8 @@
       "profile": ["woody", "leather", "warm", "aromatic"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its woody and leathery profile and notes of leather, woods and vetiver, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "dior-addict-edp",
@@ -4609,7 +5144,8 @@
       "profile": ["floral", "sweet", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A floral and sweet fragrance built around vanilla, jasmine and tonka. It suits evenings out and formal occasions."
     },
     {
       "id": "dior-joy-edp",
@@ -4622,7 +5158,8 @@
       "profile": ["floral", "fresh", "citrus", "powdery"],
       "occasions": ["Daily / casual", "Work / school", "Formal events"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With bergamot, mandarin and rose at its core, this scent has a floral and fresh character. It works well for everyday wear and work or school."
     },
     {
       "id": "dior-pure-poison-edp",
@@ -4635,7 +5172,8 @@
       "profile": ["floral", "white floral", "fresh", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and white-floral in character, it brings together orange blossom, jasmine and gardenia. It fits evenings out and formal occasions."
     },
     {
       "id": "hermes-jour-dhermes-edp",
@@ -4648,7 +5186,8 @@
       "profile": ["floral", "citrus", "fresh", "green"],
       "occasions": ["Daily / casual", "Work / school", "Formal events"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of grapefruit, lemon and gardenia gives this fragrance its floral and citrus-led feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "hermes-twilly-eau-ginger-edp",
@@ -4661,7 +5200,8 @@
       "profile": ["floral", "spicy", "fresh", "woody"],
       "occasions": ["Daily / casual", "Work / school", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of peony, candied ginger and ginger shape its floral and spiced character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "burberry-brit-for-her-edp",
@@ -4682,7 +5222,8 @@
       "profile": ["sweet", "floral", "warm", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its sweet and floral profile and notes of lime, almond and pear, this fragrance is suited to everyday wear and evenings out."
     },
     {
       "id": "burberry-my-burberry-blush-edp",
@@ -4702,7 +5243,8 @@
       "profile": ["floral", "fruity", "fresh", "citrus"],
       "occasions": ["Daily / casual", "Work / school", "Formal events"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A floral and fruity fragrance built around pomegranate, lemon and green apple. It suits everyday wear and work or school."
     },
     {
       "id": "burberry-my-burberry-black-parfum",
@@ -4715,7 +5257,8 @@
       "profile": ["floral", "sweet", "amber", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With jasmine, peach and rose at its core, this scent has a floral and sweet character. It works well for evenings out and formal occasions."
     },
     {
       "id": "tom-ford-velvet-orchid-edp",
@@ -4736,7 +5279,8 @@
       "profile": ["floral", "sweet", "amber", "warm"],
       "occasions": ["Date nights", "Parties", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and sweet in character, it brings together rum, honey and mandarin. It fits evenings out and parties."
     },
     {
       "id": "tom-ford-soleil-blanc-edp",
@@ -4756,7 +5300,8 @@
       "profile": ["floral", "sweet", "fresh", "warm"],
       "occasions": ["Daily / casual", "Date nights", "Formal events"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of bergamot, pistachio and cardamom gives this fragrance its floral and sweet feel, making it a good fit for everyday wear and evenings out."
     },
     {
       "id": "tom-ford-jasmin-rouge-edp",
@@ -4777,7 +5322,8 @@
       "profile": ["floral", "spicy", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "Notes of cinnamon, ginger and bergamot shape its floral and spiced character. It feels at home in evenings out and formal occasions."
     },
     {
       "id": "tom-ford-rose-prick-edp",
@@ -4797,7 +5343,8 @@
       "profile": ["floral", "spicy", "woody", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its floral and spiced profile and notes of sichuan pepper, turkish rose and bulgarian rose, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "hugo-boss-boss-alive-edp",
@@ -4818,7 +5365,8 @@
       "profile": ["fruity", "sweet", "woody", "warm"],
       "occasions": ["Daily / casual", "Work / school", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A fruity and sweet fragrance built around apple, cinnamon and black currant. It suits everyday wear and work or school."
     },
     {
       "id": "zara-gardenia-edp",
@@ -4831,7 +5379,8 @@
       "profile": ["floral", "gourmand", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With orange blossom, coffee and peach at its core, this scent has a floral and gourmand character. It works well for everyday wear and evenings out."
     },
     {
       "id": "zara-orchid-edp",
@@ -4844,7 +5393,8 @@
       "profile": ["floral", "sweet", "fresh"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and sweet in character, it brings together bergamot, orchid and vanilla. It fits everyday wear and work or school."
     },
     {
       "id": "zara-fields-at-nightfall-intense-edp",
@@ -4857,7 +5407,8 @@
       "profile": ["fruity", "floral", "woody", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of blackcurrant, plum and jasmine gives this fragrance its fruity and floral feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "carolina-herrera-212-vip-rose-edp",
@@ -4877,7 +5428,8 @@
       "profile": ["floral", "fruity", "fresh", "sweet"],
       "occasions": ["Parties", "Date nights", "Daily / casual"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of champagne, pink pepper and peach blossom shape its floral and fruity character. It feels at home in parties and evenings out."
     },
     {
       "id": "carolina-herrera-good-girl-blush-elixir-edp",
@@ -4890,7 +5442,8 @@
       "profile": ["floral", "sweet", "warm", "amber"],
       "occasions": ["Date nights", "Parties", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its floral and sweet profile and notes of bitter almond, rose and ylang-ylang, this fragrance is suited to evenings out and parties."
     },
     {
       "id": "lattafa-eclaire-edp",
@@ -4912,7 +5465,8 @@
       "profile": ["gourmand", "sweet", "floral", "warm"],
       "occasions": ["Date nights", "Daily / casual", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A gourmand and sweet fragrance built around caramel, milk and sugar. It suits evenings out and everyday wear."
     },
     {
       "id": "lattafa-mayar-edp",
@@ -4934,7 +5488,8 @@
       "profile": ["fruity", "floral", "sweet", "fresh"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With raspberry, lychee and violet leaf at its core, this scent has a fruity and floral character. It works well for everyday wear and evenings out."
     },
     {
       "id": "lattafa-mayar-natural-intense-edp",
@@ -4958,7 +5513,8 @@
       "profile": ["fruity", "floral", "fresh", "sweet"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Fruity and floral in character, it brings together fig, coconut water and green tangerine. It fits everyday wear and work or school."
     },
     {
       "id": "lattafa-mayar-cherry-intense-edp",
@@ -4979,7 +5535,8 @@
       "profile": ["fruity", "sweet", "gourmand", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of strawberry, bergamot and cherry gives this fragrance its fruity and sweet feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "afnan-souvenir-floral-bouquet-edp",
@@ -5001,7 +5558,8 @@
       "profile": ["floral", "fruity", "fresh", "sweet"],
       "occasions": ["Daily / casual", "Work / school", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of rhubarb, lychee and bergamot shape its floral and fruity character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "lattafa-asad-bourbon-edp",
@@ -5024,7 +5582,8 @@
       "profile": ["spicy", "sweet", "gourmand", "warm"],
       "occasions": ["Date nights", "Parties", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "With its spiced and sweet profile and notes of pink pepper, lavender and mirabelle plum, this fragrance is suited to evenings out and parties."
     },
     {
       "id": "lattafa-asad-elixir-edp",
@@ -5047,7 +5606,8 @@
       "profile": ["spicy", "woody", "warm", "amber"],
       "occasions": ["Date nights", "Parties", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A spiced and woody fragrance built around pink pepper, saffron and grapefruit. It suits evenings out and parties."
     },
     {
       "id": "lattafa-asad-zanzibar-limited-edition-edp",
@@ -5071,7 +5631,8 @@
       "profile": ["aquatic", "fresh", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With marine notes, lavender and pink pepper at its core, this scent has a aquatic and fresh character. It works well for everyday wear and work or school."
     },
     {
       "id": "ysl-myslf-edp",
@@ -5084,7 +5645,8 @@
       "profile": ["fresh", "floral", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Fresh and floral in character, it brings together bergamot, orange blossom and ambrofix. It fits everyday wear and work or school."
     },
     {
       "id": "ysl-myslf-le-parfum",
@@ -5104,7 +5666,8 @@
       "profile": ["woody", "spicy", "sweet", "warm", "amber"],
       "occasions": ["Date nights", "Parties", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of black pepper, orange blossom and vanilla bourbon gives this fragrance its woody and spiced feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "ysl-myslf-labsolu",
@@ -5128,7 +5691,8 @@
         "Formal events"
       ],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of ginger, bergamot and cardamom shape its fresh and spiced character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "ysl-myslf-edt-intense",
@@ -5147,7 +5711,8 @@
       "profile": ["fresh", "floral", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and floral profile and notes of bergamot, orange blossom and ambrofix, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "ysl-y-edp",
@@ -5160,7 +5725,8 @@
       "profile": ["fresh", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A fresh and aromatic fragrance built around bergamot, sage and geranium. It suits everyday wear and work or school."
     },
     {
       "id": "ysl-y-le-parfum",
@@ -5173,7 +5739,8 @@
       "profile": ["aromatic", "woody", "warm"],
       "occasions": ["Work / school", "Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With geranium, lavender and cedar at its core, this scent has a aromatic and woody character. It works well for work or school and evenings out."
     },
     {
       "id": "ysl-y-edp-intense",
@@ -5186,7 +5753,8 @@
       "profile": ["aromatic", "woody", "fresh"],
       "occasions": ["Daily / casual", "Work / school", "Date nights"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Aromatic and woody in character, it brings together juniper berries, lavender and sage. It fits everyday wear and work or school."
     },
     {
       "id": "ysl-y-elixir",
@@ -5199,7 +5767,8 @@
       "profile": ["aromatic", "woody", "spicy", "warm"],
       "occasions": ["Date nights", "Parties", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of lavender, geranium and incense gives this fragrance its aromatic and woody feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "ysl-lhomme-edt",
@@ -5220,7 +5789,8 @@
       "profile": ["fresh", "citrus", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of ginger, bergamot and lemon shape its fresh and citrus-led character. It feels at home in everyday wear and work or school."
     },
     {
       "id": "ysl-lhomme-le-parfum",
@@ -5241,7 +5811,8 @@
       "profile": ["fresh", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school", "Formal events"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and woody profile and notes of ozonic notes, cardamom and lemon, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "ysl-la-nuit-de-lhomme-edt",
@@ -5261,7 +5832,8 @@
       "profile": ["spicy", "woody", "aromatic", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A spiced and woody fragrance built around cardamom, bergamot and lavender. It suits evenings out and parties."
     },
     {
       "id": "ysl-la-nuit-de-lhomme-le-parfum",
@@ -5283,7 +5855,8 @@
       "profile": ["spicy", "woody", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With bergamot, anise and black pepper at its core, this scent has a spiced and woody character. It works well for evenings out and formal occasions."
     },
     {
       "id": "ysl-la-nuit-de-lhomme-bleu-electrique",
@@ -5303,7 +5876,8 @@
       "profile": ["spicy", "fresh", "woody", "aromatic"],
       "occasions": ["Date nights", "Daily / casual"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Spiced and fresh in character, it brings together cardamom, ginger and bergamot. It fits evenings out and everyday wear."
     },
     {
       "id": "ysl-libre-edp",
@@ -5324,7 +5898,8 @@
       "profile": ["floral", "aromatic", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights", "Formal events"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of lavender, mandarin and blackcurrant gives this fragrance its floral and aromatic feel, making it a good fit for everyday wear and evenings out."
     },
     {
       "id": "ysl-libre-intense-edp",
@@ -5345,7 +5920,8 @@
       "profile": ["floral", "sweet", "warm", "amber"],
       "occasions": ["Date nights", "Parties", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of lavender, mandarin and orange blossom shape its floral and sweet character. It feels at home in evenings out and parties."
     },
     {
       "id": "ysl-libre-le-parfum",
@@ -5366,7 +5942,8 @@
       "profile": ["floral", "spicy", "sweet", "warm"],
       "occasions": ["Date nights", "Parties", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its floral and spiced profile and notes of saffron, ginger and mandarin, this fragrance is suited to evenings out and parties."
     },
     {
       "id": "ysl-libre-edt",
@@ -5386,7 +5963,8 @@
       "profile": ["floral", "fresh", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A floral and fresh fragrance built around lavender, bergamot and orange blossom. It suits everyday wear and work or school."
     },
     {
       "id": "ysl-black-opium-edp",
@@ -5407,7 +5985,8 @@
       "profile": ["sweet", "gourmand", "warm", "floral"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With pear, pink pepper and orange blossom at its core, this scent has a sweet and gourmand character. It works well for evenings out and parties."
     },
     {
       "id": "ysl-black-opium-le-parfum",
@@ -5428,7 +6007,8 @@
       "profile": ["sweet", "gourmand", "warm", "floral"],
       "occasions": ["Date nights", "Parties", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Sweet and gourmand in character, it brings together pear, cinnamon and orange blossom. It fits evenings out and parties."
     },
     {
       "id": "ysl-black-opium-over-red-edp",
@@ -5448,7 +6028,8 @@
       "profile": ["fruity", "sweet", "gourmand", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of cherry, green mandarin and coffee gives this fragrance its fruity and sweet feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "azzaro-pour-homme-edt",
@@ -5470,7 +6051,8 @@
       "profile": ["aromatic", "woody", "spicy", "warm"],
       "occasions": ["Work / school", "Formal events"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of lavender, anise and lemon shape its aromatic and woody character. It feels at home in work or school and formal occasions."
     },
     {
       "id": "azzaro-chrome-edt",
@@ -5491,7 +6073,8 @@
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and citrus-led profile and notes of lemon, bergamot and rosemary, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "azzaro-chrome-extreme-edp",
@@ -5510,7 +6093,8 @@
       "profile": ["fresh", "aquatic", "citrus", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A fresh and aquatic fragrance built around green mandarin, juniper berries and sea notes. It suits everyday wear and work or school."
     },
     {
       "id": "azzaro-wanted-edt",
@@ -5531,7 +6115,8 @@
       "profile": ["fresh", "citrus", "spicy", "woody"],
       "occasions": ["Daily / casual", "Work / school", "Parties"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With lemon, ginger and lavender at its core, this scent has a fresh and citrus-led character. It works well for everyday wear and work or school."
     },
     {
       "id": "azzaro-wanted-by-night-edp",
@@ -5552,7 +6137,8 @@
       "profile": ["spicy", "sweet", "woody", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Spiced and sweet in character, it brings together cinnamon, mandarin and lavender. It fits evenings out and parties."
     },
     {
       "id": "azzaro-wanted-girl-edp",
@@ -5571,7 +6157,8 @@
       "profile": ["floral", "sweet", "gourmand", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of ginger flower, orange blossom and dulce de leche gives this fragrance its floral and sweet feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "azzaro-wanted-girl-by-night-edp",
@@ -5591,7 +6178,8 @@
       "profile": ["floral", "sweet", "fruity", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of blackcurrant, mandarin and datura shape its floral and sweet character. It feels at home in evenings out and parties."
     },
     {
       "id": "azzaro-the-most-wanted-edp-intense",
@@ -5604,7 +6192,8 @@
       "profile": ["spicy", "sweet", "warm", "amber"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its spiced and sweet profile and notes of cardamom, toffee and amberwood, this fragrance is suited to evenings out and parties."
     },
     {
       "id": "azzaro-the-most-wanted-parfum",
@@ -5617,7 +6206,8 @@
       "profile": ["spicy", "woody", "sweet", "warm"],
       "occasions": ["Date nights", "Parties", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A spiced and woody fragrance built around red ginger, burning woods and bourbon vanilla. It suits evenings out and parties."
     },
     {
       "id": "azzaro-the-most-wanted-edt-intense",
@@ -5630,7 +6220,8 @@
       "profile": ["fresh", "spicy", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights", "Parties"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With bergamot, lavender and cardamom at its core, this scent has a fresh and spiced character. It works well for everyday wear and evenings out."
     },
     {
       "id": "azzaro-forever-wanted-elixir",
@@ -5643,7 +6234,8 @@
       "profile": ["fruity", "spicy", "woody", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Fruity and spiced in character, it brings together raspberry, cardamom and leather. It fits evenings out and parties."
     },
     {
       "id": "azzaro-chrome-azure-edt",
@@ -5656,7 +6248,8 @@
       "profile": ["fresh", "aquatic", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of bergamot, marine notes and lavender gives this fragrance its fresh and aquatic feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "azzaro-pour-elle-edp",
@@ -5669,7 +6262,8 @@
       "profile": ["floral", "fruity", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of pear, rose and jasmine shape its floral and fruity character. It feels at home in everyday wear and evenings out."
     },
     {
       "id": "dolce-gabbana-light-blue-edt",
@@ -5689,7 +6283,8 @@
       "profile": ["fresh", "citrus", "fruity", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its fresh and citrus-led profile and notes of sicilian lemon, apple and cedar, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "dolce-gabbana-light-blue-eau-intense-edp",
@@ -5709,7 +6304,8 @@
       "profile": ["fresh", "citrus", "fruity", "aquatic"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A fresh and citrus-led fragrance built around lemon, granny smith apple and jasmine. It suits everyday wear and evenings out."
     },
     {
       "id": "dolce-gabbana-light-blue-pour-homme-edt",
@@ -5730,7 +6326,8 @@
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With sicilian mandarin, grapefruit and bergamot at its core, this scent has a fresh and citrus-led character. It works well for everyday wear and work or school."
     },
     {
       "id": "dolce-gabbana-light-blue-eau-intense-pour-homme-edp",
@@ -5750,7 +6347,8 @@
       "profile": ["fresh", "citrus", "aquatic", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Fresh and citrus-led in character, it brings together mandarin, grapefruit and juniper. It fits everyday wear and evenings out."
     },
     {
       "id": "dolce-gabbana-the-one-edp",
@@ -5771,7 +6369,8 @@
       "profile": ["floral", "fruity", "sweet", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of bergamot, peach and lychee gives this fragrance its floral and fruity feel, making it a good fit for evenings out and formal occasions."
     },
     {
       "id": "dolce-gabbana-the-one-for-men-edt",
@@ -5793,7 +6392,8 @@
       "profile": ["spicy", "woody", "aromatic", "warm"],
       "occasions": ["Work / school", "Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of grapefruit, coriander and basil shape its spiced and woody character. It feels at home in work or school and evenings out."
     },
     {
       "id": "dolce-gabbana-the-one-for-men-edp",
@@ -5815,7 +6415,8 @@
       "profile": ["spicy", "woody", "aromatic", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its spiced and woody profile and notes of grapefruit, coriander and basil, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "dolce-gabbana-the-only-one-edp",
@@ -5837,7 +6438,8 @@
       "profile": ["floral", "gourmand", "sweet", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A floral and gourmand fragrance built around violet, coffee and orange. It suits evenings out and parties."
     },
     {
       "id": "dolce-gabbana-devotion-edp",
@@ -5850,7 +6452,8 @@
       "profile": ["citrus", "sweet", "gourmand", "warm"],
       "occasions": ["Daily / casual", "Date nights", "Parties"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With candied lemon, orange blossom and panacotta at its core, this scent has a citrus-led and sweet character. It works well for everyday wear and evenings out."
     },
     {
       "id": "dolce-gabbana-devotion-intense-edp",
@@ -5863,7 +6466,8 @@
       "profile": ["sweet", "gourmand", "warm", "floral"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Sweet and gourmand in character, it brings together hazelnut, orange blossom and vanilla. It fits evenings out and parties."
     },
     {
       "id": "dolce-gabbana-k-edp",
@@ -5885,7 +6489,8 @@
       "profile": ["fresh", "citrus", "aromatic", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of blood orange, lemon and juniper gives this fragrance its fresh and citrus-led feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "dolce-gabbana-q-edp",
@@ -5906,7 +6511,8 @@
       "profile": ["fruity", "floral", "sweet", "fresh"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of sicilian lemon, blood orange and jasmine shape its fruity and floral character. It feels at home in everyday wear and evenings out."
     },
     {
       "id": "dolce-gabbana-devotion-pour-homme-parfum",
@@ -5919,7 +6525,8 @@
       "profile": ["citrus", "woody", "warm", "gourmand"],
       "occasions": ["Work / school", "Date nights"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its citrus-led and woody profile and notes of lemon, coffee and patchouli, this fragrance is suited to work or school and evenings out."
     },
     {
       "id": "dolce-gabbana-pour-homme-edt",
@@ -5940,7 +6547,8 @@
       "profile": ["aromatic", "citrus", "woody", "warm"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A aromatic and citrus-led fragrance built around bergamot, neroli and citrus. It suits everyday wear and work or school."
     },
     {
       "id": "mugler-angel-edp",
@@ -5960,7 +6568,8 @@
       "profile": ["sweet", "gourmand", "warm", "fruity"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With bergamot, red berries and praline at its core, this scent has a sweet and gourmand character. It works well for evenings out and parties."
     },
     {
       "id": "mugler-angel-nova-edp",
@@ -5973,7 +6582,8 @@
       "profile": ["fruity", "floral", "woody", "sweet"],
       "occasions": ["Daily / casual", "Date nights", "Parties"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Fruity and floral in character, it brings together raspberry, lychee and damask rose. It fits everyday wear and evenings out."
     },
     {
       "id": "mugler-angel-elixir-edp",
@@ -5993,7 +6603,8 @@
       "profile": ["floral", "sweet", "warm", "woody"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of pink pepper, ylang-ylang and orange blossom gives this fragrance its floral and sweet feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "mugler-angel-muse-edp",
@@ -6012,7 +6623,8 @@
       "profile": ["sweet", "gourmand", "woody", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of grapefruit, pink pepper and hazelnut cocoa shape its sweet and gourmand character. It feels at home in evenings out and parties."
     },
     {
       "id": "mugler-alien-edp",
@@ -6025,7 +6637,8 @@
       "profile": ["floral", "woody", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its floral and woody profile and notes of jasmine sambac, cashmeran and amber, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "mugler-alien-goddess-edp",
@@ -6044,7 +6657,8 @@
       "profile": ["floral", "sweet", "warm", "fresh"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A floral and sweet fragrance built around bergamot, coconut water and jasmine grandiflorum. It suits everyday wear and evenings out."
     },
     {
       "id": "mugler-alien-goddess-intense-edp",
@@ -6063,7 +6677,8 @@
       "profile": ["floral", "sweet", "warm", "amber"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter", "spring"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With bergamot, coconut and jasmine grandiflorum at its core, this scent has a floral and sweet character. It works well for evenings out and formal occasions."
     },
     {
       "id": "mugler-alien-hypersense-edp",
@@ -6082,7 +6697,8 @@
       "profile": ["floral", "fruity", "fresh", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and fruity in character, it brings together green mandarin, pear and jasmine sambac. It fits everyday wear and evenings out."
     },
     {
       "id": "mugler-alien-goddess-supra-florale-edp",
@@ -6100,7 +6716,8 @@
       "profile": ["floral", "fresh", "green", "warm"],
       "occasions": ["Daily / casual", "Formal events"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of cactus flower, jasmine grandiflorum and everlasting flower gives this fragrance its floral and fresh feel, making it a good fit for everyday wear and formal occasions."
     },
     {
       "id": "mugler-alien-pulp-edp",
@@ -6113,7 +6730,8 @@
       "profile": ["fruity", "floral", "sweet", "woody"],
       "occasions": ["Daily / casual", "Date nights", "Parties"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of raspberry, jasmine and musk shape its fruity and floral character. It feels at home in everyday wear and evenings out."
     },
     {
       "id": "mugler-aura-edp",
@@ -6132,7 +6750,8 @@
       "profile": ["green", "woody", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its green and woody profile and notes of rhubarb leaf, tiger liana and orange blossom, this fragrance is suited to everyday wear and evenings out."
     },
     {
       "id": "mugler-womanity-edp",
@@ -6145,7 +6764,8 @@
       "profile": ["fruity", "green", "woody", "aquatic"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A fruity and green fragrance built around fig, caviar accord and fig leaf. It suits everyday wear and evenings out."
     },
     {
       "id": "mugler-amen-edt",
@@ -6165,7 +6785,8 @@
       "profile": ["woody", "aromatic", "sweet", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With lavender, mint and coffee at its core, this scent has a woody and aromatic character. It works well for evenings out and parties."
     },
     {
       "id": "mugler-amen-pure-malt-edp",
@@ -6185,7 +6806,8 @@
       "profile": ["woody", "sweet", "gourmand", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Woody and sweet in character, it brings together fruity notes, peat and malt whiskey. It fits evenings out and parties."
     },
     {
       "id": "mugler-amen-fantasm-edp",
@@ -6198,7 +6820,8 @@
       "profile": ["woody", "gourmand", "sweet", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of bergamot, dark chocolate and patchouli gives this fragrance its woody and gourmand feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "mugler-alien-man-edt",
@@ -6211,7 +6834,8 @@
       "profile": ["woody", "spicy", "leather", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Notes of anise, dill and leather shape its woody and spiced character. It feels at home in evenings out and formal occasions."
     },
     {
       "id": "azzaro-wanted-tonic-edt",
@@ -6224,7 +6848,8 @@
       "profile": ["fresh", "citrus", "spicy", "woody"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and citrus-led profile and notes of lime, green cardamom and ginger, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "azzaro-wanted-girl-tonic-edt",
@@ -6237,7 +6862,8 @@
       "profile": ["fruity", "fresh", "floral", "green"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A fruity and fresh fragrance built around lemon ginger, acai berry and kiwi. It suits everyday wear and work or school."
     },
     {
       "id": "azzaro-mademoiselle-edt",
@@ -6250,7 +6876,8 @@
       "profile": ["fruity", "floral", "fresh", "sweet"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With peach, orange and jasmine at its core, this scent has a fruity and floral character. It works well for everyday wear and work or school."
     },
     {
       "id": "azzaro-wanted-edp",
@@ -6270,7 +6897,8 @@
       "profile": ["fresh", "aromatic", "spicy", "woody"],
       "occasions": ["Daily / casual", "Work / school", "Parties"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "Fresh and aromatic in character, it brings together juniper berries, lemon and sage. It fits everyday wear and work or school."
     },
     {
       "id": "azzaro-forever-wanted-absolu",
@@ -6283,7 +6911,8 @@
       "profile": ["spicy", "woody", "warm", "amber"],
       "occasions": ["Date nights", "Parties", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A blend of spices, woody notes and amber gives this fragrance its spiced and woody feel, making it a good fit for evenings out and parties."
     },
     {
       "id": "dolce-gabbana-my-devotion-edp-intense",
@@ -6296,7 +6925,8 @@
       "profile": ["fruity", "floral", "sweet", "warm"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of pear, blackcurrant and orange blossom shape its fruity and floral character. It feels at home in everyday wear and evenings out."
     },
     {
       "id": "dolce-gabbana-the-one-gold-edp-intense",
@@ -6316,7 +6946,8 @@
       "profile": ["fruity", "floral", "sweet", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With its fruity and floral profile and notes of plum, italian mandarin and pink pepper, this fragrance is suited to evenings out and formal occasions."
     },
     {
       "id": "dolce-gabbana-q-elixir",
@@ -6336,7 +6967,8 @@
       "profile": ["fruity", "floral", "sweet", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A fruity and floral fragrance built around sicilian lemon, blood orange and cherry. It suits evenings out and parties."
     },
     {
       "id": "dolce-gabbana-q-edp-intense",
@@ -6349,7 +6981,8 @@
       "profile": ["fruity", "floral", "sweet", "fresh"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With sicilian lemon, orange and jasmine at its core, this scent has a fruity and floral character. It works well for everyday wear and evenings out."
     },
     {
       "id": "dolce-gabbana-the-one-edp-intense",
@@ -6369,7 +7002,8 @@
       "profile": ["floral", "fruity", "sweet", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and fruity in character, it brings together blackcurrant, pink pepper and mandarin. It fits evenings out and formal occasions."
     },
     {
       "id": "dolce-gabbana-blue-jasmine-edp",
@@ -6382,7 +7016,8 @@
       "profile": ["floral", "fruity", "green", "fresh"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "A blend of sicilian fig, blue jasmine and cedarwood gives this fragrance its floral and fruity feel, making it a good fit for everyday wear and work or school."
     },
     {
       "id": "dolce-gabbana-light-blue-capri-in-love-edp",
@@ -6395,7 +7030,8 @@
       "profile": ["fresh", "citrus", "fruity", "woody"],
       "occasions": ["Daily / casual", "Date nights"],
       "seasons": ["spring", "summer"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Notes of lemon, fig and jasmine shape its fresh and citrus-led character. It feels at home in everyday wear and evenings out."
     },
     {
       "id": "dolce-gabbana-light-blue-capri-in-love-pour-homme-edp",
@@ -6408,7 +7044,8 @@
       "profile": ["fresh", "citrus", "woody", "aromatic"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "men"
+      "gender": "men",
+      "description": "With its fresh and citrus-led profile and notes of lemon, fig and cypress, this fragrance is suited to everyday wear and work or school."
     },
     {
       "id": "dolce-gabbana-k-parfum",
@@ -6429,7 +7066,8 @@
       "profile": ["citrus", "woody", "aromatic", "warm"],
       "occasions": ["Daily / casual", "Work / school", "Date nights"],
       "seasons": ["spring", "summer", "autumn"],
-      "gender": "men"
+      "gender": "men",
+      "description": "A citrus-led and woody fragrance built around blood orange, lemon and juniper. It suits everyday wear and work or school."
     },
     {
       "id": "mugler-angel-fantasm-edp",
@@ -6442,7 +7080,8 @@
       "profile": ["fruity", "sweet", "gourmand", "warm"],
       "occasions": ["Date nights", "Parties"],
       "seasons": ["spring", "autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "With pineapple, coconut and jasmine at its core, this scent has a fruity and sweet character. It works well for evenings out and parties."
     },
     {
       "id": "mugler-alien-extraintense-edp",
@@ -6455,7 +7094,8 @@
       "profile": ["floral", "woody", "sweet", "warm"],
       "occasions": ["Date nights", "Formal events"],
       "seasons": ["autumn", "winter"],
-      "gender": "women"
+      "gender": "women",
+      "description": "Floral and woody in character, it brings together jasmine grandiflorum, tuberose and cashmeran. It fits evenings out and formal occasions."
     },
     {
       "id": "mugler-cologne-edt",
@@ -6468,7 +7108,8 @@
       "profile": ["fresh", "citrus", "aromatic", "green"],
       "occasions": ["Daily / casual", "Work / school"],
       "seasons": ["spring", "summer"],
-      "gender": "unisex"
+      "gender": "unisex",
+      "description": "A blend of petitgrain, neroli and bergamot gives this fragrance its fresh and citrus-led feel, making it a good fit for everyday wear and work or school."
     }
   ],
   "easterEggs": []

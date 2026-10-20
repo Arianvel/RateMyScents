@@ -4,6 +4,7 @@ const label = value => {value=value.trim();return spanish[value] ?? spanish[valu
 const labels = value => value.split(', ').map(label).join(', ');
 const naturalLabels = value => new Intl.ListFormat('es',{style:'long',type:'conjunction'}).format(value.split(/, and | and |, /).map(x=>label(x).toLowerCase()));
 const rules = [
+  [/^View details for (.+)$/,(_,name)=>`Ver detalles de ${name}`],
   [/^Try up to USD (.+) per fragrance \((\d+) matches\)$/,(_,amount,n)=>`Probar hasta ${amount.replace('.',',')} USD por perfume (${n} opciones)`],
   [/^Include any fragrance type \((\d+) matches\)$/,(_,n)=>`Incluir cualquier tipo de perfume (${n} opciones)`],
   [/^Remove scent preferences \((\d+) matches\)$/,(_,n)=>`Quitar la preferencia de aromas (${n} opciones)`],
@@ -24,7 +25,7 @@ const rules = [
   [/^Matches: (.+) \(\+(\d+) more\)\.$/,(_,names,n)=>`Coincidencias: ${labels(names)} (+${n} más).`],
   [/^Listed for (\d+) of 5 occasions\.$/,(_,n)=>`Asignado a ${n} de 5 ocasiones.`],
   [/^None of your fragrances are listed for (.+)\.$/,(_,names)=>`Ninguno de tus perfumes tiene asignado ${labels(names).toLowerCase()}.`],
-  [/^Your collection includes (\d+) of the method's 12 profile labels across (\d+) fragrances\.$/,(_,n,size)=>`Tu colección incluye ${n} de los 12 perfiles del método en ${size} perfumes.`],
+  [/^Your collection includes (\d+) of the method's 15 profile labels across (\d+) fragrances\.$/,(_,n,size)=>`Tu colección incluye ${n} de los 15 perfiles del método en ${size} perfumes.`],
   [/^(\d+) of 3 selected$/,(_,n)=>`${n} de 3 seleccionados`],
   [/^You have the most options for (.+): (\d+) of your (\d+) fragrances are listed for (?:each occasion|this occasion)\.$/,(_,names,n,total)=>`Tienes más opciones para ${labels(names).toLowerCase()}: ${n} de tus ${total} perfumes tienen asignada cada ocasión.`],
   [/^There are fewer options for (.+): (\d+) of your (\d+) fragrances are listed for (?:each occasion|this occasion)\.$/,(_,names,n,total)=>`Hay menos opciones para ${labels(names).toLowerCase()}: ${n} de tus ${total} perfumes tienen asignada cada ocasión.`],
@@ -41,7 +42,7 @@ const rules = [
   [/^(\d+) fragrances? found$/,(_,n)=>`${n} ${n==='1'?'perfume encontrado':'perfumes encontrados'}`],
   [/^(.+) (added|removed)\. (\d+) fragrances? in your collection\.$/,(_,name,action,n)=>`${name} ${action==='added'?'añadido':'eliminado'}. ${n} ${n==='1'?'perfume':'perfumes'} en tu colección.`],
   [/^(Already added|Add|Remove) (.+)$/,(_,verb,name)=>`${verb==='Already added'?'Ya añadido':verb==='Add'?'Añadir':'Eliminar'} ${name}`],
-  [/^Your collection includes (\d+) of the method's 12 profile labels across (\d+) fragrances\. (.+)$/,(_,n,size,rest)=>`Tu colección incluye ${n} de los 12 perfiles del método en ${size} perfumes. ${translate(rest,'es')}`],
+  [/^Your collection includes (\d+) of the method's 15 profile labels across (\d+) fragrances\. (.+)$/,(_,n,size,rest)=>`Tu colección incluye ${n} de los 15 perfiles del método en ${size} perfumes. ${translate(rest,'es')}`],
   [/^Variety includes a collection-size factor of (\d+)%: fewer fragrances offer fewer individual choices\.$/,(_,n)=>`La Variedad incluye un factor de tamaño del ${n}%: menos perfumes ofrecen menos opciones individuales.`],
   [/^(\d+) of 5 occasions and (\d+) of 4 seasons covered, weighted equally\.$/,(_,a,b)=>`${a} de 5 ocasiones y ${b} de 4 estaciones cubiertas, con el mismo peso.`],
   [/^(\d+)% average profile overlap across (\d+) pairs?\.$/,(_,n,p)=>`${n}% de solapamiento medio de perfiles entre ${p} ${p==='1'?'pareja':'parejas'}.`],

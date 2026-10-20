@@ -16,16 +16,17 @@ export async function loadCatalog(url, fetchImpl = globalThis.fetch) {
   return data.perfumes.filter(perfume => perfume.isJoke !== true && perfume.type !== 'joke');
 }
 
-const normalizeSearch = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/['’‘.]/g,'').replace(/\s+/g,' ').trim();
+const normalizeSearch = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()
+  .replace(/['’‘.]/g,'').replace(/[^a-z0-9]+/g,' ')
+  .replace(/\bone\s+million\b/g,'1 million').replace(/\b1million\b/g,'1 million')
+  .replace(/\b(\d+)\s*(am|pm)\b/g,'$1 $2').replace(/\s+/g,' ').trim();
 const brandAliases = Object.freeze({jpg:'jean paul gaultier',ysl:'yves saint laurent',tf:'tom ford',ch:'carolina herrera',dg:'dolce & gabbana'});
 export function searchCatalog(perfumes, query) {
   const term = normalizeSearch(query);
   if (!term) return [];
-  const tokens=term.split(' ');
-  const alias=brandAliases[tokens[0]];
+  const tokens=term.split(' ').flatMap(token=>normalizeSearch(brandAliases[token]??token).split(' '));
   return perfumes.filter(({name,brand})=>{
-    const normalizedBrand=normalizeSearch(brand), normalizedName=normalizeSearch(name);
-    if(alias) return normalizedBrand===alias && tokens.slice(1).every(token=>normalizedName.includes(token));
-    return normalizedName.includes(term)||normalizedBrand.includes(term);
+    const searchable=normalizeSearch(`${brand} ${name}`);
+    return tokens.every(token=>searchable.includes(token));
   });
 }

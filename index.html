@@ -28,6 +28,7 @@
       <nav id="main-navigation" aria-label="Main navigation" class="header-nav">
 
         <a href="#how-it-works">How it works</a>
+        <a href="#catalog">Catalog</a>
         <a href="#compare-scents">Compare Scents</a>
         <a href="#my-9-scents">My 9 Scents</a>
         <a href="#collection"
@@ -60,6 +61,16 @@
             See which profiles, occasions and seasons your fragrances share, and what each one brings.
           </p>
           <div class="search-area" role="search" aria-label="Fragrance catalog">
+            <details id="brand-filter" class="brand-filter">
+              <summary>Filter by brand <span id="brand-count"></span></summary>
+              <div class="brand-panel">
+                <label for="brand-search">Find a brand</label>
+                <input id="brand-search" type="search" autocomplete="off" disabled>
+                <fieldset id="brand-options"><legend class="visually-hidden">Choose brands</legend></fieldset>
+                <p id="brand-empty" hidden>No brands found.</p>
+                <button id="clear-brands" type="button" class="text-button" disabled>All brands</button>
+              </div>
+            </details>
             <label class="visually-hidden" for="fragrance-search"
               >Search for a fragrance or brand</label
             >
@@ -129,6 +140,7 @@
               aria-label="Matching fragrances"
               hidden
             ></ul>
+            <button id="search-more" class="secondary-button" type="button" hidden>Show more fragrances</button>
           </div>
         </section>
 
@@ -420,10 +432,10 @@
               <div class="example-result">
                 <div>
                   <span>Illustrative collection score</span>
-                  <p class="example-score">78 <small>/ 100</small></p>
+                  <p class="example-score">74 <small>/ 100</small></p>
                 </div>
                 <div class="example-breakdown">
-                  <p><strong>Variety: 50</strong><span>8 profiles across 3 fragrances; a 75% size factor applies.</span></p>
+                  <p><strong>Variety: 40</strong><span>8 profiles across 3 fragrances; a 75% size factor applies.</span></p>
                   <p><strong>Versatility: 100</strong><span>All 5 occasions and 4 seasons covered.</span></p>
                   <p><strong>Complementarity: 93</strong><span>Little profile overlap between the fragrances.</span></p>
                 </div>
@@ -433,89 +445,33 @@
           <details class="method-details">
             <summary>View the formulas</summary>
             <div class="formula-copy reading-copy">
-              <p><strong>Variety:</strong> 100 &times; (distinct profiles / 12) &times; min(1, fragrance count / 4).</p>
+              <p><strong>Variety:</strong> 100 &times; (distinct profiles / 15) &times; min(1, fragrance count / 4).</p>
+              <p class="caption">We use 15 profiles, including fruity, powdery and leather. White floral counts as Floral in the calculations, so a fragrance tagged with both counts once.</p>
               <p class="caption">The size factor is 50% for two fragrances, 75% for three and 100% from four. Below four, another fragrance can raise Variety even without new profile labels.</p>
               <p><strong>Versatility:</strong> 100 &times; [0.5 &times; (occasions / 5) + 0.5 &times; (seasons / 4)].</p>
               <p><strong>Complementarity:</strong> 100 &times; (1 &minus; average profile overlap). For each pair, overlap is shared labels divided by all distinct labels in that pair.</p>
               <p><strong>Total:</strong> Variety &times; 0.4 + Versatility &times; 0.3 + Complementarity &times; 0.3.</p>
-              <p class="caption">We calculate at full precision and round down for display. A total needs at least two fragrances and complete profile, occasion and season data; missing data never counts as zero.</p>
             </div>
           </details>
 
-          <section
-            class="method-recommendations"
-            aria-labelledby="recommendations-heading"
-          >
-            <h2 id="recommendations-heading" class="section-heading">
-              Your preferences guide what comes next
-            </h2>
-            <p class="reading-copy">
-              Recommendations are an optional next step. Your quiz answers guide
-              the suggestions, without changing your collection score.
-            </p>
-            <p class="reading-copy">Choosing your first fragrance? You can take the quiz without a collection. We will suggest perfumes without giving you a collection score.</p>
-            <ul class="preference-labels" aria-label="The six quiz topics">
-              <li>Occasions</li>
-              <li>Scent profiles</li>
-              <li>Fragrance type</li>
-              <li>Budget per fragrance</li>
-              <li>Fragrance gender</li>
-              <li>Your priority</li>
-            </ul>
-            <p class="reading-copy">
-              We respect your fragrance type, gender and budget choices, and leave out
-              perfumes already in your collection. You can explore up to three
-              suggestions at a time.
-            </p>
+          <section class="method-recommendations" aria-labelledby="recommendations-heading">
+            <h2 id="recommendations-heading" class="section-heading">How do we find fragrances for you?</h2>
+            <p class="reading-copy">A short quiz lets you tell us which scents catch your attention, when you would wear them and how much you want to spend. We compare your answers with the fragrances in our catalog to find options worth exploring. You can open each suggestion to get to know it a little better.</p>
             <details class="method-ranking method-details">
               <summary>What shapes your suggestions?</summary>
-              <p class="reading-copy">Your answers narrow down the options. Your priority decides which ones appear first.</p>
               <ul class="reading-copy">
-                <li>
-                  <strong>Similar to my collection:</strong>
-                  <span>Fragrances that share more scent profiles with your collection.</span>
-                </li>
-                <li>
-                  <strong>Different from my collection:</strong>
-                  <span>Fragrances with less profile overlap, while respecting your preferences.</span>
-                </li>
-                <li>
-                  <strong>More occasions covered:</strong>
-                  <span>Fragrances tagged for a wider range of occasions.</span>
-                </li>
-                <li>
-                  <strong>No preference:</strong>
-                  <span>Fragrances with more matches to the profiles and occasions you selected.</span>
-                </li>
+                <li><strong>Similar to my collection:</strong> <span>More familiar scent profiles.</span></li>
+                <li><strong>Different from my collection:</strong> <span>Less overlap with what you own.</span></li>
+                <li><strong>More occasions covered:</strong> <span>More suggested uses.</span></li>
+                <li><strong>No preference:</strong> <span>More matches to your answers.</span></li>
               </ul>
-              <details class="method-details">
-              <summary>Calculation details</summary>
-              <p class="reading-copy">
-                Similarity uses shared profiles divided by distinct profiles for
-                each candidate–collection pair, averaged across your collection.
-                After your chosen priority, more matches come first; remaining
-                ties use brand, name and identifier alphabetically.
-              </p>
-              <p class="reading-copy">
-                Each scent group you choose counts as one match, even if several
-                of its profile labels are present. Each matching occasion also
-                counts once. If you choose either, a suggestion needs at least
-                one match. With no preferences,
-                no matches are needed. We skip fragrances missing the details
-                needed for your choices, and never loosen your filters.
-              </p>
-              </details>
             </details>
           </section>
-          <p class="method-note reading-copy">
-            We use the scent profiles, suggested occasions and seasons in our catalog to look at your collection.
-            The score follows rules we chose; it is a guide, not a scientific verdict on your taste.
-            It cannot tell you exactly how similar two perfumes smell, how long they last or how far their scent carries.
-          </p>
-          <p class="method-availability caption">
-            Results depend on the catalog’s available data. A small catalog may
-            have no new fragrances to recommend.
-          </p>
+          <aside class="method-first-fragrance" aria-labelledby="method-first-title">
+            <h3 id="method-first-title" class="section-heading">What if I don't own a fragrance yet?</h3>
+            <p class="reading-copy">You can start here, too. Choose “Find my first fragrance” on the home page and tell us what you would like to try. We will use your answers to suggest a few places to start, without asking you to build a collection first.</p>
+          </aside>
+          <p class="method-note reading-copy">Our method is a guide to your collection, not a verdict on your taste.</p>
           <div class="method-return">
             <a class="primary-button" href="#collection"
               >Back to my collection <span aria-hidden="true">→</span></a
@@ -523,7 +479,18 @@
           </div>
         </div>
       </section>
+      <section id="catalog-view" class="flow-page content-width" aria-labelledby="catalog-title" hidden>
+        <p class="eyebrow">Find something that catches your eye</p>
+        <h1 id="catalog-title" tabindex="-1">Fragrance catalog</h1>
+        <p class="reading-copy">Explore the fragrances, get to know them and save the ones you own to your collection.</p>
+        <div id="catalog-controls"></div>
+        <p id="catalog-feedback" role="status"></p>
+        <button id="catalog-retry" type="button" class="secondary-button" hidden>Try again</button>
+        <div id="catalog-grid" class="catalog-grid"></div>
+        <button id="catalog-more" type="button" class="secondary-button" hidden>Show more fragrances</button>
+      </section>
       <section id="compare-view" class="flow-page content-width" aria-labelledby="compare-title" hidden>
+        <p class="eyebrow">Your fragrances, face to face</p>
         <h1 id="compare-title" tabindex="-1">Compare Scents</h1>
         <p class="reading-copy flow-intro">Two fragrances, side by side. See what they share and where they differ.</p>
         <div id="compare-pickers" class="compare-pickers"></div>
@@ -654,6 +621,7 @@
         <nav aria-label="Footer navigation">
 
           <a href="#how-it-works">How it works</a>
+          <a href="#catalog">Catalog</a>
           <a href="#compare-scents">Compare Scents</a>
           <a href="#my-9-scents">My 9 Scents</a>
           <a href="#collection">My collection</a>
