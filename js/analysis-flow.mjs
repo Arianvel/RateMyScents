@@ -18,12 +18,13 @@ export function initializeAnalysisFlow(document,{getCollection,getCatalog,announ
   let mode='rating';
   let collectionMode='rating';
   let restoreFocus=true;
-  const complete=()=>[0,1,2,3,4,5].every(step=>quiz.validate(step).valid);
-  const lastStep=()=>mode==='first'?4:5;
+  const complete=()=>[0,1,2,3,4,5,6].every(step=>quiz.validate(step).valid);
+  const lastStep=()=>mode==='first'?5:6;
   function restartQuiz() {
     quiz.reset();
     if(mode==='first')quiz.select('priority','none');
     editingOne=false;form.dataset.step='';
+    form.querySelector('.quiz-progress-feedback')?.remove();
   }
   function close(restore=true) {
     restoreFocus=restore;
@@ -40,7 +41,7 @@ export function initializeAnalysisFlow(document,{getCollection,getCatalog,announ
     const {answers,step}=snapshot;
     for(const input of form.querySelectorAll('input')) {
       const group=input.name;
-      if(group==='profiles'||group==='occasions') input.checked=input.value==='none' ? Array.isArray(answers[group])&&!answers[group].length : answers[group]?.includes(input.value)??false;
+      if(group==='profiles'||group==='occasions'||group==='seasons') input.checked=input.value==='none' ? Array.isArray(answers[group])&&!answers[group].length : answers[group]?.includes(input.value)??false;
       else if(group==='type') input.checked=input.value==='any' ? Array.isArray(answers.type)&&!answers.type.length : answers.type?.includes(input.value)??false;
       else if(group==='priority'||group==='gender') input.checked=answers[group]===input.value;
       else if(group==='budget-mode') input.checked=answers.budget.mode==='unlimited' ? input.value==='unlimited' : answers.budget.mode==='maximum' && input.value===(['50','100','150'].includes(answers.budget.amount)?answers.budget.amount:'maximum');
@@ -49,6 +50,7 @@ export function initializeAnalysisFlow(document,{getCollection,getCatalog,announ
     const amount=el('budget-amount');
     if(amount) {amount.value=answers.budget.amount;amount.disabled=answers.budget.mode==='unlimited';if(error)amount.setAttribute('aria-invalid','true');}
     updateBudgetFeedback();
+    updateQuizProgress();
     const count=form.querySelector('.selection-count');
     if(count) count.textContent=`${answers.profiles?.length??0} of 3 selected`;
     el('quiz-error').textContent=error;
@@ -60,6 +62,13 @@ export function initializeAnalysisFlow(document,{getCollection,getCatalog,announ
       const target=error ? (el('budget-amount')&&!el('budget-amount').disabled ? el('budget-amount') : form.querySelector('input:not(:disabled)')) : el('quiz-question');
       target.focus({preventScroll:true});
     }
+  }
+  function updateQuizProgress(pulse=false) {
+    const progress=form.querySelector('progress'),fill=form.querySelector('.quiz-progress-fill');if(!progress||!fill)return;
+    const total=lastStep()+1;
+    const answered=Array.from({length:total},(_,i)=>quiz.validate(i).valid).filter(Boolean).length;
+    progress.max=total;progress.value=answered;fill.style.width=`${answered/total*100}%`;
+    if(pulse&&!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches)fill.animate?.([{opacity:.65},{opacity:1}],{duration:220,easing:'ease-out'});
   }
   function updateBudgetFeedback(animate=false) {
     const input=el('budget-amount'),warning=el('budget-warning');if(!input||!warning)return;
@@ -94,7 +103,7 @@ export function initializeAnalysisFlow(document,{getCollection,getCatalog,announ
       mode=collectionMode;quiz=collectionQuiz;editingOne=false;form.dataset.step='';
     }
     if(hash==='#suggestions'&&mode!=='first') {
-      if(![0,1,2,3,4,5].every(step=>firstQuiz.validate(step).valid))return '#collection';
+      if(![0,1,2,3,4,5,6].every(step=>firstQuiz.validate(step).valid))return '#collection';
       mode='first';quiz=firstQuiz;editingOne=false;form.dataset.step='';
     }
     if((hash==='#results'||hash==='#quiz'&&mode!=='first') && getCollection().length<2) {
@@ -157,6 +166,7 @@ export function initializeAnalysisFlow(document,{getCollection,getCatalog,announ
       quiz.select(input.name,input.value);
     }
     showQuiz(error);
+    updateQuizProgress(true);
     [...form.querySelectorAll('input')].find(item=>item.name===input.name && item.value===input.value)?.focus();
   });
   form.addEventListener('input',event=>{
@@ -168,6 +178,7 @@ export function initializeAnalysisFlow(document,{getCollection,getCatalog,announ
       event.target.removeAttribute('aria-invalid');
       form.querySelector('fieldset').removeAttribute('aria-invalid');
       updateBudgetFeedback(true);
+      updateQuizProgress(true);
     }
   });
   form.addEventListener('click',event=>{

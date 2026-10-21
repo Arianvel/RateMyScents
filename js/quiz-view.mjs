@@ -1,9 +1,9 @@
-import { OCCASIONS } from './method.mjs';
+import { OCCASIONS, SEASONS } from './method.mjs';
 import { SCENT_GROUPS } from './scent-groups.mjs';
 
 const questions = [
   'What occasions would you like to cover?', 'What kind of scents would you like?',
-  'What type of fragrances are you interested in?', 'What is your budget per fragrance?', 'Which fragrances would you like to discover?', 'What should we prioritize?',
+  'What type of fragrances are you interested in?', 'What is your budget per fragrance?', 'Which fragrances would you like to discover?', 'Which seasons are you shopping for?', 'What should we prioritize?',
 ];
 const types = [['designer','Designer'],['arabic','Middle Eastern / Arabic'],['niche','Niche'],['any','Any type']];
 const priorities = [['familiar','Similar to my collection'],['different','Different from my collection'],['versatile','More occasions covered'],['none','No preference']];
@@ -16,15 +16,22 @@ export function renderQuiz(container, {answers,step}, error = '', {firstFragranc
     if (className) el.className=className;
     return el;
   };
+  const previousProgress=container.querySelector('.quiz-progress-feedback');
   container.replaceChildren();
-  const totalSteps=firstFragrance?5:6;
+  const totalSteps=firstFragrance?6:7;
   const progressText = node('p',`Question ${step+1} of ${totalSteps}`,'eyebrow');
-  const progress = node('progress'); progress.max=totalSteps; progress.value=step+1; progress.setAttribute('aria-label',`Question ${step+1} of ${totalSteps}`);
+  const feedback=previousProgress??node('div',null,'quiz-progress-feedback');
+  if(!previousProgress) {
+    feedback.append(node('p','Shaping your recommendations','quiz-progress-label'));
+    const track=node('div',null,'quiz-progress-track');track.setAttribute('aria-hidden','true');track.append(node('span',null,'quiz-progress-fill'));feedback.append(track);
+    const progress=node('progress',null,'visually-hidden');progress.value=0;progress.setAttribute('aria-label','Questions answered');feedback.append(progress);
+  }
+  feedback.querySelector('progress').max=totalSteps;
   const fieldset = node('fieldset');
   const legend = node('legend',questions[step],'section-heading'); legend.id='quiz-question'; legend.tabIndex=-1;
   fieldset.append(legend);
   const help = node('p',step===0 ? 'Choose any occasions you would like to cover, or No preference.'
-    : step===1 ? 'Choose up to 3, or select No preference.' : step===2 ? 'Choose the types you want to explore, or Any type.' : step===3 ? 'How much would you spend on one fragrance? Prices are in USD.' : 'Choose one option.','caption');
+    : step===1 ? 'Choose up to 3, or select No preference.' : step===2 ? 'Choose the types you want to explore, or Any type.' : step===3 ? 'How much would you spend on one fragrance? Prices are in USD.' : step===5 ? 'Choose any seasons, or No preference. These help us order your suggestions.' : 'Choose one option.','caption');
   help.id='quiz-help'; fieldset.append(help);
   const options = node('div',null,`quiz-options${step===1 ? ' profile-options' : ''}`);
   let optionIndex=0;
@@ -42,12 +49,13 @@ export function renderQuiz(container, {answers,step}, error = '', {firstFragranc
     }
     wrapper.append(input,copy); options.append(wrapper);
   }
-  if (step<2) {
-    const group = step===0 ? 'occasions' : 'profiles';
+  if (step<2||step===5) {
+    const group = step===0 ? 'occasions' : step===5?'seasons':'profiles';
     if(step===0) for(const value of OCCASIONS) option(group,value,value,answers[group]?.includes(value)??false,true);
+    else if(step===5)for(const value of SEASONS)option(group,value,value[0].toUpperCase()+value.slice(1),answers.seasons?.includes(value)??false,true);
     else for(const item of SCENT_GROUPS) option(group,item.id,item.label,answers.profiles?.includes(item.id)??false,true,item.description);
     option(group,'none','No preference',Array.isArray(answers[group]) && !answers[group].length,true);
-  } else if (step===2 || step===5) {
+  } else if (step===2 || step===6) {
     const group = step===2 ? 'type' : 'priority';
     for (const [value,label] of step===2 ? types : priorities.filter(([value])=>!firstFragrance||!['familiar','different'].includes(value))) {
       const checked=step===2 ? value==='any' ? Array.isArray(answers.type)&&!answers.type.length : answers.type?.includes(value)??false : answers[group]===value;
@@ -81,5 +89,5 @@ export function renderQuiz(container, {answers,step}, error = '', {firstFragranc
   const back = node('button','Back','secondary-button'); back.type='button'; back.dataset.action='back';
   const next = node('button',step===totalSteps-1 ? 'See my results' : 'Continue','primary-button'); next.type='submit';
   actions.append(back,next);
-  container.append(progressText,progress,fieldset,message,actions);
+  container.append(progressText,feedback,fieldset,message,actions);
 }

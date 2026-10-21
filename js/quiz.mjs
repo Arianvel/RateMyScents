@@ -1,17 +1,17 @@
-import { OCCASIONS } from './method.mjs';
+import { OCCASIONS, SEASONS } from './method.mjs';
 import { SCENT_GROUPS } from './scent-groups.mjs';
 
 export function createQuiz() {
   let step = 0;
-  const emptyAnswers=()=>({ occasions: null, profiles: null, type: null, gender:null, budget: {mode:null,amount:''}, priority:null });
+  const emptyAnswers=()=>({ occasions: null, profiles: null, seasons:null, type: null, gender:null, budget: {mode:null,amount:''}, priority:null });
   let answers = emptyAnswers();
   return {
     reset() { step=0; answers=emptyAnswers(); },
     snapshot: () => structuredClone({answers,step}),
     select(group,value) {
-      if (['profiles','occasions'].includes(group)) {
+      if (['profiles','occasions','seasons'].includes(group)) {
         if (value === 'none') { answers[group] = []; return; }
-        if (!(group === 'profiles' ? SCENT_GROUPS.map(item=>item.id) : OCCASIONS).includes(value)) return;
+        if (!(group === 'profiles' ? SCENT_GROUPS.map(item=>item.id) : group==='seasons'?SEASONS:OCCASIONS).includes(value)) return;
         const selected = answers[group] ?? [];
         if (selected.includes(value)) {
           const remaining = selected.filter(item => item !== value);
@@ -39,9 +39,10 @@ export function createQuiz() {
       else if (index === 3) valid = answers.budget.mode === 'unlimited' || (answers.budget.mode === 'maximum'
         && /^\d+(\.\d{1,2})?$/.test(answers.budget.amount.trim()) && Number.isFinite(Number(answers.budget.amount)));
       else if(index===4) valid=answers.gender!==null;
-      else valid = index === 5 && answers.priority !== null;
+      else if(index===5)valid=answers.seasons!==null;
+      else valid = index === 6 && answers.priority !== null;
       return {valid, message: valid ? '' : index === 3 ? 'Enter a maximum in USD (0 or more, up to two decimal places), or choose No budget limit.' : 'Choose an option or select No preference where available.'};
     },
-    goTo(index) { if (Number.isInteger(index) && index >= 0 && index < 6) step=index; },
+    goTo(index) { if (Number.isInteger(index) && index >= 0 && index < 7) step=index; },
   };
 }

@@ -104,9 +104,9 @@ export function renderRecommendations(container, result, answers, alternatives=[
   const media=container.ownerDocument.defaultView.matchMedia?.('(max-width: 720px)');
   const pageSize=()=>media?.matches?1:3;
   const matchCount=item=>item.matchedProfiles.length+item.matchedOccasions.length;
-  const sameRank=(a,b)=>matchCount(a)===matchCount(b)&&
+  const sameRank=(a,b)=>a.tier===b.tier&&matchCount(a)===matchCount(b)&&(a.matchedSeasons?.length??-1)===(b.matchedSeasons?.length??-1)&&
     (['familiar','different'].includes(answers.priority)?a.similarity===b.similarity:answers.priority==='versatile'?a.occasionCount===b.occasionCount:true);
-  const meaningful=answers.priority!=='none'||answers.profiles.length>0||answers.occasions.length>0;
+  const meaningful=answers.priority!=='none'||answers.profiles.length>0||answers.occasions.length>0||answers.seasons?.length>0;
   const tied=result.items.length>1&&sameRank(result.items[0],result.items[1]);
   const progress=el('p',null,'caption recommendation-progress');progress.setAttribute('role','status');
   const controls=el('div',null,'recommendation-controls');
@@ -123,6 +123,13 @@ export function renderRecommendations(container, result, answers, alternatives=[
   const retake=el('a','Retake the quiz','secondary-button');retake.href='#quiz';retake.dataset.action='retake-quiz';exhausted.append(retake);
   exhausted.hidden=true;
   let start=0;
+  const tierNotice=el('p',null,'caption recommendation-tier');tierNotice.setAttribute('role','status');
+  function pageEnd(index) {
+    let end=Math.min(index+pageSize(),result.items.length);
+    for(let i=index+1;i<end;i++)if(result.items[i].tier!==result.items[index].tier){end=i;break;}
+    return end;
+  }
+  function pageStarts(){const pages=[];for(let i=0;i<result.items.length;i=pageEnd(i))pages.push(i);return pages;}
   function makeCard(item,index) {
     const card=el('article',null,'recommendation-card'+(index===0?' recommendation-top':''));
     card.dataset.perfumeId=item.perfume.id;card.tabIndex=-1;
@@ -130,7 +137,7 @@ export function renderRecommendations(container, result, answers, alternatives=[
     const cardTitle=card.querySelector('h3');cardTitle.id=`recommendation-title-${index+1}`;
     card.setAttribute('aria-labelledby',cardTitle.id);
     for(const node of card.children) node.setAttribute('translate','no');
-    if(index===0)card.prepend(el('p',!meaningful?'Start here':tied?'Top match (tied)':'Best match for your choices','recommendation-badge'));
+    if(index===0)card.prepend(el('p',item.tier==='close'?'Worth exploring':!meaningful?'Start here':tied?'Top match (tied)':'Best match for your choices','recommendation-badge'));
     if(Number.isFinite(item.perfume.priceUsd) && item.perfume.priceUsd>=0) card.append(el('p',`Catalog price: USD ${item.perfume.priceUsd.toFixed(2)}`,'caption'));
     const recorded=Array.isArray(item.perfume.profile)?item.perfume.profile.filter(x=>typeof x==='string'&&x.trim()):[];
     const requestedLabels=new Set(item.matchedProfiles.flatMap(id=>SCENT_GROUPS.find(group=>group.id===id)?.profiles??[id]));
@@ -142,6 +149,7 @@ export function renderRecommendations(container, result, answers, alternatives=[
       if(profiles[i])labels.push(profiles[i]);
       if(occasions[i])labels.push(occasions[i]);
     }
+    if(item.matchedSeasons?.length)labels.push(...item.matchedSeasons.map(s=>s[0].toUpperCase()+s.slice(1)));
     if(labels.length) {
       const tags=el('ul',null,'recommendation-fragrance-tags');
       for(const label of labels.slice(0,3))tags.append(el('li',label.charAt(0).toUpperCase()+label.slice(1)));
@@ -153,23 +161,27 @@ export function renderRecommendations(container, result, answers, alternatives=[
       : answers.priority==='different'?'Selected for your preference for something different.'
       :null;
     if(reason)card.append(el('p',reason,'reading-copy'));
+    if(item.tier==='close')card.append(el('p','Shares your scent preferences, with different suggested occasions.','caption'));
+    if(answers.seasons?.length&&item.matchedSeasons===null)card.append(el('p','Season details are not recorded yet.','caption'));
     card.append(infoButton(container.ownerDocument,item.perfume));
     return card;
   }
   function renderPage() {
-    const batch=result.items.slice(start,start+pageSize());
+    const batch=result.items.slice(start,pageEnd(start));
     grid.replaceChildren(...batch.map((item,index)=>makeCard(item,start+index)));
     const visible=start+batch.length;
     progress.textContent=`Showing ${start+1}\u2013${visible} of ${result.items.length} matching fragrances.`;
     previous.setAttribute('aria-disabled',String(start===0));
     next.setAttribute('aria-disabled',String(visible>=result.items.length));
     exhausted.hidden=visible<result.items.length;
+    tierNotice.hidden=result.items[start].tier!=='close';
+    tierNotice.textContent=tierNotice.hidden?'':'More to explore: these match your scents, though their suggested occasions are different. Your type, gender and budget filters still apply.';
   }
   container.append(grid);
-  container.append(controls,exhausted);
-  previous.addEventListener('click',()=>{if(start===0)return;start=Math.max(0,start-pageSize());renderPage();previous.focus();});
-  next.addEventListener('click',()=>{if(start+pageSize()>=result.items.length)return;start+=pageSize();renderPage();next.focus();});
-  const resize=()=>{start=Math.floor(start/pageSize())*pageSize();renderPage();};
+  container.append(controls,tierNotice,exhausted);
+  previous.addEventListener('click',()=>{if(start===0)return;const pages=pageStarts();start=pages[Math.max(0,pages.indexOf(start)-1)];renderPage();previous.focus();});
+  next.addEventListener('click',()=>{const end=pageEnd(start);if(end>=result.items.length)return;start=end;renderPage();next.focus();});
+  const resize=()=>{start=pageStarts().filter(i=>i<=start).at(-1)??0;renderPage();};
   media?.addEventListener('change',resize);
   const sizing=el('div',null,'recommendation-grid recommendation-sizing');
   sizing.setAttribute('aria-hidden','true');sizing.setAttribute('inert','');

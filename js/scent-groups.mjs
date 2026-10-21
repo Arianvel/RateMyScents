@@ -2,8 +2,8 @@
 export const SCENT_GROUPS=[
   {id:'fresh',label:'Fresh & clean',description:'Airy, watery scents',profiles:['fresh','aquatic']},
   {id:'citrus',label:'Citrus',description:'Lemon, orange, bergamot',profiles:['citrus']},
-  {id:'sweet',label:'Sweet',description:'Sweet, dessert-like scents',profiles:['sweet','gourmand','warm']},
-  {id:'woody',label:'Woody & warm',description:'Woods, amber, spices',profiles:['woody','amber','spicy']},
+  {id:'sweet',label:'Sweet',description:'Sweet, dessert-like scents',profiles:['sweet','gourmand']},
+  {id:'woody',label:'Woody & warm',description:'Woods, amber, spices',profiles:['woody','amber','spicy','warm']},
   {id:'floral',label:'Floral',description:'Flower-like scents',profiles:['floral']},
   {id:'green',label:'Green & herbal',description:'Leaves and herbs',profiles:['green','aromatic']},
   {id:'fruity',label:'Fruity',description:'Peach, berries, tropical fruits',profiles:['fruity']},

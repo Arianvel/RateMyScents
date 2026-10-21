@@ -1,5 +1,17 @@
 // UI copy only. Catalog identifiers and fragrance names are never translated.
 export const spanish = {
+ 'Shaping your recommendations':'Dando forma a tus recomendaciones',
+ 'Questions answered':'Preguntas respondidas',
+ 'Which seasons are you shopping for?':'¿Para qué estaciones buscas un perfume?',
+ 'Choose any seasons, or No preference. These help us order your suggestions.':'Elige las estaciones que quieras o Sin preferencia. Nos ayudan a ordenar tus recomendaciones.',
+ 'Choose at least one season, or No preference.':'Elige al menos una estación o Sin preferencia.',
+ 'Worth exploring':'Para seguir explorando',
+ 'Shares your scent preferences, with different suggested occasions.':'Coincide con los aromas que buscas, aunque tiene otras ocasiones sugeridas.',
+ 'Season details are not recorded yet.':'Todavía no tenemos sus estaciones registradas.',
+ 'More to explore: these match your scents, though their suggested occasions are different. Your type, gender and budget filters still apply.':'Más opciones: coinciden con tus aromas, aunque tienen otras ocasiones sugeridas. Seguimos respetando el tipo, el género y tu presupuesto.',
+ 'We start with the closest matches to your scents and occasions, then consider your seasons and priority. Further along, you may find similar scents for other occasions. Your budget, type and gender choices always apply.':'Primero van las opciones que más coinciden con tus aromas y ocasiones; después tenemos en cuenta las estaciones y tu prioridad. Al avanzar puedes encontrar aromas afines para otras ocasiones. Siempre respetamos tu presupuesto, tipo y género.',
+ 'Find a note':'Buscar una nota',
+ 'Matches any of the notes you select.':'Muestra perfumes con alguna de las notas que marques.',
  'Fruity':'Afrutado', 'Powdery':'Empolvado', 'Leather':'Cuero', 'White floral':'Floral blanco',
  'fruity':'afrutado', 'powdery':'empolvado', 'leather':'cuero', 'white floral':'floral blanco',
  'Peach, berries, tropical fruits':'Melocotón, frutos rojos, frutas tropicales',

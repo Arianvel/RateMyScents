@@ -38,19 +38,21 @@ export function initializeCatalogPage(document,{load,getCollection,addToCollecti
     }
   }
   function populate() {
-    for(const field of ['brand','type','gender','seasons','group']) {
+    for(const field of ['brand','type','gender','seasons','group','notes']) {
       const dropdown=filterDropdown(document,field==='type'?'Type':field==='gender'?'Gender':field==='seasons'?'Seasons':field==='group'?'Scents':fields[field]);
       dropdown.root.dataset.filterGroup=field;
       const section=make('fieldset');const legend=make('legend',fields[field],'visually-hidden');section.append(legend);dropdown.panel.append(section);
-      if(field==='brand') {
-        const label=make('label','Find a brand'),search=make('input');search.type='search';label.append(search);section.append(label);
-        search.addEventListener('input',()=>{for(const row of section.querySelectorAll('.catalog-filter-option'))row.hidden=!row.textContent.toLowerCase().includes(search.value.toLowerCase().trim());});
+      if(field==='brand'||field==='notes') {
+        const label=make('label',field==='notes'?'Find a note':'Find a brand'),search=make('input');search.type='search';label.append(search);section.append(label);
+        const normalize=value=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
+        search.addEventListener('input',()=>{for(const row of section.querySelectorAll('.catalog-filter-option'))row.hidden=!normalize(row.textContent).includes(normalize(search.value));});
       }
+      if(field==='notes')section.append(make('p','Matches any of the notes you select.','caption'));
       const list=make('div',null,'catalog-filter-list');section.append(list);
       const values=field==='group'?SCENT_GROUPS.map(g=>g.id):[...new Set(catalog.flatMap(p=>Array.isArray(p[field])?p[field]:typeof p[field]==='string'?[p[field]]:[]))].sort((a,b)=>a.localeCompare(b,'en'));
       for(const value of values) {
         const label=make('label',null,'catalog-filter-option'),input=make('input');input.type='checkbox';input.value=value;input.dataset.field=field;
-        const text=make('span',field==='group'?SCENT_GROUPS.find(g=>g.id===value).label:filterLabel(value));if(field==='brand')catalogText(text);
+        const text=make('span',field==='group'?SCENT_GROUPS.find(g=>g.id===value).label:filterLabel(value));if(field==='brand'||field==='notes')catalogText(text);
         label.append(input,text);list.append(label);
       }
       groups.insertBefore(dropdown.root,pricing.root);

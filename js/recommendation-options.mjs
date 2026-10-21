@@ -6,11 +6,12 @@ export function preferenceTags(answers) {
   const tags=[];
   for(const value of answers.occasions??[])tags.push({step:0,label:value});
   for(const value of answers.profiles??[])tags.push({step:1,label:scentGroupLabel(value)});
+  for(const value of answers.seasons??[])tags.push({step:5,label:value[0].toUpperCase()+value.slice(1)});
   const types={designer:'Designer',arabic:'Middle Eastern / Arabic',niche:'Niche'};
   const genders={men:'Masculine & unisex',women:'Feminine & unisex',unisex:'Unisex only'};
   const priorities={familiar:'Similar to my collection',different:'Different from my collection',versatile:'More occasions covered'};
   for(const type of selectedTypes(answers.type)) if(types[type])tags.push({step:2,label:types[type]});
-  for(const [step,label] of [[4,genders[answers.gender]],[5,priorities[answers.priority]]])if(label)tags.push({step,label});
+  for(const [step,label] of [[4,genders[answers.gender]],[6,priorities[answers.priority]]])if(label)tags.push({step,label});
   return tags;
 }
 

@@ -1,4 +1,4 @@
-import { PROFILES, OCCASIONS, readLabels, profileSimilarity, alphabetical, selectedTypes } from './method.mjs';
+import { PROFILES, OCCASIONS, SEASONS, readLabels, profileSimilarity, alphabetical, selectedTypes } from './method.mjs';
 import { matchingScentGroups } from './scent-groups.mjs';
 
 /** Answers must have passed quiz validation. Never relax filters or impute data. */
@@ -36,8 +36,12 @@ export function recommendFragrances(catalog, collection, answers, {limit=3} = {}
     // One match per chosen group, regardless of how many of its labels are present.
     const matchedProfiles = matchingScentGroups(answers.profiles,profiles);
     const matchedOccasions = [...new Set(answers.occasions)].filter(label => occasions?.has(label));
-    if ((wantsProfiles || wantsOccasions) && !matchedProfiles.length && !matchedOccasions.length) { counts.noMatches++; continue; }
-    items.push({ perfume, matchedProfiles, matchedOccasions,
+    // Close alternatives must retain the requested scent, or the occasion when no scent was requested.
+    if (wantsProfiles ? !matchedProfiles.length : wantsOccasions && !matchedOccasions.length) { counts.noMatches++; continue; }
+    const tier=wantsOccasions&&!matchedOccasions.length?'close':'full';
+    const seasons=readLabels(perfume.seasons,SEASONS,{allowEmpty:true});
+    const matchedSeasons=!(answers.seasons?.length)?[]:seasons?[...new Set(answers.seasons)].filter(s=>seasons.has(s)):null;
+    items.push({ perfume, matchedProfiles, matchedOccasions, matchedSeasons, tier,
       similarity: compareProfiles ? sortedCollection.reduce((sum,ownedPerfume) => sum+profileSimilarity(perfume,ownedPerfume),0)/sortedCollection.length : null,
       occasionCount: occasions ? occasions.size : null });
   }
@@ -46,7 +50,11 @@ export function recommendFragrances(catalog, collection, answers, {limit=3} = {}
     const priority = answers.priority === 'familiar' ? b.similarity-a.similarity
       : answers.priority === 'different' ? a.similarity-b.similarity
       : answers.priority === 'versatile' ? b.occasionCount-a.occasionCount : 0;
-    return priority || matches(b)-matches(a) || alphabetical(a.perfume,b.perfume);
+    const tier=(a.tier==='close'?1:0)-(b.tier==='close'?1:0);
+    const seasonal=answers.seasons?.length
+      ? a.matchedSeasons===null?(b.matchedSeasons===null?0:1):b.matchedSeasons===null?-1:b.matchedSeasons.length-a.matchedSeasons.length
+      :0;
+    return tier || matches(b)-matches(a) || seasonal || priority || alphabetical(a.perfume,b.perfume);
   });
   const reason = items.length ? null : counts.alreadyOwned === catalog.length ? 'catalog-exhausted'
     : counts.incomplete ? 'insufficient-data' : 'no-matches';
